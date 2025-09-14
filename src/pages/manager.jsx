@@ -15,7 +15,7 @@ export default function Manager() {
     ...GAME_STATES,
     status: {
       ...GAME_STATES.status,
-      name: "SHOW_ROOM",
+      name: "SHOW_QUIZ_SELECTOR",
     },
   })
 
@@ -89,6 +89,7 @@ export default function Manager() {
             {GAME_STATE_COMPONENTS_MANAGER[state.status.name] &&
               createElement(GAME_STATE_COMPONENTS_MANAGER[state.status.name], {
                 data: state.status.data,
+                onNext: () => setState({...state, status: { ...state.status, name: "SHOW_ROOM" }}),
               })}
           </GameWrapper>
         </>

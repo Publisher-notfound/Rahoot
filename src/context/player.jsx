@@ -12,8 +12,17 @@ export function playerReducer(state, action) {
           ...state.player,
           username: action.payload,
           points: 0,
+          class: null,
+          subject: null,
+          chapter: null,
         },
       }
+    case "SET_CLASS":
+      return { player: { ...state.player, class: action.payload } }
+    case "SET_SUBJECT":
+      return { player: { ...state.player, subject: action.payload } }
+    case "SET_CHAPTER":
+      return { player: { ...state.player, chapter: action.payload } }
     case "UPDATE":
       return { player: { ...state.player, ...action.payload } }
     case "LOGOUT":
@@ -39,6 +48,8 @@ export const PlayerContextProvider = ({ children }) => {
     </PlayerContext.Provider>
   )
 }
+
+
 
 export function usePlayerContext() {
   const context = useContext(PlayerContext)

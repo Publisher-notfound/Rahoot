@@ -1,0 +1,149 @@
+{
+  "subject": "Mathematics",
+  "chapter": "Sets",
+  "class": "11th",
+  "difficulty": 3,
+  "pointsMultiplier": 1.0,
+  "questions": [
+    {
+      "question": "What is the key characteristic of a 'well-defined collection' that makes it a set?",
+      "answers": [
+        "The collection is famous.",
+        "The objects are all the same type.",
+        "It is possible to determine if any given object belongs to the collection or not.",
+        "The objects are numbers."
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 2,
+      "image": "optional description if visual needed"
+    },
+    {
+      "question": "Which of the following is an example of an empty set?",
+      "answers": [
+        "Set of all prime numbers.",
+        "Set of all even prime numbers greater than 2.",
+        "Set of all odd natural numbers less than 10.",
+        "Set of all natural numbers."
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 2,
+      "image": "optional description if visual needed"
+    },
+    {
+      "question": "Which of the following sets is finite?",
+      "answers": [
+        "The set of lines which are parallel to the x-axis.",
+        "The set of months of a year.",
+        "The set of numbers which are multiple of 5.",
+        "The set of circles passing through the origin (0,0)."
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 3,
+      "image": "optional description if visual needed"
+    },
+    {
+      "question": "If A = {x: x is a positive integer and x² < 40}, what are the elements of set A?",
+      "answers": [
+        "1, 2, 3, 4, 5, 6, 7",
+        "1, 2, 3, 4, 5, 6",
+        "1, 2, 3, 4, 5",
+        "1, 2, 3, 4, 5, 6, 7, 8"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "optional description if visual needed"
+    },
+    {
+      "question": "Let A be the set of letters in the word FOLLOW and B be the set of letters in the word WOLF. Are sets A and B equal?",
+      "answers": [
+        "Yes, because they contain the same letters.",
+        "No, because the order of letters is different.",
+        "No, because the word FOLLOW has more letters.",
+        "Yes, because sets ignore repeated elements and have the same distinct letters."
+      ],
+      "solution": 3,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 3,
+      "image": "optional description if visual needed"
+    },
+    {
+      "question": "The set of all two-digit natural numbers such that the sum of its digits is 8 is given by which of the following?",
+      "answers": [
+        "{17, 26, 35, 44, 53, 62, 71}",
+        "{17, 26, 35, 44, 53, 62, 71, 80}",
+        "{80, 71, 62, 53, 44, 35, 26, 17}",
+        "{17, 26, 35, 44, 53, 62, 71, 80, 99}"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 4,
+      "image": "optional description if visual needed"
+    },
+    {
+      "question": "If A = {1, 2, 3, 4, 5, 6}, which of the following statements is true?",
+      "answers": [
+        "8 ∈ A",
+        "10 ∈ A",
+        "5 ∉ A",
+        "4 ∈ A"
+      ],
+      "solution": 3,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 2,
+      "image": "optional description if visual needed"
+    },
+    {
+      "question": "What is the correct roster form for the set {x: x is an integer and -3 ≤ x < 7}?",
+      "answers": [
+        "{-3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7}",
+        "{-3, -2, -1, 0, 1, 2, 3, 4, 5, 6}",
+        "{-2, -1, 0, 1, 2, 3, 4, 5, 6, 7}",
+        "{-2, -1, 0, 1, 2, 3, 4, 5, 6}"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 3,
+      "image": "optional description if visual needed"
+    },
+    {
+      "question": "If A = {x: x is a prime number and a divisor of 6}, what is the set A?",
+      "answers": [
+        "{1, 2, 3, 6}",
+        "{2, 3}",
+        "{1, 2, 3}",
+        "{6}"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 3,
+      "image": "optional description if visual needed"
+    },
+    {
+      "question": "Which of the following is a true statement regarding subsets?",
+      "answers": [
+        "The empty set is a subset of every set.",
+        "Every set is a proper subset of itself.",
+        "An element of a set can also be a subset of itself.",
+        "Every set has at least two subsets."
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 2,
+      "image": "optional description if visual needed"
+    }
+  ]
+}

@@ -7,6 +7,7 @@ import Start from "@/components/game/states/Start"
 import Wait from "@/components/game/states/Wait"
 import Podium from "./components/game/states/Podium"
 import Room from "./components/game/states/Room"
+import QuizSelector from "./components/game/states/QuizSelector"
 
 import Circle from "@/components/icons/Circle"
 import Rhombus from "@/components/icons/Rhombus"
@@ -44,6 +45,7 @@ export const GAME_STATE_COMPONENTS = {
 
 export const GAME_STATE_COMPONENTS_MANAGER = {
   ...GAME_STATE_COMPONENTS,
+  SHOW_QUIZ_SELECTOR: QuizSelector,
   SHOW_ROOM: Room,
   SHOW_RESPONSES: Answers,
   SHOW_LEADERBOARD: Leaderboard,

@@ -1,6 +1,7 @@
-export const WEBSOCKET_PUBLIC_URL = "http://localhost:5505/"
-export const WEBSOCKET_SERVER_PORT = 5505
+export const WEBSOCKET_PUBLIC_URL = "http://localhost:5506/"
+export const WEBSOCKET_SERVER_PORT = 5506
 
+// Legacy QUIZZ_CONFIG for backward compatibility (will be removed)
 const QUIZZ_CONFIG = {
   password: "PASSWORD",
   subject: "Adobe",
@@ -99,5 +100,8 @@ export const GAME_STATE_INIT = {
   room: null,
   currentQuestion: 0,
   roundStartTime: 0,
+  // Quiz will be loaded dynamically
+  selectedQuiz: null,
+  // Legacy support will be removed
   ...QUIZZ_CONFIG,
 }

@@ -1,8 +1,19 @@
 import { GAME_STATE_INIT } from "../../config.mjs"
+import fs from 'fs'
+import path from 'path'
 import { abortCooldown, cooldown, sleep } from "../utils/cooldown.js"
 import deepClone from "../utils/deepClone.js"
 import generateRoomId from "../utils/generateRoomId.js"
 import { startRound } from "../utils/round.js"
+
+function loadQuiz(subject, classLevel, chapter) {
+  const quizPath = path.join(process.cwd(), 'quizzes', subject, classLevel, `${chapter}.json`);
+  if (!fs.existsSync(quizPath)) {
+    throw new Error(`Quiz not found: ${subject}/${classLevel}/${chapter}`);
+  }
+  const quizData = JSON.parse(fs.readFileSync(quizPath, 'utf8'));
+  return quizData;
+}
 
 const Manager = {
   createRoom: (game, io, socket, password) => {
@@ -87,6 +98,23 @@ const Manager = {
     }
 
     abortCooldown(game, io, game.room)
+  },
+
+  selectQuiz: (game, io, socket, { subject, class: classLevel, chapter }) => {
+    if (game.manager !== socket.id) {
+      return
+    }
+
+    try {
+      const quizData = loadQuiz(subject, classLevel, chapter)
+      game.selectedQuiz = quizData
+      game.subject = `${subject} - ${chapter}`
+      game.questions = quizData.questions
+      io.to(game.manager).emit("manager:quizSelected", quizData)
+      console.log(`Quiz selected: ${subject}/${classLevel}/${chapter}`)
+    } catch (error) {
+      io.to(socket.id).emit("game:errorMessage", error.message)
+    }
   },
 
   showLoaderboard: (game, io, socket) => {

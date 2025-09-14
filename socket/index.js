@@ -30,6 +30,9 @@ io.on("connection", (socket) => {
   socket.on("manager:createRoom", (password) =>
     Manager.createRoom(gameState, io, socket, password),
   )
+  socket.on("manager:selectQuiz", (quizInfo) =>
+    Manager.selectQuiz(gameState, io, socket, quizInfo),
+  )
   socket.on("manager:kickPlayer", (playerId) =>
     Manager.kickPlayer(gameState, io, socket, playerId),
   )

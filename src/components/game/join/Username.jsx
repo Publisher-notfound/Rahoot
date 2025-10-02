@@ -24,6 +24,9 @@ export default function Username() {
   const [currentStep, setCurrentStep] = useState(STEPS.USERNAME)
   const [availableQuizzes, setAvailableQuizzes] = useState({})
   const [availableChapters, setAvailableChapters] = useState([])
+  const [isRoomCreated, setIsRoomCreated] = useState(false)
+
+  const isCompeteMode = !!player?.room
 
   useEffect(() => {
     // Load available quizzes on mount
@@ -34,11 +37,16 @@ export default function Username() {
   }, [])
 
   const handleJoin = () => {
-    socket.emit("player:join", { username: username, room: player.room })
+    if (!player.room) {
+      // Create room for solo mode
+      socket.emit("player:createSolo", { subject: player.subject, class: player.class, chapter: player.chapter })
+    } else {
+      socket.emit("player:join", { username: username, room: player.room })
+    }
   }
 
   const handleKeyDown = (event) => {
-    if (event.key === "Enter") {
+    if (event.key === "Enter" && player.room) {
       handleJoin()
     }
   }
@@ -50,30 +58,65 @@ export default function Username() {
         payload: username,
       })
 
-      setCurrentStep(STEPS.CLASS) // Go to class selection
+      if (isCompeteMode) {
+        router.replace("/game")
+      }
+      // For solo mode, wait for game:status SHOW_START before navigating
     })
 
     return () => {
       socket.off("game:successJoin")
     }
+  }, [username, isCompeteMode, router])
+
+  useEffect(() => {
+    socket.on("player:soloRoomCreated", (roomId) => {
+      dispatch({ type: "JOIN", payload: roomId })
+      socket.emit("player:join", { username: username, room: roomId })
+    })
+
+    return () => {
+      socket.off("player:soloRoomCreated")
+    }
   }, [username])
+
+  useEffect(() => {
+    // For solo mode, navigate to game when quiz starts
+    const handleGameStatus = (status) => {
+      if (status.name === "SHOW_START" && !isCompeteMode) {
+        router.replace("/game")
+      }
+    }
+
+    socket.on("game:status", handleGameStatus)
+
+    return () => {
+      socket.off("game:status", handleGameStatus)
+    }
+  }, [isCompeteMode, router])
 
   const handleClassNext = () => setCurrentStep(STEPS.SUBJECT)
   const handleSubjectNext = () => setCurrentStep(STEPS.CHAPTER)
-  const handleChapterNext = () => router.replace("/game")
+  const handleChapterNext = () => setCurrentStep(STEPS.USERNAME)
 
   const handleBack = () => {
-    if (currentStep > STEPS.USERNAME) {
+    if (currentStep === STEPS.USERNAME && !isCompeteMode) {
+      setCurrentStep(STEPS.CHAPTER)
+    } else {
       setCurrentStep(currentStep - 1)
     }
   }
 
   useEffect(() => {
-    if (player.subject && player.class) {
+    setCurrentStep(isCompeteMode ? STEPS.USERNAME : STEPS.CLASS)
+  }, [isCompeteMode])
+
+  useEffect(() => {
+    if (player?.subject && player?.class) {
       const chapters = availableQuizzes[player.subject]?.[player.class] || []
       setAvailableChapters(chapters)
     }
-  }, [player.subject, player.class, availableQuizzes])
+  }, [player?.subject, player?.class, availableQuizzes])
 
   if (currentStep === STEPS.USERNAME) {
     return (

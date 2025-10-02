@@ -41,6 +41,7 @@ export const GAME_STATE_COMPONENTS = {
   SHOW_START: Start,
   SHOW_RESULT: Result,
   SHOW_PREPARED: Prepared,
+  FINISH: Podium,
 }
 
 export const GAME_STATE_COMPONENTS_MANAGER = {

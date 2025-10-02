@@ -4,6 +4,18 @@ import Manager from "./roles/manager.js"
 import Player from "./roles/player.js"
 import { abortCooldown } from "./utils/cooldown.js"
 import deepClone from "./utils/deepClone.js"
+import generateRoomId from "./utils/generateRoomId.js"
+import fs from 'fs'
+import path from 'path'
+
+function loadQuiz(subject, classLevel, chapter) {
+  const quizPath = path.join(process.cwd(), 'quizzes', subject, classLevel, `${chapter}.json`);
+  if (!fs.existsSync(quizPath)) {
+    throw new Error(`Quiz not found: ${subject}/${classLevel}/${chapter}`);
+  }
+  const quizData = JSON.parse(fs.readFileSync(quizPath, 'utf8'));
+  return quizData;
+}
 
 let gameState = deepClone(GAME_STATE_INIT)
 
@@ -23,9 +35,30 @@ io.on("connection", (socket) => {
     Player.checkRoom(gameState, io, socket, roomId),
   )
 
-  socket.on("player:join", (player) =>
-    Player.join(gameState, io, socket, player),
-  )
+  socket.on("player:join", (player) => {
+    Player.join(gameState, io, socket, player)
+    // For solo mode, auto-start quiz after player joins, with delay
+    if (gameState.manager === null && !gameState.started && gameState.questions?.length > 0) {
+      setTimeout(() => Manager.startGame(gameState, io, socket), 500)
+    }
+  })
+
+  socket.on("player:createSolo", (quizInfo) => {
+    const { subject, class: classLevel, chapter } = quizInfo
+    try {
+      const quizData = loadQuiz(subject, classLevel, chapter)
+      let soloRoom = generateRoomId()
+      gameState.room = soloRoom
+      gameState.manager = null // no manager for solo
+      gameState.selectedQuiz = quizData
+      gameState.subject = `${subject} - ${chapter}`
+      gameState.questions = quizData.questions
+      io.to(socket.id).emit("player:soloRoomCreated", soloRoom)
+      console.log(`Solo room created: ${soloRoom}`)
+    } catch (error) {
+      io.to(socket.id).emit("game:errorMessage", error.message)
+    }
+  })
 
   socket.on("manager:createRoom", (password) =>
     Manager.createRoom(gameState, io, socket, password),

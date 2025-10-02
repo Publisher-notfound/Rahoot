@@ -1,0 +1,149 @@
+{
+  "subject": "Biology",
+  "chapter": "The Living World and Biological Classification",
+  "class": "11th",
+  "difficulty": 3,
+  "pointsMultiplier": 1.0,
+  "questions": [
+    {
+      "question": "The scientific process of assigning a standardised name to an organism, so that it is known by the same name all over the world, is called:",
+      "answers": [
+        "Identification",
+        "Nomenclature",
+        "Classification",
+        "Taxonomy"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 2,
+      "image": "optional description if visual needed"
+    },
+    {
+      "question": "The system of providing a biological name with two components (Generic name and specific epithet) is known as:",
+      "answers": [
+        "Trinomial nomenclature",
+        "Binomial nomenclature",
+        "Systematics",
+        "Taxonomy"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 2,
+      "image": "optional description if visual needed"
+    },
+    {
+      "question": "Which of the following rules for writing a biological name is INCORRECT?",
+      "answers": [
+        "The Generic name starts with a capital letter.",
+        "The specific epithet starts with a small letter.",
+        "Both words, when handwritten, are separately underlined.",
+        "They must be derived from English irrespective of their origin."
+      ],
+      "solution": 3,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "optional description if visual needed"
+    },
+    {
+      "question": "The number of species that are known and described, which refers to **biodiversity**, ranges between:",
+      "answers": [
+        "1.2–1.3 million",
+        "5.0–6.0 million",
+        "1.7–1.8 million",
+        "1.0–1.1 million"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 2,
+      "image": "optional description if visual needed"
+    },
+    {
+      "question": "What is the correct scientific name for mango according to the rules of binomial nomenclature?",
+      "answers": [
+        "Mangifera indica",
+        "Mangifera Indica",
+        "Mangifera indica Linn.",
+        "Mangifera indica"
+      ],
+      "solution": 3,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 3,
+      "image": "optional description if visual needed"
+    },
+    {
+      "question": "The lowest and most fundamental taxonomic category in the classification of all organisms, including plants and animals, is the:",
+      "answers": [
+        "Genus",
+        "Family",
+        "Species",
+        "Order"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 2,
+      "image": "optional description if visual needed"
+    },
+    {
+      "question": "Which taxonomic category is an assemblage of related families, often identified based on the aggregates of characters?",
+      "answers": [
+        "Class",
+        "Phylum",
+        "Order",
+        "Genus"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 3,
+      "image": "optional description if visual needed"
+    },
+    {
+      "question": "The family **Felidae** and **Canidae** are grouped together under which common animal order?",
+      "answers": [
+        "Primata",
+        "Mammalia",
+        "Diptera",
+        "Carnivora"
+      ],
+      "solution": 3,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 3,
+      "image": "optional description if visual needed"
+    },
+    {
+      "question": "In the taxonomic hierarchy, as you go from **species** to **kingdom**, the number of common characteristics among the organisms in the taxa generally:",
+      "answers": [
+        "Increases",
+        "Decreases",
+        "Stays the same",
+        "Cannot be determined"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 2,
+      "image": "optional description if visual needed"
+    },
+    {
+      "question": "What are the four basic processes that are essential to **taxonomy**?",
+      "answers": [
+        "Classification, Nomenclature, Evolution, and Identification",
+        "Characterisation, Identification, Classification, and Nomenclature",
+        "Characterisation, Description, Classification, and Systematics",
+        "Zoogeography, Taxonomy, Systematics, and Evolution"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 4,
+      "image": "optional description if visual needed"
+    }
+  ]
+}

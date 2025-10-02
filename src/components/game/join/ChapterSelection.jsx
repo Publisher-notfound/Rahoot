@@ -4,7 +4,7 @@ import { PlayerContext } from "../../../context/player.jsx"
 
 export default function ChapterSelection({ onNext, onBack, availableChapters }) {
   const { player, dispatch } = useContext(PlayerContext)
-  const [selectedChapter, setSelectedChapter] = useState(player.chapter || "")
+  const [selectedChapter, setSelectedChapter] = useState(player?.chapter || "")
   const [chapters, setChapters] = useState([])
 
   useEffect(() => {

@@ -4,7 +4,7 @@ import { PlayerContext } from "../../../context/player.jsx"
 
 export default function SubjectSelection({ onNext, onBack }) {
   const { player, dispatch } = useContext(PlayerContext)
-  const [selectedSubject, setSelectedSubject] = useState(player.subject || "")
+  const [selectedSubject, setSelectedSubject] = useState(player?.subject || "")
 
   // For now, hardcoded subjects. Later, can be loaded from config
   const subjects = [

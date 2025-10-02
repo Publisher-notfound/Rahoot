@@ -1,4 +1,6 @@
 import { cooldown, sleep } from "./cooldown.js"
+import { GAME_STATE_INIT } from "../../config.mjs"
+import deepClone from "./deepClone.js"
 
 export const startRound = async (game, io, socket) => {
   const question = game.questions[game.currentQuestion]
@@ -76,6 +78,7 @@ export const startRound = async (game, io, socket) => {
         message: isCorrect ? "Nice !" : "Too bad",
         points: points,
         myPoints: player.points,
+        totalPlayer: game.players.length,
         rank,
         aheadOfMe: aheadPlayer ? aheadPlayer.username : null,
       },
@@ -89,16 +92,55 @@ export const startRound = async (game, io, socket) => {
   })
 
   // Manager
-  io.to(game.manager).emit("game:status", {
-    name: "SHOW_RESPONSES",
-    data: {
-      question: game.questions[game.currentQuestion].question,
-      responses: totalType,
-      correct: game.questions[game.currentQuestion].solution,
-      answers: game.questions[game.currentQuestion].answers,
-      image: game.questions[game.currentQuestion].image,
-    },
-  })
+  if (game.manager) {
+    io.to(game.manager).emit("game:status", {
+      name: "SHOW_RESPONSES",
+      data: {
+        question: game.questions[game.currentQuestion].question,
+        responses: totalType,
+        correct: game.questions[game.currentQuestion].solution,
+        answers: game.questions[game.currentQuestion].answers,
+        image: game.questions[game.currentQuestion].image,
+      },
+    })
+  }
+
+  // Auto-progress for solo mode
+  if (game.manager === null) {
+    if (game.questions[game.currentQuestion + 1]) {
+      // Next questions: auto-advance after 5 seconds
+      setTimeout(() => {
+        game.currentQuestion++
+        startRound(game, io, { emit: () => {} })
+      }, 5000)
+    } else {
+      // Last question: wait for result display, then show podium
+      setTimeout(() => {
+        // Emit to the player directly for solo mode
+        if (game.players.length === 1) {
+          io.to(game.players[0].id).emit("game:status", {
+            name: "FINISH",
+            data: {
+              subject: game.subject,
+              top: game.players.slice(0, 3).sort((a, b) => b.points - a.points),
+            },
+          })
+        } else {
+          io.to(game.room).emit("game:status", {
+            name: "FINISH",
+            data: {
+              subject: game.subject,
+              top: game.players.slice(0, 3).sort((a, b) => b.points - a.points),
+            },
+          })
+        }
+        // Delay reset to allow podium display
+        setTimeout(() => {
+          game = deepClone(GAME_STATE_INIT)
+        }, 5000) // Allow 5 seconds for podium to display
+      }, 3000) // 3 seconds for result display
+    }
+  }
 
   game.playersAnswer = []
 }

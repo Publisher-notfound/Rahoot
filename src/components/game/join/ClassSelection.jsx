@@ -4,7 +4,7 @@ import { PlayerContext } from "../../../context/player.jsx"
 
 export default function ClassSelection({ onNext }) {
   const { player, dispatch } = useContext(PlayerContext)
-  const [selectedClass, setSelectedClass] = useState(player.class || "")
+  const [selectedClass, setSelectedClass] = useState(player?.class || "")
 
   const classes = [
     { id: "11th", name: "11th Grade", desc: "Class XI" },

@@ -37,7 +37,7 @@ const Player = {
       return
     }
 
-    if (game.started) {
+    if (game.manager !== null && game.started) {
       socket.emit("game:errorMessage", "Game already started")
       return
     }

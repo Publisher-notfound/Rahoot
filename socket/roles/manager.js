@@ -1,10 +1,10 @@
 import { GAME_STATE_INIT } from "../../config.mjs"
-import fs from 'fs'
-import path from 'path'
 import { abortCooldown, cooldown, sleep } from "../utils/cooldown.js"
 import deepClone from "../utils/deepClone.js"
 import generateRoomId from "../utils/generateRoomId.js"
 import { startRound } from "../utils/round.js"
+import fs from 'fs'
+import path from 'path'
 
 function loadQuiz(subject, classLevel, chapter) {
   const quizPath = path.join(process.cwd(), 'quizzes', subject, classLevel, `${chapter}.json`);
@@ -119,15 +119,26 @@ const Manager = {
 
   showLoaderboard: (game, io, socket) => {
     if (!game.questions[game.currentQuestion + 1]) {
-      socket.emit("game:status", {
-        name: "FINISH",
-        data: {
-          subject: game.subject,
-          top: game.players.slice(0, 3).sort((a, b) => b.points - a.points),
-        },
-      })
-
-      game = deepClone(GAME_STATE_INIT)
+      if (game.manager === null) {
+        // Solo mode: show final leaderboard focused on user's position
+        socket.emit("game:status", {
+          name: "SHOW_LEADERBOARD",
+          data: {
+            leaderboard: game.players
+              .sort((a, b) => b.points - a.points),
+          },
+        })
+      } else {
+        // Multi-player: show finish podium
+        socket.emit("game:status", {
+          name: "FINISH",
+          data: {
+            subject: game.subject,
+            top: game.players.slice(0, 3).sort((a, b) => b.points - a.points),
+          },
+        })
+        game = deepClone(GAME_STATE_INIT)
+      }
       return
     }
 

@@ -1,0 +1,121 @@
+{
+  "genre": "knowledge",
+  "topic": "science",
+  "quizName": "human_body",
+  "difficulty": 2,
+  "pointsMultiplier": 1,
+  "questions": [
+    {
+      "question": "What is the largest organ in the human body?",
+      "answers": [
+        "Liver",
+        "Brain",
+        "Skin",
+        "Lungs"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1580656447847-0e4c2c54c464?w=500&auto=format"
+    },
+    {
+      "question": "How many bones are in the adult human body?",
+      "answers": [
+        "206",
+        "300",
+        "150",
+        "256"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=500&auto=format"
+    },
+    {
+      "question": "Which organ pumps blood throughout the body?",
+      "answers": [
+        "Lungs",
+        "Heart",
+        "Kidneys",
+        "Stomach"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 1,
+      "image": "https://images.unsplash.com/photo-1549487408-1883501e712a?w=500&auto=format"
+    },
+    {
+      "question": "What is the 'powerhouse' of the cell?",
+      "answers": [
+        "Nucleus",
+        "Ribosome",
+        "Mitochondria",
+        "Cell Membrane"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": null
+    },
+    {
+      "question": "What part of the brain controls balance, posture, and coordination?",
+      "answers": [
+        "Cerebrum",
+        "Cerebellum",
+        "Brainstem",
+        "Frontal Lobe"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 18,
+      "difficulty": 4,
+      "image": null
+    },
+    {
+      "question": "What is the common name for the 'patella'?",
+      "answers": [
+        "Elbow",
+        "Shoulder blade",
+        "Collarbone",
+        "Kneecap"
+      ],
+      "solution": 3,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": null
+    },
+    {
+      "question": "Which two organs are part of the central nervous system (CNS)?",
+      "answers": [
+        "Heart and Lungs",
+        "Stomach and Intestines",
+        "Brain and Spinal Cord",
+        "Kidneys and Liver"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1550353127-b7f3ae8c10f8?w=500&auto=format"
+    },
+    {
+      "question": "What is the main function of red blood cells?",
+      "answers": [
+        "Fight infection",
+        "Carry oxygen",
+        "Help blood clot",
+        "Digest food"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": null
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "genre": "knowledge",
+  "topic": "science",
+  "quizName": "tech_innovations",
+  "difficulty": 3,
+  "pointsMultiplier": 1,
+  "questions": [
+    {
+      "question": "What does 'AI' stand for?",
+      "answers": [
+        "Automated Interface",
+        "Artificial Intelligence",
+        "Advanced Internet",
+        "Applied Informatics"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 1,
+      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=500&auto=format"
+    },
+    {
+      "question": "Which company develops the ChatGPT AI model?",
+      "answers": [
+        "Google",
+        "Meta",
+        "OpenAI",
+        "Microsoft"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": null
+    },
+    {
+      "question": "What is the 'Internet of Things' (IoT)?",
+      "answers": [
+        "A new social media platform",
+        "A high-speed internet cable",
+        "A network of physical devices connected to the internet",
+        "A virtual reality world"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 18,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1526666923127-b2970f64b422?w=500&auto=format"
+    },
+    {
+      "question": "What technology is used for wireless payments like Apple Pay or Google Pay?",
+      "answers": [
+        "Bluetooth",
+        "NFC (Near Field Communication)",
+        "Wi-Fi",
+        "Infrared"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": null
+    },
+    {
+      "question": "What does '5G' refer to in mobile technology?",
+      "answers": [
+        "5 Gigabytes of data",
+        "The 5th generation of mobile networks",
+        "A 5-inch phone screen",
+        "A 5-day battery life"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1583407865421-4f9f3032fd5e?w=500&auto=format"
+    },
+    {
+      "question": "What is 'blockchain' primarily known for?",
+      "answers": [
+        "A video game",
+        "A social media app",
+        "The technology behind cryptocurrencies",
+        "An AI-powered search engine"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1642104791130-1b2c6a08b3b7?w=500&auto=format"
+    },
+    {
+      "question": "Who is the current CEO of Tesla and SpaceX?",
+      "answers": [
+        "Jeff Bezos",
+        "Mark Zuckerberg",
+        "Elon Musk",
+        "Tim Cook"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 1,
+      "image": null
+    },
+    {
+      "question": "What is 'quantum computing'?",
+      "answers": [
+        "A computer small enough to fit in your pocket",
+        "A type of computing using quantum-mechanical phenomena",
+        "A computer powered by water",
+        "A fictional concept from sci-fi movies"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 18,
+      "difficulty": 4,
+      "image": null
+    },
+    {
+      "question": "Which of these is a large language model (LLM)?",
+      "answers": [
+        "Adobe Photoshop",
+        "GPT-4",
+        "Bitcoin",
+        "Python"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": null
+    }
+  ]
+}

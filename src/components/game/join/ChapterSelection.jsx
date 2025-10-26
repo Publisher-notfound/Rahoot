@@ -26,7 +26,7 @@ export default function ChapterSelection({ onNext, onBack, availableChapters }) 
   return (
     <section className="relative mx-auto flex w-full max-w-2xl flex-1 flex-col items-center justify-center px-2">
       <h1 className="mb-6 text-4xl font-bold text-white drop-shadow-md">
-        Choose Your Chapter
+        Choose Your Quiz
       </h1>
       <div className="grid w-full max-w-lg grid-cols-1 gap-4">
         {chapters.map((chap) => (
@@ -39,12 +39,12 @@ export default function ChapterSelection({ onNext, onBack, availableChapters }) 
                 : "border-gray-300 bg-white/10 text-white hover:border-yellow-300 hover:bg-white/20"
             }`}
           >
-            <h3 className="text-2xl font-bold capitalize">{chap}</h3>
+            <h3 className="text-2xl font-bold">{chap.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}</h3>
           </button>
         ))}
         {chapters.length === 0 && (
           <div className="rounded-lg border-2 border-gray-300 bg-white/10 p-6 text-center text-white">
-            <p>No chapters available for selected subject and class.</p>
+            <p>No quizzes available for selected topic and genre.</p>
           </div>
         )}
       </div>

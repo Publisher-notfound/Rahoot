@@ -1,0 +1,121 @@
+{
+  "genre": "fun_trivia",
+  "topic": "memes",
+  "quizName": "social_media_memes",
+  "difficulty": 2,
+  "pointsMultiplier": 1,
+  "questions": [
+    {
+      "question": "The 'Woman Yelling at a Cat' meme features a cast member from which reality show?",
+      "answers": [
+        "Jersey Shore",
+        "Keeping Up with the Kardashians",
+        "The Real Housewives of Beverly Hills",
+        "Vanderpump Rules"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 18,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1574144611937-0df059b5ef3e?w=500&auto=format"
+    },
+    {
+      "question": "What popular TikTok trend in 2020 involved a dance to a sea shanty?",
+      "answers": [
+        "The Wellerman",
+        "The Renegade",
+        "Savage Love",
+        "Blinding Lights"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": null
+    },
+    {
+      "question": "The 'Blinking White Guy' GIF originated from a video on what website?",
+      "answers": [
+        "Twitch",
+        "Giant Bomb",
+        "YouTube",
+        "IGN"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 18,
+      "difficulty": 4,
+      "image": null
+    },
+    {
+      "question": "What phrase is associated with the meme of a man sprinkling salt on meat?",
+      "answers": [
+        "\"Salt Life\"",
+        "\"Salt Bae\"",
+        "\"Salty\"",
+        "\"Seasoning Master\""
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1599974579601-20db0098f58c?w=500&auto=format"
+    },
+    {
+      "question": "The 'This is Fine' meme features a dog in what situation?",
+      "answers": [
+        "Sitting in a burning room",
+        "Taking a difficult test",
+        "Getting a bath",
+        "Working at a computer"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1453227587096-09d9d51b059e?w=500&auto=format"
+    },
+    {
+      "question": "The 'Stonks' meme features a character standing in front of a...",
+      "answers": [
+        "Whiteboard",
+        "Brick wall",
+        "Stock market chart",
+        "Computer screen"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 2,
+      "image": null
+    },
+    {
+      "question": "What phrase is often used with the 'Two Buttons' meme format?",
+      "answers": [
+        "\"Change My Mind\"",
+        "\"A difficult choice\"",
+        "\"I see this as an absolute win!\"",
+        "\"They're the same picture.\""
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": null
+    },
+    {
+      "question": "The 'Is this a pigeon?' meme is from what piece of media?",
+      "answers": [
+        "A sitcom",
+        "A reality show",
+        "An anime",
+        "A comic book"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1555169062-013468b47731?w=500&auto=format"
+    }
+  ]
+}

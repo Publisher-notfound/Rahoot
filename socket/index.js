@@ -8,10 +8,10 @@ import generateRoomId from "./utils/generateRoomId.js"
 import fs from 'fs'
 import path from 'path'
 
-function loadQuiz(subject, classLevel, chapter) {
-  const quizPath = path.join(process.cwd(), 'quizzes', subject, classLevel, `${chapter}.json`);
+function loadQuiz(genre, topic, quizName) {
+  const quizPath = path.join(process.cwd(), 'quizzes', genre, topic, `${quizName}.json`);
   if (!fs.existsSync(quizPath)) {
-    throw new Error(`Quiz not found: ${subject}/${classLevel}/${chapter}`);
+    throw new Error(`Quiz not found: ${genre}/${topic}/${quizName}`);
   }
   const quizData = JSON.parse(fs.readFileSync(quizPath, 'utf8'));
   return quizData;
@@ -44,14 +44,22 @@ io.on("connection", (socket) => {
   })
 
   socket.on("player:createSolo", (quizInfo) => {
-    const { subject, class: classLevel, chapter } = quizInfo
+    const { genre, topic, quizName } = quizInfo
+    
+    // Reset any existing game state before creating new solo room
+    if (gameState.room || gameState.started) {
+      console.log("Resetting existing game state for new solo room")
+      gameState = deepClone(GAME_STATE_INIT)
+      abortCooldown()
+    }
+    
     try {
-      const quizData = loadQuiz(subject, classLevel, chapter)
+      const quizData = loadQuiz(genre, topic, quizName)
       let soloRoom = generateRoomId()
       gameState.room = soloRoom
       gameState.manager = null // no manager for solo
       gameState.selectedQuiz = quizData
-      gameState.subject = `${subject} - ${chapter}`
+      gameState.subject = `${quizData.genre} - ${quizData.quizName}`
       gameState.questions = quizData.questions
       io.to(socket.id).emit("player:soloRoomCreated", soloRoom)
       console.log(`Solo room created: ${soloRoom}`)
@@ -88,14 +96,14 @@ io.on("connection", (socket) => {
 
   socket.on("disconnect", () => {
     console.log(`user disconnected ${socket.id}`)
+    
+    // Reset game if manager disconnects
     if (gameState.manager === socket.id) {
-      console.log("Reset game")
+      console.log("Reset game - manager disconnected")
       io.to(gameState.room).emit("game:reset")
       gameState.started = false
       gameState = deepClone(GAME_STATE_INIT)
-
       abortCooldown()
-
       return
     }
 
@@ -103,7 +111,20 @@ io.on("connection", (socket) => {
 
     if (player) {
       gameState.players = gameState.players.filter((p) => p.id !== socket.id)
-      socket.to(gameState.manager).emit("manager:removePlayer", player.id)
+      
+      // For solo mode (no manager), reset game when solo player disconnects
+      if (gameState.manager === null && gameState.players.length === 0) {
+        console.log("Reset game - solo player disconnected")
+        gameState.started = false
+        gameState = deepClone(GAME_STATE_INIT)
+        abortCooldown()
+        return
+      }
+      
+      // For multiplayer mode, notify manager
+      if (gameState.manager) {
+        socket.to(gameState.manager).emit("manager:removePlayer", player.id)
+      }
     }
   })
 })

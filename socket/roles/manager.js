@@ -6,10 +6,10 @@ import { startRound } from "../utils/round.js"
 import fs from 'fs'
 import path from 'path'
 
-function loadQuiz(subject, classLevel, chapter) {
-  const quizPath = path.join(process.cwd(), 'quizzes', subject, classLevel, `${chapter}.json`);
+function loadQuiz(genre, topic, quizName) {
+  const quizPath = path.join(process.cwd(), 'quizzes', genre, topic, `${quizName}.json`);
   if (!fs.existsSync(quizPath)) {
-    throw new Error(`Quiz not found: ${subject}/${classLevel}/${chapter}`);
+    throw new Error(`Quiz not found: ${genre}/${topic}/${quizName}`);
   }
   const quizData = JSON.parse(fs.readFileSync(quizPath, 'utf8'));
   return quizData;
@@ -100,18 +100,18 @@ const Manager = {
     abortCooldown(game, io, game.room)
   },
 
-  selectQuiz: (game, io, socket, { subject, class: classLevel, chapter }) => {
+  selectQuiz: (game, io, socket, { genre, topic, quizName }) => {
     if (game.manager !== socket.id) {
       return
     }
 
     try {
-      const quizData = loadQuiz(subject, classLevel, chapter)
+      const quizData = loadQuiz(genre, topic, quizName)
       game.selectedQuiz = quizData
-      game.subject = `${subject} - ${chapter}`
+      game.subject = `${quizData.genre} - ${quizData.quizName}`
       game.questions = quizData.questions
       io.to(game.manager).emit("manager:quizSelected", quizData)
-      console.log(`Quiz selected: ${subject}/${classLevel}/${chapter}`)
+      console.log(`Quiz selected: ${genre}/${topic}/${quizName}`)
     } catch (error) {
       io.to(socket.id).emit("game:errorMessage", error.message)
     }

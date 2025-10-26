@@ -1,0 +1,1389 @@
+[
+    {
+      "genre": "entertainment",
+      "topic": "movies",
+      "quizName": "hollywood_blockbusters",
+      "difficulty": 3,
+      "pointsMultiplier": 1.0,
+      "questions": [
+        {
+          "question": "Which 2019 film was the first non-English language movie to win the Academy Award for Best Picture?",
+          "answers": [
+            "Roma",
+            "Parasite",
+            "Amour",
+            "Crouching Tiger, Hidden Dragon"
+          ],
+          "solution": 1,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 3,
+          "image": "https://images.unsplash.com/photo-1596207891334-367d353d7c80?w=500&auto=format"
+        },
+        {
+          "question": "Who directed the 2023 blockbuster film 'Oppenheimer'?",
+          "answers": [
+            "Martin Scorsese",
+            "Denis Villeneuve",
+            "Christopher Nolan",
+            "Greta Gerwig"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 2,
+          "image": "https://images.unsplash.com/photo-1620248742880-9280d5d6d6c9?w=500&auto=format"
+        },
+        {
+          "question": "What is the name of the valuable spice central to the plot of the 'Dune' franchise?",
+          "answers": [
+            "Vibranium",
+            "Unobtanium",
+            "Kryptonite",
+            "Melange"
+          ],
+          "solution": 3,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 3,
+          "image": null
+        },
+        {
+          "question": "In the 2023 'Barbie' movie, where do Barbie and Ken travel to from Barbie Land?",
+          "answers": [
+            "The Real World",
+            "Narnia",
+            "The Matrix",
+            "Wonderland"
+          ],
+          "solution": 0,
+          "cooldown": 5,
+          "time": 12,
+          "difficulty": 2,
+          "image": "https://images.unsplash.com/photo-1690180479789-f5380d3d5f8a?w=500&auto=format"
+        },
+        {
+          "question": "Which film briefly overtook 'Avatar' as the highest-grossing film of all time?",
+          "answers": [
+            "Star Wars: The Force Awakens",
+            "Titanic",
+            "Avengers: Endgame",
+            "Spider-Man: No Way Home"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 3,
+          "image": null
+        },
+        {
+          "question": "Who plays the main antagonist, Feyd-Rautha, in 'Dune: Part Two' (2024)?",
+          "answers": [
+            "Timothée Chalamet",
+            "Tom Holland",
+            "Adam Driver",
+            "Austin Butler"
+          ],
+          "solution": 3,
+          "cooldown": 5,
+          "time": 18,
+          "difficulty": 4,
+          "image": null
+        },
+        {
+          "question": "What is the highest-grossing R-rated film of all time?",
+          "answers": [
+            "Deadpool",
+            "Joker",
+            "The Matrix Reloaded",
+            "It"
+          ],
+          "solution": 1,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 3,
+          "image": "https://images.unsplash.com/photo-1570816921381-e3f35084313f?w=500&auto=format"
+        },
+        {
+          "question": "Which of these actors has NOT played 'Spider-Man' in a major live-action film?",
+          "answers": [
+            "Tobey Maguire",
+            "Andrew Garfield",
+            "Jake Gyllenhaal",
+            "Tom Holland"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 2,
+          "image": null
+        }
+      ]
+    },
+    {
+      "genre": "entertainment",
+      "topic": "movies",
+      "quizName": "bollywood_classics",
+      "difficulty": 3,
+      "pointsMultiplier": 1.0,
+      "questions": [
+        {
+          "question": "In 'Dilwale Dulhania Le Jayenge', what is the main character Raj's famous line to Simran?",
+          "answers": [
+            "\"Palat!\"",
+            "\"Kitne aadmi ahe?\"",
+            "\"Ja Simran ja, jee le apni zindagi.\"",
+            "\"Mere paas maa hai.\""
+          ],
+          "solution": 0,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 2,
+          "image": "https://images.unsplash.com/photo-1543163385-260a93b452e8?w=500&auto=format"
+        },
+        {
+          "question": "Who played the iconic villain Gabbar Singh in the 1975 film 'Sholay'?",
+          "answers": [
+            "Amitabh Bachchan",
+            "Sanjeev Kumar",
+            "Amjad Khan",
+            "Dharmendra"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 3,
+          "image": null
+        },
+        {
+          "question": "What is the name of the college attended by the main characters in '3 Idiots'?",
+          "answers": [
+            "Indian Institute of Technology",
+            "Delhi University",
+            "Imperial College of Engineering",
+            "St. Xavier's College"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 3,
+          "image": "https://images.unsplash.com/photo-1562774053-601a116f7523?w=500&auto=format"
+        },
+        {
+          "question": "In 'Lagaan', what was the wager for the cricket match against the British?",
+          "answers": [
+            "Freedom for the village",
+            "Three years of no taxes",
+            "A bag of gold",
+            "Ownership of the British cantonment"
+          ],
+          "solution": 1,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 2,
+          "image": null
+        },
+        {
+          "question": "What is the famous phrase associated with the character Mogambo from 'Mr. India'?",
+          "answers": [
+            "\"Don ko pakadna mushkil hi nahi...\"",
+            "\"Mogambo khush hua!\"",
+            "\"Rishte mein toh hum tumhare baap...\"",
+            "\"How's the josh?\""
+          ],
+          "solution": 1,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 2,
+          "image": null
+        },
+        {
+          "question": "In 'Kabhi Khushi Kabhie Gham...', what is the name of Shah Rukh Khan's adopted character?",
+          "answers": [
+            "Rohan",
+            "Yash",
+            "Rahul",
+            "Arjun"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 12,
+          "difficulty": 2,
+          "image": "https://images.unsplash.com/photo-1616161560416-01d2683013a1?w=500&auto=format"
+        },
+        {
+          "question": "Which film, starring Aamir Khan, is about a teacher helping a dyslexic child?",
+          "answers": [
+            "3 Idiots",
+            "PK",
+            "Dangal",
+            "Taare Zameen Par"
+          ],
+          "solution": 3,
+          "cooldown": 5,
+          "time": 12,
+          "difficulty": 2,
+          "image": null
+        },
+        {
+          "question": "Who is the 'Baadshah of Bollywood'?",
+          "answers": [
+            "Salman Khan",
+            "Shah Rukh Khan",
+            "Aamir Khan",
+            "Amitabh Bachchan"
+          ],
+          "solution": 1,
+          "cooldown": 5,
+          "time": 10,
+          "difficulty": 1,
+          "image": "https://images.unsplash.com/photo-1590179068383-b9c6ab0394c8?w=500&auto=format"
+        },
+        {
+          "question": "What is the name of the mute girl from Pakistan in the film 'Bajrangi Bhaijaan'?",
+          "answers": [
+            "Meera",
+            "Aisha",
+            "Zoya",
+            "Munni"
+          ],
+          "solution": 3,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 3,
+          "image": null
+        }
+      ]
+    },
+    {
+      "genre": "entertainment",
+      "topic": "movies",
+      "quizName": "animated_movies",
+      "difficulty": 2,
+      "pointsMultiplier": 1.0,
+      "questions": [
+        {
+          "question": "In Pixar's 'Up', what is the name of the elderly widower?",
+          "answers": [
+            "Charles Muntz",
+            "Russell",
+            "Carl Fredricksen",
+            "Dug"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 12,
+          "difficulty": 2,
+          "image": "https://images.unsplash.com/photo-1593493403212-0453b5e40854?w=500&auto=format"
+        },
+        {
+          "question": "What is the name of the kingdom in Disney's 'Frozen'?",
+          "answers": [
+            "Arendelle",
+            "Corona",
+            "DunBroch",
+            "Motunui"
+          ],
+          "solution": 0,
+          "cooldown": 5,
+          "time": 12,
+          "difficulty": 2,
+          "image": "https://images.unsplash.com/photo-1608479367204-58a1835d64b1?w=500&auto=format"
+        },
+        {
+          "question": "Which Studio Ghibli film features a friendly forest spirit called 'Totoro'?",
+          "answers": [
+            "Spirited Away",
+            "Princess Mononoke",
+            "Howl's Moving Castle",
+            "My Neighbor Totoro"
+          ],
+          "solution": 3,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 3,
+          "image": null
+        },
+        {
+          "question": "In DreamWorks' 'Shrek', what kind of creature is Shrek's talkative companion?",
+          "answers": [
+            "A dragon",
+            "A gingerbread man",
+            "A donkey",
+            "A puss in boots"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 10,
+          "difficulty": 1,
+          "image": null
+        },
+        {
+          "question": "What is the name of the main character in 'Spider-Man: Into the Spider-Verse'?",
+          "answers": [
+            "Peter Parker",
+            "Miles Morales",
+            "Gwen Stacy",
+            "Peni Parker"
+          ],
+          "solution": 1,
+          "cooldown": 5,
+          "time": 12,
+          "difficulty": 2,
+          "image": "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=500&auto=format"
+        },
+        {
+          "question": "In 'Finding Nemo', what type of fish is Nemo?",
+          "answers": [
+            "A tang",
+            "A shark",
+            "A clownfish",
+            "A pufferfish"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 10,
+          "difficulty": 1,
+          "image": "https://images.unsplash.com/photo-1535836830500-7815adfac28a?w=500&auto=format"
+        },
+        {
+          "question": "In 'The Lion King', who are Simba's two main sidekicks?",
+          "answers": [
+            "Zazu and Rafiki",
+            "Timon and Pumbaa",
+            "Shenzi and Banzai",
+            "Mufasa and Sarabi"
+          ],
+          "solution": 1,
+          "cooldown": 5,
+          "time": 12,
+          "difficulty": 1,
+          "image": null
+        },
+        {
+          "question": "What food is Remy the rat passionate about in 'Ratatouille'?",
+          "answers": [
+            "Cheese",
+            "Bread",
+            "Cooking (in general)",
+            "Grapes"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 12,
+          "difficulty": 2,
+          "image": null
+        },
+        {
+          "question": "Which emotion is NOT a character in Pixar's 'Inside Out'?",
+          "answers": [
+            "Joy",
+            "Sadness",
+            "Surprise",
+            "Fear"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 3,
+          "image": "https://images.unsplash.com/photo-1518395689723-a620e2088f1c?w=500&auto=format"
+        }
+      ]
+    },
+    {
+      "genre": "entertainment",
+      "topic": "movies",
+      "quizName": "superhero_cinema",
+      "difficulty": 3,
+      "pointsMultiplier": 1.0,
+      "questions": [
+        {
+          "question": "What is the name of Thor's enchanted hammer?",
+          "answers": [
+            "Stormbreaker",
+            "Mjolnir",
+            "Gungnir",
+            "Excalibur"
+          ],
+          "solution": 1,
+          "cooldown": 5,
+          "time": 12,
+          "difficulty": 2,
+          "image": "https://images.unsplash.com/photo-1582235280824-f5f8a7d5b888?w=500&auto=format"
+        },
+        {
+          "question": "How many Infinity Stones are there in the Marvel Cinematic Universe?",
+          "answers": [
+            "Five",
+            "Six",
+            "Seven",
+            "Eight"
+          ],
+          "solution": 1,
+          "cooldown": 5,
+          "time": 10,
+          "difficulty": 1,
+          "image": "https://images.unsplash.com/photo-1561026364-9043d83842a2?w=500&auto=format"
+        },
+        {
+          "question": "Who is the main villain in 'The Dark Knight'?",
+          "answers": [
+            "Bane",
+            "Ra's al Ghul",
+            "The Joker",
+            "Two-Face"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 12,
+          "difficulty": 2,
+          "image": null
+        },
+        {
+          "question": "What is Wonder Woman's real name?",
+          "answers": [
+            "Lois Lane",
+            "Selina Kyle",
+            "Natasha Romanoff",
+            "Diana Prince"
+          ],
+          "solution": 3,
+          "cooldown": 5,
+          "time": 12,
+          "difficulty": 2,
+          "image": null
+        },
+        {
+          "question": "In 'Avengers: Endgame', who snaps their fingers to bring everyone back?",
+          "answers": [
+            "Iron Man",
+            "Captain America",
+            "Thor",
+            "Hulk"
+          ],
+          "solution": 3,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 3,
+          "image": null
+        },
+        {
+          "question": "What metal is Wolverine's skeleton bonded with?",
+          "answers": [
+            "Vibranium",
+            "Adamantium",
+            "Uru",
+            "Titanium"
+          ],
+          "solution": 1,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 3,
+          "image": "https://images.unsplash.com/photo-1620336049281-37085b413155?w=500&auto=format"
+        },
+        {
+          "question": "What is the name of the fictional African nation in 'Black Panther'?",
+          "answers": [
+            "Sokovia",
+            "Genosha",
+            "Wakanda",
+            "Madripoor"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 10,
+          "difficulty": 1,
+          "image": "https://images.unsplash.com/photo-1555507036-03c0086a83d1?w=500&auto=format"
+        },
+        {
+          "question": "In 'Batman v Superman', what name do their mothers share?",
+          "answers": [
+            "Mary",
+            "Elizabeth",
+            "Sarah",
+            "Martha"
+          ],
+          "solution": 3,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 2,
+          "image": null
+        },
+        {
+          "question": "Which DC film features the team 'Task Force X'?",
+          "answers": [
+            "Justice League",
+            "Suicide Squad",
+            "Birds of Prey",
+            "Watchmen"
+          ],
+          "solution": 1,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 3,
+          "image": null
+        }
+      ]
+    },
+    {
+      "genre": "knowledge",
+      "topic": "science",
+      "quizName": "space_exploration",
+      "difficulty": 3,
+      "pointsMultiplier": 1.0,
+      "questions": [
+        {
+          "question": "Who was the first human to walk on the Moon?",
+          "answers": [
+            "Buzz Aldrin",
+            "Yuri Gagarin",
+            "Neil Armstrong",
+            "Michael Collins"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 12,
+          "difficulty": 2,
+          "image": "https://images.unsplash.com/photo-1454789548928-9efd52dc4031?w=500&auto=format"
+        },
+        {
+          "question": "What is the name of NASA's most powerful space telescope, launched in 2021?",
+          "answers": [
+            "Hubble Space Telescope",
+            "James Webb Space Telescope",
+            "Kepler Space Telescope",
+            "Chandra X-ray Observatory"
+          ],
+          "solution": 1,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 3,
+          "image": "https://images.unsplash.com/photo-1641391503196-8c775314a921?w=500&auto=format"
+        },
+        {
+          "question": "Which planet is known as the 'Red Planet'?",
+          "answers": [
+            "Venus",
+            "Mars",
+            "Jupiter",
+            "Saturn"
+          ],
+          "solution": 1,
+          "cooldown": 5,
+          "time": 10,
+          "difficulty": 1,
+          "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=500&auto=format"
+        },
+        {
+          "question": "What NASA mission first landed humans on the Moon?",
+          "answers": [
+            "Apollo 11",
+            "Gemini 7",
+            "Mercury-Redstone 3",
+            "Voyager 1"
+          ],
+          "solution": 0,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 2,
+          "image": null
+        },
+        {
+          "question": "What is the name of the first artificial satellite, launched by the Soviet Union in 1957?",
+          "answers": [
+            "Explorer 1",
+            "Vostok 1",
+            "Sputnik 1",
+            "Luna 1"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 18,
+          "difficulty": 4,
+          "image": null
+        },
+        {
+          "question": "Who is the founder of the private space exploration company SpaceX?",
+          "answers": [
+            "Jeff Bezos",
+            "Richard Branson",
+            "Bill Gates",
+            "Elon Musk"
+          ],
+          "solution": 3,
+          "cooldown": 5,
+          "time": 12,
+          "difficulty": 2,
+          "image": "https://images.unsplash.com/photo-1631771967237-f864c3d31d36?w=500&auto=format"
+        },
+        {
+          "question": "What is the name of the rover that successfully landed on Mars in 2021?",
+          "answers": [
+            "Curiosity",
+            "Opportunity",
+            "Perseverance",
+            "Sojourner"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 3,
+          "image": null
+        },
+        {
+          "question": "What is a 'light-year'?",
+          "answers": [
+            "A unit of time",
+            "The speed of light",
+            "The distance light travels in one year",
+            "The time it takes to travel to the nearest star"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 3,
+          "image": null
+        }
+      ]
+    },
+    {
+      "genre": "knowledge",
+      "topic": "science",
+      "quizName": "human_body",
+      "difficulty": 2,
+      "pointsMultiplier": 1.0,
+      "questions": [
+        {
+          "question": "What is the largest organ in the human body?",
+          "answers": [
+            "Liver",
+            "Brain",
+            "Skin",
+            "Lungs"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 12,
+          "difficulty": 2,
+          "image": "https://images.unsplash.com/photo-1580656447847-0e4c2c54c464?w=500&auto=format"
+        },
+        {
+          "question": "How many bones are in the adult human body?",
+          "answers": [
+            "206",
+            "300",
+            "150",
+            "256"
+          ],
+          "solution": 0,
+          "cooldown": 5,
+          "time": 12,
+          "difficulty": 2,
+          "image": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=500&auto=format"
+        },
+        {
+          "question": "Which organ pumps blood throughout the body?",
+          "answers": [
+            "Lungs",
+            "Heart",
+            "Kidneys",
+            "Stomach"
+          ],
+          "solution": 1,
+          "cooldown": 5,
+          "time": 10,
+          "difficulty": 1,
+          "image": "https://images.unsplash.com/photo-1549487408-1883501e712a?w=500&auto=format"
+        },
+        {
+          "question": "What is the 'powerhouse' of the cell?",
+          "answers": [
+            "Nucleus",
+            "Ribosome",
+            "Mitochondria",
+            "Cell Membrane"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 3,
+          "image": null
+        },
+        {
+          "question": "What part of the brain controls balance, posture, and coordination?",
+          "answers": [
+            "Cerebrum",
+            "Cerebellum",
+            "Brainstem",
+            "Frontal Lobe"
+          ],
+          "solution": 1,
+          "cooldown": 5,
+          "time": 18,
+          "difficulty": 4,
+          "image": null
+        },
+        {
+          "question": "What is the common name for the 'patella'?",
+          "answers": [
+            "Elbow",
+            "Shoulder blade",
+            "Collarbone",
+            "Kneecap"
+          ],
+          "solution": 3,
+          "cooldown": 5,
+          "time": 12,
+          "difficulty": 2,
+          "image": null
+        },
+        {
+          "question": "Which two organs are part of the central nervous system (CNS)?",
+          "answers": [
+            "Heart and Lungs",
+            "Stomach and Intestines",
+            "Brain and Spinal Cord",
+            "Kidneys and Liver"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 3,
+          "image": "https://images.unsplash.com/photo-1550353127-b7f3ae8c10f8?w=500&auto=format"
+        },
+        {
+          "question": "What is the main function of red blood cells?",
+          "answers": [
+            "Fight infection",
+            "Carry oxygen",
+            "Help blood clot",
+            "Digest food"
+          ],
+          "solution": 1,
+          "cooldown": 5,
+          "time": 12,
+          "difficulty": 2,
+          "image": null
+        }
+      ]
+    },
+    {
+      "genre": "knowledge",
+      "topic": "science",
+      "quizName": "climate_environment",
+      "difficulty": 3,
+      "pointsMultiplier": 1.0,
+      "questions": [
+        {
+          "question": "What is the primary gas responsible for the greenhouse effect and global warming?",
+          "answers": [
+            "Oxygen",
+            "Nitrogen",
+            "Carbon Dioxide (CO2)",
+            "Methane"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 2,
+          "image": "https://images.unsplash.com/photo-1521295121783-8a321d551ad2?w=500&auto=format"
+        },
+        {
+          "question": "The 'Paris Agreement' is a global treaty aimed at limiting...",
+          "answers": [
+            "Plastic pollution",
+            "Deforestation",
+            "Global warming",
+            "Overfishing"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 3,
+          "image": null
+        },
+        {
+          "question": "What does the Earth's Ozone Layer protect us from?",
+          "answers": [
+            "Meteorites",
+            "Ultraviolet (UV) radiation",
+            "Solar winds",
+            "Acid rain"
+          ],
+          "solution": 1,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 2,
+          "image": "https://images.unsplash.com/photo-1567006842602-a0d01ab0bda6?w=500&auto=format"
+        },
+        {
+          "question": "What is 'biodiversity'?",
+          "answers": [
+            "The study of biology",
+            "A type of renewable energy",
+            "The variety of life in an ecosystem",
+            "A method of recycling"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 12,
+          "difficulty": 2,
+          "image": null
+        },
+        {
+          "question": "Which of these is a non-renewable energy source?",
+          "answers": [
+            "Solar power",
+            "Wind power",
+            "Coal",
+            "Geothermal energy"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 12,
+          "difficulty": 2,
+          "image": "https://images.unsplash.com/photo-1498661705881-600fde8b1def?w=500&auto=format"
+        },
+        {
+          "question": "What is the term for the long-term shift in global weather patterns?",
+          "answers": [
+            "The weather",
+            "A hurricane",
+            "An earthquake",
+            "Climate change"
+          ],
+          "solution": 3,
+          "cooldown": 5,
+          "time": 10,
+          "difficulty": 1,
+          "image": null
+        },
+        {
+          "question": "What is the '3 R' mantra for waste management?",
+          "answers": [
+            "Reduce, Reuse, Recycle",
+            "Rewind, Replay, Record",
+            "Read, Write, Reteach",
+            "Run, Rest, Repeat"
+          ],
+          "solution": 0,
+          "cooldown": 5,
+          "time": 12,
+          "difficulty": 1,
+          "image": "https://images.unsplash.com/photo-1532996122724-e3c35414b175?w=500&auto=format"
+        },
+        {
+          "question": "What popular environmental activist is known for the 'Fridays for Future' movement?",
+          "answers": [
+            "Greta Thunberg",
+            "Leonardo DiCaprio",
+            "Al Gore",
+            "Jane Goodall"
+          ],
+          "solution": 0,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 3,
+          "image": null
+        }
+      ]
+    },
+    {
+      "genre": "knowledge",
+      "topic": "science",
+      "quizName": "tech_innovations",
+      "difficulty": 3,
+      "pointsMultiplier": 1.0,
+      "questions": [
+        {
+          "question": "What does 'AI' stand for?",
+          "answers": [
+            "Automated Interface",
+            "Artificial Intelligence",
+            "Advanced Internet",
+            "Applied Informatics"
+          ],
+          "solution": 1,
+          "cooldown": 5,
+          "time": 10,
+          "difficulty": 1,
+          "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=500&auto=format"
+        },
+        {
+          "question": "Which company develops the ChatGPT AI model?",
+          "answers": [
+            "Google",
+            "Meta",
+            "OpenAI",
+            "Microsoft"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 12,
+          "difficulty": 2,
+          "image": null
+        },
+        {
+          "question": "What is the 'Internet of Things' (IoT)?",
+          "answers": [
+            "A new social media platform",
+            "A high-speed internet cable",
+            "A network of physical devices connected to the internet",
+            "A virtual reality world"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 18,
+          "difficulty": 3,
+          "image": "https://images.unsplash.com/photo-1526666923127-b2970f64b422?w=500&auto=format"
+        },
+        {
+          "question": "What technology is used for wireless payments like Apple Pay or Google Pay?",
+          "answers": [
+            "Bluetooth",
+            "NFC (Near Field Communication)",
+            "Wi-Fi",
+            "Infrared"
+          ],
+          "solution": 1,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 3,
+          "image": null
+        },
+        {
+          "question": "What does '5G' refer to in mobile technology?",
+          "answers": [
+            "5 Gigabytes of data",
+            "The 5th generation of mobile networks",
+            "A 5-inch phone screen",
+            "A 5-day battery life"
+          ],
+          "solution": 1,
+          "cooldown": 5,
+          "time": 12,
+          "difficulty": 2,
+          "image": "https://images.unsplash.com/photo-1583407865421-4f9f3032fd5e?w=500&auto=format"
+        },
+        {
+          "question": "What is 'blockchain' primarily known for?",
+          "answers": [
+            "A video game",
+            "A social media app",
+            "The technology behind cryptocurrencies",
+            "An AI-powered search engine"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 2,
+          "image": "https://images.unsplash.com/photo-1642104791130-1b2c6a08b3b7?w=500&auto=format"
+        },
+        {
+          "question": "Who is the current CEO of Tesla and SpaceX?",
+          "answers": [
+            "Jeff Bezos",
+            "Mark Zuckerberg",
+            "Elon Musk",
+            "Tim Cook"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 10,
+          "difficulty": 1,
+          "image": null
+        },
+        {
+          "question": "What is 'quantum computing'?",
+          "answers": [
+            "A computer small enough to fit in your pocket",
+            "A type of computing using quantum-mechanical phenomena",
+            "A computer powered by water",
+            "A fictional concept from sci-fi movies"
+          ],
+          "solution": 1,
+          "cooldown": 5,
+          "time": 18,
+          "difficulty": 4,
+          "image": null
+        },
+        {
+          "question": "Which of these is a large language model (LLM)?",
+          "answers": [
+            "Adobe Photoshop",
+            "GPT-4",
+            "Bitcoin",
+            "Python"
+          ],
+          "solution": 1,
+          "cooldown": 5,
+          "time": 12,
+          "difficulty": 2,
+          "image": null
+        }
+      ]
+    },
+    {
+      "genre": "fun_trivia",
+      "topic": "memes",
+      "quizName": "internet_classics",
+      "difficulty": 2,
+      "pointsMultiplier": 1.0,
+      "questions": [
+        {
+          "question": "Which 1987 song is famously used for 'Rickrolling'?",
+          "answers": [
+            "\"Take On Me\" by A-ha",
+            "\"Never Gonna Give You Up\" by Rick Astley",
+            "\"Africa\" by Toto",
+            "\"Don't Stop Believin'\" by Journey"
+          ],
+          "solution": 1,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 2,
+          "image": "https://images.unsplash.com/photo-1567017438138-03b60dec1f58?w=500&auto=format"
+        },
+        {
+          "question": "What phrase is most associated with the 'Doge' meme?",
+          "answers": [
+            "\"I can has cheezburger?\"",
+            "\"Much wow, such grammar\"",
+            "\"This is fine\"",
+            "\"Hello darkness, my old friend\""
+          ],
+          "solution": 1,
+          "cooldown": 5,
+          "time": 12,
+          "difficulty": 2,
+          "image": "https://images.unsplash.com/photo-1517423568366-8b83523034fd?w=500&auto=format"
+        },
+        {
+          "question": "The 'Distracted Boyfriend' meme features a man looking at another woman while his girlfriend looks at him in...",
+          "answers": [
+            "Confusion",
+            "Amusement",
+            "Disgust",
+            "Agreement"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 12,
+          "difficulty": 1,
+          "image": "https://images.unsplash.com/photo-1542360288-19c2dc82c5f1?w=500&auto=format"
+        },
+        {
+          "question": "The 2011 song 'Friday' was a viral hit for which artist?",
+          "answers": [
+            "Justin Bieber",
+            "Katy Perry",
+            "Rebecca Black",
+            "Carly Rae Jepsen"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 2,
+          "image": null
+        },
+        {
+          "question": "What animal is 'Grumpy Cat' (real name Tardar Sauce)?",
+          "answers": [
+            "A dog",
+            "A cat",
+            "A rabbit",
+            "A hamster"
+          ],
+          "solution": 1,
+          "cooldown": 5,
+          "time": 10,
+          "difficulty": 1,
+          "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=500&auto=format"
+        },
+        {
+          "question": "The 'Success Kid' meme features a baby on a beach doing what?",
+          "answers": [
+            "Crying",
+            "Clenching a fist full of sand",
+            "Building a sandcastle",
+            "Sleeping"
+          ],
+          "solution": 1,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 2,
+          "image": null
+        },
+        {
+          "question": "What flavor is the 'Nyan Cat' pop-tart body?",
+          "answers": [
+            "Strawberry",
+            "Chocolate",
+            "Blueberry",
+            "Rainbow"
+          ],
+          "solution": 0,
+          "cooldown": 5,
+          "time": 18,
+          "difficulty": 3,
+          "image": null
+        },
+        {
+          "question": "What was the 'Harlem Shake'?",
+          "answers": [
+            "A dance craze from the 1980s",
+            "A viral video trend from 2013",
+            "A type of milkshake",
+            "A social media challenge to help charities"
+          ],
+          "solution": 1,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 2,
+          "image": "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?w=500&auto=format"
+        }
+      ]
+    },
+    {
+      "genre": "fun_trivia",
+      "topic": "memes",
+      "quizName": "social_media_memes",
+      "difficulty": 2,
+      "pointsMultiplier": 1.0,
+      "questions": [
+        {
+          "question": "The 'Woman Yelling at a Cat' meme features a cast member from which reality show?",
+          "answers": [
+            "Jersey Shore",
+            "Keeping Up with the Kardashians",
+            "The Real Housewives of Beverly Hills",
+            "Vanderpump Rules"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 18,
+          "difficulty": 3,
+          "image": "https://images.unsplash.com/photo-1574144611937-0df059b5ef3e?w=500&auto=format"
+        },
+        {
+          "question": "What popular TikTok trend in 2020 involved a dance to a sea shanty?",
+          "answers": [
+            "The Wellerman",
+            "The Renegade",
+            "Savage Love",
+            "Blinding Lights"
+          ],
+          "solution": 0,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 3,
+          "image": null
+        },
+        {
+          "question": "The 'Blinking White Guy' GIF originated from a video on what website?",
+          "answers": [
+            "Twitch",
+            "Giant Bomb",
+            "YouTube",
+            "IGN"
+          ],
+          "solution": 1,
+          "cooldown": 5,
+          "time": 18,
+          "difficulty": 4,
+          "image": null
+        },
+        {
+          "question": "What phrase is associated with the meme of a man sprinkling salt on meat?",
+          "answers": [
+            "\"Salt Life\"",
+            "\"Salt Bae\"",
+            "\"Salty\"",
+            "\"Seasoning Master\""
+          ],
+          "solution": 1,
+          "cooldown": 5,
+          "time": 12,
+          "difficulty": 2,
+          "image": "https://images.unsplash.com/photo-1599974579601-20db0098f58c?w=500&auto=format"
+        },
+        {
+          "question": "The 'This is Fine' meme features a dog in what situation?",
+          "answers": [
+            "Sitting in a burning room",
+            "Taking a difficult test",
+            "Getting a bath",
+            "Working at a computer"
+          ],
+          "solution": 0,
+          "cooldown": 5,
+          "time": 12,
+          "difficulty": 2,
+          "image": "https://images.unsplash.com/photo-1453227587096-09d9d51b059e?w=500&auto=format"
+        },
+        {
+          "question": "The 'Stonks' meme features a character standing in front of a...",
+          "answers": [
+            "Whiteboard",
+            "Brick wall",
+            "Stock market chart",
+            "Computer screen"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 2,
+          "image": null
+        },
+        {
+          "question": "What phrase is often used with the 'Two Buttons' meme format?",
+          "answers": [
+            "\"Change My Mind\"",
+            "\"A difficult choice\"",
+            "\"I see this as an absolute win!\"",
+            "\"They're the same picture.\""
+          ],
+          "solution": 1,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 3,
+          "image": null
+        },
+        {
+          "question": "The 'Is this a pigeon?' meme is from what piece of media?",
+          "answers": [
+            "A sitcom",
+            "A reality show",
+            "An anime",
+            "A comic book"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 15,
+          "difficulty": 3,
+          "image": "https://images.unsplash.com/photo-1555169062-013468b47731?w=500&auto=format"
+        }
+      ]
+    },
+    {
+      "genre": "test",
+      "topic": "dev",
+      "quizName": "sample_quiz",
+      "difficulty": 1,
+      "pointsMultiplier": 1.0,
+      "questions": [
+        {
+          "question": "What is 1 + 1?",
+          "answers": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "solution": 1,
+          "cooldown": 5,
+          "time": 10,
+          "difficulty": 1,
+          "image": null
+        },
+        {
+          "question": "What color is the sky on a clear day?",
+          "answers": [
+            "Green",
+            "Red",
+            "Blue",
+            "Purple"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 10,
+          "difficulty": 1,
+          "image": "https://images.unsplash.com/photo-1500356536417-1f76a5113110?w=500&auto=format"
+        },
+        {
+          "question": "What is the capital of France?",
+          "answers": [
+            "London",
+            "Berlin",
+            "Madrid",
+            "Paris"
+          ],
+          "solution": 3,
+          "cooldown": 5,
+          "time": 10,
+          "difficulty": 1,
+          "image": "https://images.unsplash.com/photo-1431274175161-c93d226068b5?w=500&auto=format"
+        },
+        {
+          "question": "How many days are in a week?",
+          "answers": [
+            "7",
+            "5",
+            "10",
+            "30"
+          ],
+          "solution": 0,
+          "cooldown": 5,
+          "time": 10,
+          "difficulty": 1,
+          "image": null
+        },
+        {
+          "question": "Which animal says 'Meow'?",
+          "answers": [
+            "Dog",
+            "Cat",
+            "Cow",
+            "Duck"
+          ],
+          "solution": 1,
+          "cooldown": 5,
+          "time": 10,
+          "difficulty": 1,
+          "image": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?w=500&auto=format"
+        },
+        {
+          "question": "What is the opposite of 'Hot'?",
+          "answers": [
+            "Warm",
+            "Spicy",
+            "Cold",
+            "Fire"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 10,
+          "difficulty": 1,
+          "image": null
+        },
+        {
+          "question": "What letter comes after 'A'?",
+          "answers": [
+            "Z",
+            "C",
+            "B",
+            "D"
+          ],
+          "solution": 2,
+          "cooldown": 5,
+          "time": 10,
+          "difficulty": 1,
+          "image": null
+        },
+        {
+          "question": "Is this a test question?",
+          "answers": [
+            "Yes",
+            "No",
+            "Maybe",
+            "I don't know"
+          ],
+          "solution": 0,
+          "cooldown": 5,
+          "time": 10,
+          "difficulty": 1,
+          "image": null
+        }
+      ]
+    }
+  ]

@@ -1,0 +1,149 @@
+{
+  "genre": "Entertainment",
+  "topic": "Movies",
+  "quizName": "Hollywood Blockbusters",
+  "difficulty": 3,
+  "pointsMultiplier": 1.0,
+  "questions": [
+    {
+      "question": "Which movie features a character named John Wick?",
+      "answers": [
+        "The Matrix",
+        "John Wick",
+        "Taken",
+        "Mission: Impossible"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=500"
+    },
+    {
+      "question": "Who played the lead role in the Marvel movie 'Iron Man'?",
+      "answers": [
+        "Chris Hemsworth",
+        "Chris Evans",
+        "Robert Downey Jr.",
+        "Mark Ruffalo"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=500"
+    },
+    {
+      "question": "Which animated movie features a fish named Nemo?",
+      "answers": [
+        "Shark Tale",
+        "Finding Nemo",
+        "Moana",
+        "Inside Out"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 1,
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=500"
+    },
+    {
+      "question": "In which Star Wars movie does Darth Vader say 'I am your father'?",
+      "answers": [
+        "A New Hope",
+        "The Empire Strikes Back",
+        "Return of the Jedi",
+        "The Force Awakens"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=500"
+    },
+    {
+      "question": "Which superhero team features characters like Wonder Woman, Superman, and Batman?",
+      "answers": [
+        "Guardians of the Galaxy",
+        "Avengers",
+        "Justice League",
+        "Fantastic Four"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1611604548018-d56bbd85d681?w=500"
+    },
+    {
+      "question": "In the movie 'The Avengers', what is the name of Thor's hammer?",
+      "answers": [
+        "Midget",
+        "Mjolnir",
+        "Stormbreaker",
+        "Frost Giant"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?w=500"
+    },
+    {
+      "question": "Which actor plays James Bond in the latest Bond movies?",
+      "answers": [
+        "Pierce Brosnan",
+        "Roger Moore",
+        "Daniel Craig",
+        "Sean Connery"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=500"
+    },
+    {
+      "question": "What is the highest-grossing movie of all time (not adjusted for inflation)?",
+      "answers": [
+        "Avengers: Endgame",
+        "Titanic",
+        "Avatar",
+        "Black Panther"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500"
+    },
+    {
+      "question": "In which movie does Leonardo DiCaprio win his first Oscar?",
+      "answers": [
+        "The Revenant",
+        "Titanic",
+        "Blood Diamond",
+        "The Wolf of Wall Street"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=500"
+    },
+    {
+      "question": "Which 1990s movie features two robots that were sent back in time?",
+      "answers": [
+        "Back to the Future",
+        "Terminator 3",
+        "The Matrix",
+        "Jurassic Park"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500"
+    }
+  ]
+}

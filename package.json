@@ -1,5 +1,5 @@
 {
-  "name": "rahoot",
+  "name": "adhyayan",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,9 @@
     "socket": "node ./socket/index.js",
     "all": "npm run build && concurrently --kill-others \"npm run start\" \"npm run socket\"",
     "all-dev": "concurrently --kill-others \"npm run dev\" \"npm run socket\"",
-    "lint": "next lint"
+    "lint": "next lint",
+    "import-quiz": "node scripts/import-quiz.js",
+    "bulk-import": "node scripts/bulk-import-quiz.js"
   },
   "dependencies": {
     "clsx": "^2.1.0",

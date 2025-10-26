@@ -16,15 +16,15 @@ export default function QuizSelector({ onNext }) {
 
   // Flatten quizzes for selection
   const quizzes = []
-  Object.entries(availableQuizzes).forEach(([subject, classes]) => {
-    Object.entries(classes).forEach(([cls, chapters]) => {
-      chapters.forEach(chapter => {
+  Object.entries(availableQuizzes).forEach(([genre, topics]) => {
+    Object.entries(topics).forEach(([topic, quizNames]) => {
+      quizNames.forEach(quizName => {
         quizzes.push({
-          id: `${subject}-${cls}-${chapter}`,
-          subject,
-          class: cls,
-          chapter,
-          label: `${subject} ${cls} - ${chapter}`
+          id: `${genre}-${topic}-${quizName}`,
+          genre,
+          topic,
+          quizName,
+          label: `${genre.charAt(0).toUpperCase() + genre.slice(1)} > ${topic.charAt(0).toUpperCase() + topic.slice(1)} > ${quizName.replace(/_/g, ' ')}`
         })
       })
     })
@@ -37,9 +37,9 @@ export default function QuizSelector({ onNext }) {
   const handleConfirm = () => {
     if (!selectedQuiz) return
     socket.emit("manager:selectQuiz", {
-      subject: selectedQuiz.subject,
-      class: selectedQuiz.class,
-      chapter: selectedQuiz.chapter
+      genre: selectedQuiz.genre,
+      topic: selectedQuiz.topic,
+      quizName: selectedQuiz.quizName
     })
   }
 

@@ -1,0 +1,135 @@
+{
+  "genre": "entertainment",
+  "topic": "movies",
+  "quizName": "animated_movies",
+  "difficulty": 2,
+  "pointsMultiplier": 1,
+  "questions": [
+    {
+      "question": "In Pixar's 'Up', what is the name of the elderly widower?",
+      "answers": [
+        "Charles Muntz",
+        "Russell",
+        "Carl Fredricksen",
+        "Dug"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1593493403212-0453b5e40854?w=500&auto=format"
+    },
+    {
+      "question": "What is the name of the kingdom in Disney's 'Frozen'?",
+      "answers": [
+        "Arendelle",
+        "Corona",
+        "DunBroch",
+        "Motunui"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1608479367204-58a1835d64b1?w=500&auto=format"
+    },
+    {
+      "question": "Which Studio Ghibli film features a friendly forest spirit called 'Totoro'?",
+      "answers": [
+        "Spirited Away",
+        "Princess Mononoke",
+        "Howl's Moving Castle",
+        "My Neighbor Totoro"
+      ],
+      "solution": 3,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": null
+    },
+    {
+      "question": "In DreamWorks' 'Shrek', what kind of creature is Shrek's talkative companion?",
+      "answers": [
+        "A dragon",
+        "A gingerbread man",
+        "A donkey",
+        "A puss in boots"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 1,
+      "image": null
+    },
+    {
+      "question": "What is the name of the main character in 'Spider-Man: Into the Spider-Verse'?",
+      "answers": [
+        "Peter Parker",
+        "Miles Morales",
+        "Gwen Stacy",
+        "Peni Parker"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=500&auto=format"
+    },
+    {
+      "question": "In 'Finding Nemo', what type of fish is Nemo?",
+      "answers": [
+        "A tang",
+        "A shark",
+        "A clownfish",
+        "A pufferfish"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 1,
+      "image": "https://images.unsplash.com/photo-1535836830500-7815adfac28a?w=500&auto=format"
+    },
+    {
+      "question": "In 'The Lion King', who are Simba's two main sidekicks?",
+      "answers": [
+        "Zazu and Rafiki",
+        "Timon and Pumbaa",
+        "Shenzi and Banzai",
+        "Mufasa and Sarabi"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 1,
+      "image": null
+    },
+    {
+      "question": "What food is Remy the rat passionate about in 'Ratatouille'?",
+      "answers": [
+        "Cheese",
+        "Bread",
+        "Cooking (in general)",
+        "Grapes"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": null
+    },
+    {
+      "question": "Which emotion is NOT a character in Pixar's 'Inside Out'?",
+      "answers": [
+        "Joy",
+        "Sadness",
+        "Surprise",
+        "Fear"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1518395689723-a620e2088f1c?w=500&auto=format"
+    }
+  ]
+}

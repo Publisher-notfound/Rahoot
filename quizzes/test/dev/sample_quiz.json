@@ -1,0 +1,121 @@
+{
+  "genre": "test",
+  "topic": "dev",
+  "quizName": "sample_quiz",
+  "difficulty": 1,
+  "pointsMultiplier": 1,
+  "questions": [
+    {
+      "question": "What is 1 + 1?",
+      "answers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 1,
+      "image": null
+    },
+    {
+      "question": "What color is the sky on a clear day?",
+      "answers": [
+        "Green",
+        "Red",
+        "Blue",
+        "Purple"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 1,
+      "image": "https://images.unsplash.com/photo-1500356536417-1f76a5113110?w=500&auto=format"
+    },
+    {
+      "question": "What is the capital of France?",
+      "answers": [
+        "London",
+        "Berlin",
+        "Madrid",
+        "Paris"
+      ],
+      "solution": 3,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 1,
+      "image": "https://images.unsplash.com/photo-1431274175161-c93d226068b5?w=500&auto=format"
+    },
+    {
+      "question": "How many days are in a week?",
+      "answers": [
+        "7",
+        "5",
+        "10",
+        "30"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 1,
+      "image": null
+    },
+    {
+      "question": "Which animal says 'Meow'?",
+      "answers": [
+        "Dog",
+        "Cat",
+        "Cow",
+        "Duck"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 1,
+      "image": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?w=500&auto=format"
+    },
+    {
+      "question": "What is the opposite of 'Hot'?",
+      "answers": [
+        "Warm",
+        "Spicy",
+        "Cold",
+        "Fire"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 1,
+      "image": null
+    },
+    {
+      "question": "What letter comes after 'A'?",
+      "answers": [
+        "Z",
+        "C",
+        "B",
+        "D"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 1,
+      "image": null
+    },
+    {
+      "question": "Is this a test question?",
+      "answers": [
+        "Yes",
+        "No",
+        "Maybe",
+        "I don't know"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 1,
+      "image": null
+    }
+  ]
+}

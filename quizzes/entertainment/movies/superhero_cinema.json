@@ -1,0 +1,135 @@
+{
+  "genre": "entertainment",
+  "topic": "movies",
+  "quizName": "superhero_cinema",
+  "difficulty": 3,
+  "pointsMultiplier": 1,
+  "questions": [
+    {
+      "question": "What is the name of Thor's enchanted hammer?",
+      "answers": [
+        "Stormbreaker",
+        "Mjolnir",
+        "Gungnir",
+        "Excalibur"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1582235280824-f5f8a7d5b888?w=500&auto=format"
+    },
+    {
+      "question": "How many Infinity Stones are there in the Marvel Cinematic Universe?",
+      "answers": [
+        "Five",
+        "Six",
+        "Seven",
+        "Eight"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 1,
+      "image": "https://images.unsplash.com/photo-1561026364-9043d83842a2?w=500&auto=format"
+    },
+    {
+      "question": "Who is the main villain in 'The Dark Knight'?",
+      "answers": [
+        "Bane",
+        "Ra's al Ghul",
+        "The Joker",
+        "Two-Face"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": null
+    },
+    {
+      "question": "What is Wonder Woman's real name?",
+      "answers": [
+        "Lois Lane",
+        "Selina Kyle",
+        "Natasha Romanoff",
+        "Diana Prince"
+      ],
+      "solution": 3,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": null
+    },
+    {
+      "question": "In 'Avengers: Endgame', who snaps their fingers to bring everyone back?",
+      "answers": [
+        "Iron Man",
+        "Captain America",
+        "Thor",
+        "Hulk"
+      ],
+      "solution": 3,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": null
+    },
+    {
+      "question": "What metal is Wolverine's skeleton bonded with?",
+      "answers": [
+        "Vibranium",
+        "Adamantium",
+        "Uru",
+        "Titanium"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1620336049281-37085b413155?w=500&auto=format"
+    },
+    {
+      "question": "What is the name of the fictional African nation in 'Black Panther'?",
+      "answers": [
+        "Sokovia",
+        "Genosha",
+        "Wakanda",
+        "Madripoor"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 1,
+      "image": "https://images.unsplash.com/photo-1555507036-03c0086a83d1?w=500&auto=format"
+    },
+    {
+      "question": "In 'Batman v Superman', what name do their mothers share?",
+      "answers": [
+        "Mary",
+        "Elizabeth",
+        "Sarah",
+        "Martha"
+      ],
+      "solution": 3,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 2,
+      "image": null
+    },
+    {
+      "question": "Which DC film features the team 'Task Force X'?",
+      "answers": [
+        "Justice League",
+        "Suicide Squad",
+        "Birds of Prey",
+        "Watchmen"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": null
+    }
+  ]
+}

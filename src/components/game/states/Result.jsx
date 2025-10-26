@@ -5,8 +5,27 @@ import { usePlayerContext } from "@/context/player"
 import { useEffect } from "react"
 import useSound from "use-sound"
 
-const correctMessages = ["Wow impressive!", "Brilliant!", "Excellent!", "Smart move!", "Well done!", "Awesome!"]
-const wrongMessages = ["Better luck next time!", "Nice try!", "Try again!", "Keep practicing!", "Close one!"]
+const correctMessages = [
+  "Outstanding! 🎉", 
+  "Brilliant work! ⭐", 
+  "Perfect! 💯", 
+  "Excellent choice! 🏆", 
+  "You nailed it! 🎯", 
+  "Impressive! 🌟",
+  "Spot on! ✨",
+  "Fantastic! 🚀"
+]
+
+const wrongMessages = [
+  "Almost there! 💪", 
+  "Good effort! 📚", 
+  "Keep learning! 🎓", 
+  "You're improving! 📈", 
+  "Don't give up! 🌱",
+  "Learning moment! 💡",
+  "Try the next one! ⚡",
+  "Stay curious! 🔍"
+]
 
 export default function Result({
   data: { correct, message, points, myPoints, totalPlayer, rank, aheadOfMe },
@@ -41,7 +60,9 @@ export default function Result({
       </h2>
       <p className="mt-1 text-xl font-bold text-white drop-shadow-lg">
         {totalPlayer === 1
-          ? "Keep practicing!"
+          ? correct 
+            ? "You're on fire! 🔥" 
+            : "Every mistake is progress! 📖"
           : `You are top ${rank}` + (aheadOfMe ? ", behind " + aheadOfMe : "")
         }
       </p>

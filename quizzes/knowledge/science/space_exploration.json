@@ -1,0 +1,121 @@
+{
+  "genre": "knowledge",
+  "topic": "science",
+  "quizName": "space_exploration",
+  "difficulty": 3,
+  "pointsMultiplier": 1,
+  "questions": [
+    {
+      "question": "Who was the first human to walk on the Moon?",
+      "answers": [
+        "Buzz Aldrin",
+        "Yuri Gagarin",
+        "Neil Armstrong",
+        "Michael Collins"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1454789548928-9efd52dc4031?w=500&auto=format"
+    },
+    {
+      "question": "What is the name of NASA's most powerful space telescope, launched in 2021?",
+      "answers": [
+        "Hubble Space Telescope",
+        "James Webb Space Telescope",
+        "Kepler Space Telescope",
+        "Chandra X-ray Observatory"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1641391503196-8c775314a921?w=500&auto=format"
+    },
+    {
+      "question": "Which planet is known as the 'Red Planet'?",
+      "answers": [
+        "Venus",
+        "Mars",
+        "Jupiter",
+        "Saturn"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 1,
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=500&auto=format"
+    },
+    {
+      "question": "What NASA mission first landed humans on the Moon?",
+      "answers": [
+        "Apollo 11",
+        "Gemini 7",
+        "Mercury-Redstone 3",
+        "Voyager 1"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 2,
+      "image": null
+    },
+    {
+      "question": "What is the name of the first artificial satellite, launched by the Soviet Union in 1957?",
+      "answers": [
+        "Explorer 1",
+        "Vostok 1",
+        "Sputnik 1",
+        "Luna 1"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 18,
+      "difficulty": 4,
+      "image": null
+    },
+    {
+      "question": "Who is the founder of the private space exploration company SpaceX?",
+      "answers": [
+        "Jeff Bezos",
+        "Richard Branson",
+        "Bill Gates",
+        "Elon Musk"
+      ],
+      "solution": 3,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1631771967237-f864c3d31d36?w=500&auto=format"
+    },
+    {
+      "question": "What is the name of the rover that successfully landed on Mars in 2021?",
+      "answers": [
+        "Curiosity",
+        "Opportunity",
+        "Perseverance",
+        "Sojourner"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": null
+    },
+    {
+      "question": "What is a 'light-year'?",
+      "answers": [
+        "A unit of time",
+        "The speed of light",
+        "The distance light travels in one year",
+        "The time it takes to travel to the nearest star"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": null
+    }
+  ]
+}

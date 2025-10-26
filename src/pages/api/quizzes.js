@@ -7,24 +7,32 @@ function getAvailableQuizzes() {
 
   if (!fs.existsSync(quizzesDir)) return quizzes;
 
-  const subjects = fs.readdirSync(quizzesDir, { withFileTypes: true })
+  const genres = fs.readdirSync(quizzesDir, { withFileTypes: true })
     .filter(dirent => dirent.isDirectory())
     .map(dirent => dirent.name);
 
-  subjects.forEach(subject => {
-    quizzes[subject] = {};
-    const subjectDir = path.join(quizzesDir, subject);
-    const classes = fs.readdirSync(subjectDir, { withFileTypes: true })
+  genres.forEach(genre => {
+    quizzes[genre] = {};
+    const genreDir = path.join(quizzesDir, genre);
+    
+    if (!fs.existsSync(genreDir)) return;
+    
+    const topics = fs.readdirSync(genreDir, { withFileTypes: true })
       .filter(dirent => dirent.isDirectory())
       .map(dirent => dirent.name);
 
-    classes.forEach(cls => {
-      quizzes[subject][cls] = [];
-      const classDir = path.join(subjectDir, cls);
-      const chapters = fs.readdirSync(classDir)
+    topics.forEach(topic => {
+      quizzes[genre][topic] = [];
+      const topicDir = path.join(quizzesDir, genre, topic);
+      
+      if (!fs.existsSync(topicDir)) return;
+      
+      // Get all .json files in the topic directory
+      const quizFiles = fs.readdirSync(topicDir)
         .filter(file => file.endsWith('.json'))
         .map(file => file.replace('.json', ''));
-      quizzes[subject][cls] = chapters;
+      
+      quizzes[genre][topic] = quizFiles;
     });
   });
 

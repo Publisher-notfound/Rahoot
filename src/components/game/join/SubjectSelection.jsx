@@ -6,33 +6,40 @@ export default function SubjectSelection({ onNext, onBack }) {
   const { player, dispatch } = useContext(PlayerContext)
   const [selectedSubject, setSelectedSubject] = useState(player?.subject || "")
 
-  // For now, hardcoded subjects. Later, can be loaded from config
-  const subjects = [
-    {
-      id: "mathematics",
-      name: "Mathematics",
-      desc: "Numbers, algebra, geometry",
-      difficulty: 1.0
-    },
-    {
-      id: "physics",
-      name: "Physics",
-      desc: "Mechanics, electricity, optics",
-      difficulty: 1.2
-    },
-    {
-      id: "chemistry",
-      name: "Chemistry",
-      desc: "Organic, inorganic, physical",
-      difficulty: 1.2
-    },
-    {
-      id: "biology",
-      name: "Biology",
-      desc: "Genetics, ecology, physiology",
-      difficulty: 0.9
-    },
-  ]
+  // Dynamic topics based on selected genre (player.class)
+  const getSubjectsForGenre = (genre) => {
+    switch (genre) {
+      case "entertainment":
+        return [
+          { id: "movies", name: "Movies & Cinema", desc: "Hollywood, Bollywood, Blockbusters" },
+          { id: "music", name: "Music & Artists", desc: "Songs, Albums, K-Pop, Indie" },
+          { id: "tv_shows", name: "TV Shows & Series", desc: "Netflix, Netflixflix, Dramas, Sitcoms" },
+          { id: "gaming", name: "Gaming & Esports", desc: "Mobile Games, Esports, Console" },
+        ]
+      case "knowledge":
+        return [
+          { id: "history", name: "History & Timelines", desc: "Ancient, Modern, Inventions" },
+          { id: "science", name: "Science & Innovations", desc: "Physics, Biology, Tech" },
+          { id: "geography", name: "Geography & World Facts", desc: "Countries, Continents, Places" },
+          { id: "current_affairs", name: "Current Affairs", desc: "News, Politics, Viral Events" },
+        ]
+      case "fun_trivia":
+        return [
+          { id: "riddles", name: "Riddles & Logic", desc: "Brain Teasers, Puzzles" },
+          { id: "memes", name: "Meme Culture", desc: "Viral Memes, Trends" },
+          { id: "puzzles", name: "Puzzles & Challenges", desc: "Trivia, Online Challenges" },
+          { id: "life_hacks", name: "Life Hacks", desc: "Daily Tips, Funny Hacks" },
+        ]
+      case "test":
+        return [
+          { id: "dev", name: "Developer Test", desc: "Quick test quiz" },
+        ]
+      default:
+        return []
+    }
+  }
+
+  const subjects = getSubjectsForGenre(player?.class)
 
   const handleSelect = (subj) => {
     setSelectedSubject(subj.id)
@@ -47,7 +54,7 @@ export default function SubjectSelection({ onNext, onBack }) {
   return (
     <section className="relative mx-auto flex w-full max-w-2xl flex-1 flex-col items-center justify-center px-2">
       <h1 className="mb-6 text-4xl font-bold text-white drop-shadow-md">
-        Choose Your Subject
+        Choose Your Topic
       </h1>
       <div className="grid w-full max-w-lg grid-cols-1 gap-4">
         {subjects.map((subj) => (

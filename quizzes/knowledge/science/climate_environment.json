@@ -1,0 +1,121 @@
+{
+  "genre": "knowledge",
+  "topic": "science",
+  "quizName": "climate_environment",
+  "difficulty": 3,
+  "pointsMultiplier": 1,
+  "questions": [
+    {
+      "question": "What is the primary gas responsible for the greenhouse effect and global warming?",
+      "answers": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon Dioxide (CO2)",
+        "Methane"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1521295121783-8a321d551ad2?w=500&auto=format"
+    },
+    {
+      "question": "The 'Paris Agreement' is a global treaty aimed at limiting...",
+      "answers": [
+        "Plastic pollution",
+        "Deforestation",
+        "Global warming",
+        "Overfishing"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": null
+    },
+    {
+      "question": "What does the Earth's Ozone Layer protect us from?",
+      "answers": [
+        "Meteorites",
+        "Ultraviolet (UV) radiation",
+        "Solar winds",
+        "Acid rain"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1567006842602-a0d01ab0bda6?w=500&auto=format"
+    },
+    {
+      "question": "What is 'biodiversity'?",
+      "answers": [
+        "The study of biology",
+        "A type of renewable energy",
+        "The variety of life in an ecosystem",
+        "A method of recycling"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": null
+    },
+    {
+      "question": "Which of these is a non-renewable energy source?",
+      "answers": [
+        "Solar power",
+        "Wind power",
+        "Coal",
+        "Geothermal energy"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1498661705881-600fde8b1def?w=500&auto=format"
+    },
+    {
+      "question": "What is the term for the long-term shift in global weather patterns?",
+      "answers": [
+        "The weather",
+        "A hurricane",
+        "An earthquake",
+        "Climate change"
+      ],
+      "solution": 3,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 1,
+      "image": null
+    },
+    {
+      "question": "What is the '3 R' mantra for waste management?",
+      "answers": [
+        "Reduce, Reuse, Recycle",
+        "Rewind, Replay, Record",
+        "Read, Write, Reteach",
+        "Run, Rest, Repeat"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 1,
+      "image": "https://images.unsplash.com/photo-1532996122724-e3c35414b175?w=500&auto=format"
+    },
+    {
+      "question": "What popular environmental activist is known for the 'Fridays for Future' movement?",
+      "answers": [
+        "Greta Thunberg",
+        "Leonardo DiCaprio",
+        "Al Gore",
+        "Jane Goodall"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": null
+    }
+  ]
+}

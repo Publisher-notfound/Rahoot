@@ -1,0 +1,121 @@
+{
+  "genre": "fun_trivia",
+  "topic": "memes",
+  "quizName": "internet_classics",
+  "difficulty": 2,
+  "pointsMultiplier": 1,
+  "questions": [
+    {
+      "question": "Which 1987 song is famously used for 'Rickrolling'?",
+      "answers": [
+        "\"Take On Me\" by A-ha",
+        "\"Never Gonna Give You Up\" by Rick Astley",
+        "\"Africa\" by Toto",
+        "\"Don't Stop Believin'\" by Journey"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1567017438138-03b60dec1f58?w=500&auto=format"
+    },
+    {
+      "question": "What phrase is most associated with the 'Doge' meme?",
+      "answers": [
+        "\"I can has cheezburger?\"",
+        "\"Much wow, such grammar\"",
+        "\"This is fine\"",
+        "\"Hello darkness, my old friend\""
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1517423568366-8b83523034fd?w=500&auto=format"
+    },
+    {
+      "question": "The 'Distracted Boyfriend' meme features a man looking at another woman while his girlfriend looks at him in...",
+      "answers": [
+        "Confusion",
+        "Amusement",
+        "Disgust",
+        "Agreement"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 1,
+      "image": "https://images.unsplash.com/photo-1542360288-19c2dc82c5f1?w=500&auto=format"
+    },
+    {
+      "question": "The 2011 song 'Friday' was a viral hit for which artist?",
+      "answers": [
+        "Justin Bieber",
+        "Katy Perry",
+        "Rebecca Black",
+        "Carly Rae Jepsen"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 2,
+      "image": null
+    },
+    {
+      "question": "What animal is 'Grumpy Cat' (real name Tardar Sauce)?",
+      "answers": [
+        "A dog",
+        "A cat",
+        "A rabbit",
+        "A hamster"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 1,
+      "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=500&auto=format"
+    },
+    {
+      "question": "The 'Success Kid' meme features a baby on a beach doing what?",
+      "answers": [
+        "Crying",
+        "Clenching a fist full of sand",
+        "Building a sandcastle",
+        "Sleeping"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 2,
+      "image": null
+    },
+    {
+      "question": "What flavor is the 'Nyan Cat' pop-tart body?",
+      "answers": [
+        "Strawberry",
+        "Chocolate",
+        "Blueberry",
+        "Rainbow"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 18,
+      "difficulty": 3,
+      "image": null
+    },
+    {
+      "question": "What was the 'Harlem Shake'?",
+      "answers": [
+        "A dance craze from the 1980s",
+        "A viral video trend from 2013",
+        "A type of milkshake",
+        "A social media challenge to help charities"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?w=500&auto=format"
+    }
+  ]
+}

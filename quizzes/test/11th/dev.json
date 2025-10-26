@@ -1,0 +1,23 @@
+{
+  "subject": "Test",
+  "chapter": "Developer Test",
+  "class": "11th",
+  "difficulty": 1,
+  "pointsMultiplier": 1.0,
+  "questions": [
+    {
+      "question": "What is the scientific process of assigning a standardized name to an organism?",
+      "answers": [
+        "Identification",
+        "Nomenclature",
+        "Classification",
+        "Taxonomy"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 1,
+      "image": ""
+    }
+  ]
+}

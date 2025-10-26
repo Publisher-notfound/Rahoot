@@ -2,13 +2,15 @@ import Button from "../../Button.jsx"
 import { useContext, useState, useEffect } from "react"
 import { PlayerContext } from "../../../context/player.jsx"
 
-export default function ClassSelection({ onNext }) {
+export default function ClassSelection({ onNext, onBack }) {
   const { player, dispatch } = useContext(PlayerContext)
   const [selectedClass, setSelectedClass] = useState(player?.class || "")
 
   const classes = [
-    { id: "11th", name: "11th Grade", desc: "Class XI" },
-    { id: "12th", name: "12th Grade", desc: "Class XII" },
+    { id: "entertainment", name: "Entertainment", desc: "Movies, Music, TV, Gaming & Pop Culture" },
+    { id: "knowledge", name: "Knowledge", desc: "History, Science, Geography, Current Affairs" },
+    { id: "fun_trivia", name: "Fun & Trivia", desc: "Riddles, Memes, Puzzles, Internet Challenges" },
+    { id: "test", name: "Test", desc: "Developer mode (quick quiz)" },
   ]
 
   const handleSelect = (cls) => {
@@ -24,7 +26,7 @@ export default function ClassSelection({ onNext }) {
   return (
     <section className="relative mx-auto flex w-full max-w-2xl flex-1 flex-col items-center justify-center px-2">
       <h1 className="mb-6 text-4xl font-bold text-white drop-shadow-md">
-        Choose Your Class
+        Choose Your Genre
       </h1>
       <div className="grid w-full max-w-lg grid-cols-1 gap-4">
         {classes.map((cls) => (
@@ -42,13 +44,16 @@ export default function ClassSelection({ onNext }) {
           </button>
         ))}
       </div>
-      <Button
-        className="mt-8"
-        disabled={!selectedClass}
-        onClick={handleNext}
-      >
-        Next
-      </Button>
+      <div className="mt-8 flex gap-4">
+        {onBack && (
+          <Button onClick={onBack} variant="secondary">
+            Back
+          </Button>
+        )}
+        <Button disabled={!selectedClass} onClick={handleNext}>
+          Next
+        </Button>
+      </div>
     </section>
   )
 }

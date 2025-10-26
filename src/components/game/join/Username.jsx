@@ -32,14 +32,22 @@ export default function Username() {
     // Load available quizzes on mount
     fetch('/api/quizzes')
       .then(res => res.json())
-      .then(data => setAvailableQuizzes(data))
+      .then(data => {
+        console.log('Loaded quizzes:', data)
+        setAvailableQuizzes(data)
+      })
       .catch(err => console.error('Failed to load quizzes:', err))
   }, [])
 
   const handleJoin = () => {
     if (!player.room) {
       // Create room for solo mode
-      socket.emit("player:createSolo", { subject: player.subject, class: player.class, chapter: player.chapter })
+      console.log('Creating solo room with:', { genre: player.class, topic: player.subject, quizName: player.chapter })
+      if (!player.class || !player.subject || !player.chapter) {
+        console.error('Missing required quiz info:', { class: player.class, subject: player.subject, chapter: player.chapter })
+        return
+      }
+      socket.emit("player:createSolo", { genre: player.class, topic: player.subject, quizName: player.chapter })
     } else {
       socket.emit("player:join", { username: username, room: player.room })
     }
@@ -113,7 +121,8 @@ export default function Username() {
 
   useEffect(() => {
     if (player?.subject && player?.class) {
-      const chapters = availableQuizzes[player.subject]?.[player.class] || []
+      const chapters = availableQuizzes[player.class]?.[player.subject] || []
+      console.log('Available chapters for', player.class, '/', player.subject, ':', chapters)
       setAvailableChapters(chapters)
     }
   }, [player?.subject, player?.class, availableQuizzes])
@@ -132,7 +141,7 @@ export default function Username() {
   }
 
   if (currentStep === STEPS.CLASS) {
-    return <ClassSelection onNext={handleClassNext} />
+    return <ClassSelection onNext={handleClassNext} onBack={() => { dispatch({ type: "LOGOUT" }); router.replace("/") }} />
   }
 
   if (currentStep === STEPS.SUBJECT) {

@@ -13,10 +13,11 @@ export default function Leaderboard({ data: { leaderboard } }) {
 
   return (
     <section className="relative mx-auto flex w-full max-w-7xl flex-1 flex-col items-center justify-center px-2">
+      <Button onClick={handleMainMenu} className="fixed top-4 right-4 z-20">Main Menu</Button>
       <h2 className="mb-6 text-5xl font-bold text-white drop-shadow-md">
         Leaderboard
       </h2>
-      <div className="flex w-full flex-col gap-2 mb-8">
+      <div className="flex w-full flex-col gap-2">
         {leaderboard.map(({ username, points }, key) => (
           <div
             key={key}
@@ -27,7 +28,6 @@ export default function Leaderboard({ data: { leaderboard } }) {
           </div>
         ))}
       </div>
-      <Button onClick={handleMainMenu}>Main Menu</Button>
     </section>
   )
 }

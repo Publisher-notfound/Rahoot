@@ -1,0 +1,121 @@
+{
+  "genre": "entertainment",
+  "topic": "movies",
+  "quizName": "hollywood_blockbusters",
+  "difficulty": 3,
+  "pointsMultiplier": 1,
+  "questions": [
+    {
+      "question": "Which 2019 film was the first non-English language movie to win the Academy Award for Best Picture?",
+      "answers": [
+        "Roma",
+        "Parasite",
+        "Amour",
+        "Crouching Tiger, Hidden Dragon"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1596207891334-367d353d7c80?w=500&auto=format"
+    },
+    {
+      "question": "Who directed the 2023 blockbuster film 'Oppenheimer'?",
+      "answers": [
+        "Martin Scorsese",
+        "Denis Villeneuve",
+        "Christopher Nolan",
+        "Greta Gerwig"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1620248742880-9280d5d6d6c9?w=500&auto=format"
+    },
+    {
+      "question": "What is the name of the valuable spice central to the plot of the 'Dune' franchise?",
+      "answers": [
+        "Vibranium",
+        "Unobtanium",
+        "Kryptonite",
+        "Melange"
+      ],
+      "solution": 3,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": null
+    },
+    {
+      "question": "In the 2023 'Barbie' movie, where do Barbie and Ken travel to from Barbie Land?",
+      "answers": [
+        "The Real World",
+        "Narnia",
+        "The Matrix",
+        "Wonderland"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1690180479789-f5380d3d5f8a?w=500&auto=format"
+    },
+    {
+      "question": "Which film briefly overtook 'Avatar' as the highest-grossing film of all time?",
+      "answers": [
+        "Star Wars: The Force Awakens",
+        "Titanic",
+        "Avengers: Endgame",
+        "Spider-Man: No Way Home"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": null
+    },
+    {
+      "question": "Who plays the main antagonist, Feyd-Rautha, in 'Dune: Part Two' (2024)?",
+      "answers": [
+        "Timothée Chalamet",
+        "Tom Holland",
+        "Adam Driver",
+        "Austin Butler"
+      ],
+      "solution": 3,
+      "cooldown": 5,
+      "time": 18,
+      "difficulty": 4,
+      "image": null
+    },
+    {
+      "question": "What is the highest-grossing R-rated film of all time?",
+      "answers": [
+        "Deadpool",
+        "Joker",
+        "The Matrix Reloaded",
+        "It"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1570816921381-e3f35084313f?w=500&auto=format"
+    },
+    {
+      "question": "Which of these actors has NOT played 'Spider-Man' in a major live-action film?",
+      "answers": [
+        "Tobey Maguire",
+        "Andrew Garfield",
+        "Jake Gyllenhaal",
+        "Tom Holland"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 2,
+      "image": null
+    }
+  ]
+}

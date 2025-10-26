@@ -1,0 +1,79 @@
+{
+  "genre": "entertainment",
+  "topic": "movies",
+  "quizName": "bollywood_classics",
+  "difficulty": 3,
+  "pointsMultiplier": 1.0,
+  "questions": [
+    {
+      "question": "Which actor is known as the 'King of Bollywood'?",
+      "answers": [
+        "Amitabh Bachchan",
+        "Shah Rukh Khan", 
+        "Salman Khan",
+        "Aamir Khan"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=500"
+    },
+    {
+      "question": "In which movie did Raj and Simran become iconic characters?",
+      "answers": [
+        "Kuch Kuch Hota Hai",
+        "Kabhi Khushi Kabhie Gham",
+        "Dilwale Dulhania Le Jayenge",
+        "My Name is Khan"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1489599735734-79b4fc8c4c8a?w=500"
+    },
+    {
+      "question": "Which Bollywood movie won the Academy Award for Best Foreign Language Film?",
+      "answers": [
+        "Lagaan",
+        "Slumdog Millionaire",
+        "3 Idiots",
+        "None of the above"
+      ],
+      "solution": 3,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 4,
+      "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500"
+    },
+    {
+      "question": "Who directed the movie 'Sholay'?",
+      "answers": [
+        "Yash Chopra",
+        "Ramesh Sippy",
+        "Raj Kapoor",
+        "Guru Dutt"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=500"
+    },
+    {
+      "question": "Which actress is known as the 'Dream Girl' of Bollywood?",
+      "answers": [
+        "Madhuri Dixit",
+        "Sridevi",
+        "Hema Malini",
+        "Rekha"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=500"
+    }
+  ]
+}

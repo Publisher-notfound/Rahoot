@@ -12,9 +12,6 @@ export function playerReducer(state, action) {
           ...state.player,
           username: action.payload,
           points: 0,
-          class: null,
-          subject: null,
-          chapter: null,
         },
       }
     case "SET_CLASS":

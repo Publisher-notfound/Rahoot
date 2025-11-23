@@ -57,7 +57,13 @@ node scripts/bulk-import-quiz.js your-quiz-array.json
       "cooldown": 5,
       "time": 15,
       "difficulty": 2,
-      "image": "https://images.unsplash.com/photo-1234567890?w=500"
+      "image": "https://images.unsplash.com/photo-1234567890?w=500",
+      "category": "Directors",
+      "learningResources": {
+        "studyTip": "Focus on major blockbuster directors of the 1990s",
+        "reference": "Study James Cameron's filmography including Terminator, Aliens, and Avatar",
+        "relatedTopics": ["1990s Cinema", "Blockbuster Films", "Academy Award Winners"]
+      }
     }
   ]
 }
@@ -82,6 +88,8 @@ node scripts/bulk-import-quiz.js your-quiz-array.json
 - `difficulty`: Quiz difficulty (1-5)
 - `pointsMultiplier`: Scoring multiplier
 - `image`: Image URL for questions (optional, use Unsplash or other image hosting)
+- `category`: Question category for grouping analysis (e.g., "Directors", "History")
+- `learningResources`: Object containing study materials and tips
 
 ## Available Genres & Topics
 

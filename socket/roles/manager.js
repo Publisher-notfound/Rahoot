@@ -3,6 +3,7 @@ import { abortCooldown, cooldown, sleep } from "../utils/cooldown.js"
 import deepClone from "../utils/deepClone.js"
 import generateRoomId from "../utils/generateRoomId.js"
 import { startRound } from "../utils/round.js"
+import universalLeaderboardModel from "../../src/utils/UniversalLeaderboardModel.js"
 import fs from 'fs'
 import path from 'path'
 
@@ -118,19 +119,68 @@ const Manager = {
   },
 
   showLoaderboard: (game, io, socket) => {
+    console.log("showLoaderboard called - Manager:", game.manager, "Current Question:", game.currentQuestion, "Total Questions:", game.questions?.length)
+
     if (!game.questions[game.currentQuestion + 1]) {
+      console.log("Quiz finished - checking mode. Manager is null?", game.manager === null)
+
       if (game.manager === null) {
-        // Solo mode: show final leaderboard focused on user's position
-        socket.emit("game:status", {
-          name: "SHOW_LEADERBOARD",
-          data: {
-            leaderboard: game.players
-              .sort((a, b) => b.points - a.points),
-          },
-        })
+        // Solo mode: show performance report instead of leaderboard
+        const player = game.players.find(p => p.id === socket.id)
+        console.log("Solo mode - Player found:", !!player, "Player data:", player ? {
+          correctAnswers: player.correctAnswers,
+          totalTime: player.totalTime,
+          answersCount: player.answers?.length
+        } : "No player")
+
+        if (player) {
+          console.log("Sending SHOW_PERFORMANCE_REPORT")
+
+          // Update universal leaderboard
+          const quizName = `${game.selectedQuiz?.quizName || "Unknown Quiz"}`
+          console.log("Updating universal leaderboard - Solo:", player.username, player.points, quizName)
+          const updateResult = universalLeaderboardModel.updatePlayerScore(player.username, player.points, quizName, io)
+          console.log("Universal leaderboard update result:", updateResult ? "SUCCESS" : "FAILED")
+
+          socket.emit("game:status", {
+            name: "SHOW_PERFORMANCE_REPORT",
+            data: {
+              playerStats: {
+                correctAnswers: player.correctAnswers,
+                totalQuestions: game.questions.length,
+                totalTime: player.totalTime,
+                answers: player.answers,
+                finalScore: player.points
+              },
+              quizData: {
+                genre: game.selectedQuiz?.genre || "General",
+                topic: game.selectedQuiz?.topic || "Knowledge",
+                quizName: game.selectedQuiz?.quizName || "Quiz",
+                questions: game.questions
+              }
+            },
+          })
+        } else {
+          console.log("No player found for performance report")
+        }
       } else {
         // Multi-player: show finish podium
-        socket.emit("game:status", {
+        console.log("Multiplayer mode - showing finish podium")
+
+        // Update universal leaderboard for all multiplayer participants
+        const quizName = `${game.selectedQuiz?.quizName || "Unknown Quiz"}`
+        console.log("Updating universal leaderboard - Multiplayer players:", game.players.map(p => `${p.username}:${p.points}`))
+        let updateCount = 0
+        game.players.forEach(player => {
+          if (player.username && player.points > 0) {
+            console.log("Updating player:", player.username, player.points, quizName)
+            const updateResult = universalLeaderboardModel.updatePlayerScore(player.username, player.points, quizName, io)
+            if (updateResult) updateCount++
+          }
+        })
+        console.log(`Universal leaderboard updated for ${updateCount}/${game.players.length} multiplayer players`)
+
+        io.to(game.room).emit("game:status", {
           name: "FINISH",
           data: {
             subject: game.subject,
@@ -142,6 +192,7 @@ const Manager = {
       return
     }
 
+    console.log("Showing intermediate leaderboard")
     socket.emit("game:status", {
       name: "SHOW_LEADERBOARD",
       data: {

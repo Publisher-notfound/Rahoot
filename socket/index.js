@@ -62,7 +62,7 @@ io.on("connection", (socket) => {
       gameState.subject = `${quizData.genre} - ${quizData.quizName}`
       gameState.questions = quizData.questions
       io.to(socket.id).emit("player:soloRoomCreated", soloRoom)
-      console.log(`Solo room created: ${soloRoom}`)
+      console.log(`Solo room created: ${soloRoom}, Manager set to: ${gameState.manager}`)
     } catch (error) {
       io.to(socket.id).emit("game:errorMessage", error.message)
     }
@@ -90,9 +90,10 @@ io.on("connection", (socket) => {
     Manager.nextQuestion(gameState, io, socket),
   )
 
-  socket.on("manager:showLeaderboard", () =>
-    Manager.showLoaderboard(gameState, io, socket),
-  )
+  socket.on("manager:showLeaderboard", () => {
+    console.log("manager:showLeaderboard event received, gameState.manager:", gameState.manager)
+    Manager.showLoaderboard(gameState, io, socket)
+  })
 
   socket.on("disconnect", () => {
     console.log(`user disconnected ${socket.id}`)

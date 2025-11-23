@@ -17,7 +17,8 @@
       "cooldown": 5,
       "time": 15,
       "difficulty": 2,
-      "image": "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=500"
+      "image": "poster of John Wick movie",
+      "resources": ["https://en.wikipedia.org/wiki/John_Wick", "IMDB - John Wick Plot Summary"]
     },
     {
       "question": "Who played the lead role in the Marvel movie 'Iron Man'?",
@@ -31,7 +32,8 @@
       "cooldown": 5,
       "time": 15,
       "difficulty": 2,
-      "image": "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=500"
+      "image": "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=500",
+      "resources": ["https://en.wikipedia.org/wiki/Iron_Man_(film)", "Marvel's Iron Man story summary"]
     },
     {
       "question": "Which animated movie features a fish named Nemo?",
@@ -45,7 +47,8 @@
       "cooldown": 5,
       "time": 15,
       "difficulty": 1,
-      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=500"
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=500",
+      "resources": ["https://en.wikipedia.org/wiki/Finding_Nemo", "Animated movies guide"]
     },
     {
       "question": "In which Star Wars movie does Darth Vader say 'I am your father'?",
@@ -59,7 +62,8 @@
       "cooldown": 5,
       "time": 15,
       "difficulty": 3,
-      "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=500"
+      "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=500",
+      "resources": ["https://en.wikipedia.org/wiki/Star_Wars:_The_Empire_Strikes_Back", "Star Wars complete timeline"]
     },
     {
       "question": "Which superhero team features characters like Wonder Woman, Superman, and Batman?",
@@ -73,7 +77,8 @@
       "cooldown": 5,
       "time": 15,
       "difficulty": 2,
-      "image": "https://images.unsplash.com/photo-1611604548018-d56bbd85d681?w=500"
+      "image": "https://images.unsplash.com/photo-1611604548018-d56bbd85d681?w=500",
+      "resources": ["https://en.wikipedia.org/wiki/Justice_League", "DC Comics heroes guide"]
     },
     {
       "question": "In the movie 'The Avengers', what is the name of Thor's hammer?",
@@ -87,7 +92,8 @@
       "cooldown": 5,
       "time": 15,
       "difficulty": 3,
-      "image": "https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?w=500"
+      "image": "https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?w=500",
+      "resources": ["https://en.wikipedia.org/wiki/Mj%C3%B6lnir", "Marvel weapons and artifacts"]
     },
     {
       "question": "Which actor plays James Bond in the latest Bond movies?",
@@ -101,7 +107,8 @@
       "cooldown": 5,
       "time": 15,
       "difficulty": 2,
-      "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=500"
+      "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=500",
+      "resources": ["https://en.wikipedia.org/wiki/James_Bond_films", "007 filmography"]
     },
     {
       "question": "What is the highest-grossing movie of all time (not adjusted for inflation)?",
@@ -115,7 +122,8 @@
       "cooldown": 5,
       "time": 15,
       "difficulty": 2,
-      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500"
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500",
+      "resources": ["https://en.wikipedia.org/wiki/List_of_highest-grossing_films", "Box Office Mojo - Highest Grossing Films"]
     },
     {
       "question": "In which movie does Leonardo DiCaprio win his first Oscar?",
@@ -129,7 +137,8 @@
       "cooldown": 5,
       "time": 15,
       "difficulty": 3,
-      "image": "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=500"
+      "image": "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=500",
+      "resources": ["https://en.wikipedia.org/wiki/The_Revenant_(2015_film)", "Academy Awards winners list"]
     },
     {
       "question": "Which 1990s movie features two robots that were sent back in time?",
@@ -143,7 +152,8 @@
       "cooldown": 5,
       "time": 15,
       "difficulty": 3,
-      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500"
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500",
+      "resources": ["https://en.wikipedia.org/wiki/Terminator_2:_Judgment_Day", "Classic sci-fi movies"]
     }
   ]
 }

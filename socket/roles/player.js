@@ -51,6 +51,11 @@ const Player = {
       room: player.room,
       id: socket.id,
       points: 0,
+      // Performance tracking
+      answers: [], // Track all answers with timing and correctness
+      startTime: Date.now(),
+      correctAnswers: 0,
+      totalTime: 0
     }
     socket.to(player.room).emit("manager:newPlayer", { ...playerData })
 
@@ -71,15 +76,38 @@ const Player = {
       return
     }
 
+    const answerTime = Date.now()
+    const timeTaken = (answerTime - game.roundStartTime) / 1000 // in seconds
+    const isCorrect = answerKey === question.solution
+    const points = convertTimeToPoint(game.roundStartTime, question.time)
+
+    // Track performance data for analytics
+    player.answers.push({
+      questionIndex: game.currentQuestion,
+      selectedAnswer: answerKey,
+      correctAnswer: question.solution,
+      isCorrect: isCorrect,
+      timeTaken: timeTaken,
+      points: isCorrect ? points : 0,
+      category: question.category || "General",
+      difficulty: question.difficulty || 3
+    })
+
+    if (isCorrect) {
+      player.correctAnswers++
+    }
+    player.totalTime += timeTaken
+
     game.playersAnswer.push({
       id: socket.id,
       answer: answerKey,
-      points: convertTimeToPoint(game.roundStartTime, question.time),
+      points: points,
     })
 
+    const waitText = game.manager === null ? "Processing your answer..." : "Waiting for the players to answer"
     socket.emit("game:status", {
       name: "WAIT",
-      data: { text: "Waiting for the players to answer" },
+      data: { text: waitText },
     })
     socket.to(game.room).emit("game:playerAnswer", game.playersAnswer.length)
 

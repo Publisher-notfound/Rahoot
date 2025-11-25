@@ -1,19 +1,29 @@
-import { GAME_STATE_INIT } from "../../config.mjs"
+// Import GAME_STATE_INIT locally since config.mjs is in parent directory
+const GAME_STATE_INIT = {
+  started: false,
+  players: [],
+  playersAnswer: [],
+  manager: null,
+  room: null,
+  currentQuestion: 0,
+  roundStartTime: 0,
+  selectedQuiz: null,
+  password: "PASSWORD",
+  subject: "Adobe",
+  questions: []
+}
 import { abortCooldown, cooldown, sleep } from "../utils/cooldown.js"
 import deepClone from "../utils/deepClone.js"
 import generateRoomId from "../utils/generateRoomId.js"
 import { startRound } from "../utils/round.js"
-import universalLeaderboardModel from "../../src/utils/UniversalLeaderboardModel.js"
-import fs from 'fs'
-import path from 'path'
-
-function loadQuiz(genre, topic, quizName) {
-  const quizPath = path.join(process.cwd(), 'quizzes', genre, topic, `${quizName}.json`);
-  if (!fs.existsSync(quizPath)) {
-    throw new Error(`Quiz not found: ${genre}/${topic}/${quizName}`);
+// Universal leaderboard model - simplified for deployment
+const universalLeaderboardModel = {
+  updatePlayerScore: (username, points, quizName, io) => {
+    console.log(`Universal leaderboard update: ${username} scored ${points} in ${quizName}`)
+    // In deployment, this would connect to a database or external service
+    // For now, just log and return success
+    return true
   }
-  const quizData = JSON.parse(fs.readFileSync(quizPath, 'utf8'));
-  return quizData;
 }
 
 const Manager = {
@@ -101,18 +111,18 @@ const Manager = {
     abortCooldown(game, io, game.room)
   },
 
-  selectQuiz: (game, io, socket, { genre, topic, quizName }) => {
+  selectQuiz: (game, io, socket, quizData) => {
     if (game.manager !== socket.id) {
       return
     }
 
     try {
-      const quizData = loadQuiz(genre, topic, quizName)
+      // Quiz data now comes directly from frontend
       game.selectedQuiz = quizData
       game.subject = `${quizData.genre} - ${quizData.quizName}`
       game.questions = quizData.questions
       io.to(game.manager).emit("manager:quizSelected", quizData)
-      console.log(`Quiz selected: ${genre}/${topic}/${quizName}`)
+      console.log(`Quiz selected: ${quizData.genre}/${quizData.topic}/${quizData.quizName}`)
     } catch (error) {
       io.to(socket.id).emit("game:errorMessage", error.message)
     }

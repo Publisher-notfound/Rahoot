@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "echo 'No build needed for socket server'"
   },
   "dependencies": {
     "socket.io": "^4.7.4"

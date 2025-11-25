@@ -1,5 +1,18 @@
 import { Server } from "socket.io"
-import { GAME_STATE_INIT } from "../config.mjs"
+// Import GAME_STATE_INIT locally since config.mjs is in parent directory
+const GAME_STATE_INIT = {
+  started: false,
+  players: [],
+  playersAnswer: [],
+  manager: null,
+  room: null,
+  currentQuestion: 0,
+  roundStartTime: 0,
+  selectedQuiz: null,
+  password: "PASSWORD",
+  subject: "Adobe",
+  questions: []
+}
 
 // Use Railway's PORT environment variable or fallback to 5506
 const WEBSOCKET_SERVER_PORT = process.env.PORT || 5506
@@ -8,17 +21,9 @@ import Player from "./roles/player.js"
 import { abortCooldown } from "./utils/cooldown.js"
 import deepClone from "./utils/deepClone.js"
 import generateRoomId from "./utils/generateRoomId.js"
-import fs from 'fs'
-import path from 'path'
+// File system imports removed - quizzes loaded from frontend
 
-function loadQuiz(genre, topic, quizName) {
-  const quizPath = path.join(process.cwd(), 'quizzes', genre, topic, `${quizName}.json`);
-  if (!fs.existsSync(quizPath)) {
-    throw new Error(`Quiz not found: ${genre}/${topic}/${quizName}`);
-  }
-  const quizData = JSON.parse(fs.readFileSync(quizPath, 'utf8'));
-  return quizData;
-}
+// Quiz loading now handled by frontend
 
 let gameState = deepClone(GAME_STATE_INIT)
 
@@ -70,26 +75,22 @@ io.on("connection", (socket) => {
       abortCooldown()
     }
     
-    try {
-      const quizData = loadQuiz(genre, topic, quizName)
-      let soloRoom = generateRoomId()
-      gameState.room = soloRoom
-      gameState.manager = null // no manager for solo
-      gameState.selectedQuiz = quizData
-      gameState.subject = `${quizData.genre} - ${quizData.quizName}`
-      gameState.questions = quizData.questions
-      io.to(socket.id).emit("player:soloRoomCreated", soloRoom)
-      console.log(`Solo room created: ${soloRoom}, Manager set to: ${gameState.manager}`)
-    } catch (error) {
-      io.to(socket.id).emit("game:errorMessage", error.message)
-    }
+    // For solo mode, quiz data comes from frontend
+    let soloRoom = generateRoomId()
+    gameState.room = soloRoom
+    gameState.manager = null // no manager for solo
+    gameState.selectedQuiz = quizInfo // This will be the full quiz data from frontend
+    gameState.subject = `${quizInfo.genre} - ${quizInfo.quizName}`
+    gameState.questions = quizInfo.questions
+    io.to(socket.id).emit("player:soloRoomCreated", soloRoom)
+    console.log(`Solo room created: ${soloRoom}, Manager set to: ${gameState.manager}`)
   })
 
   socket.on("manager:createRoom", (password) =>
     Manager.createRoom(gameState, io, socket, password),
   )
-  socket.on("manager:selectQuiz", (quizInfo) =>
-    Manager.selectQuiz(gameState, io, socket, quizInfo),
+  socket.on("manager:selectQuiz", (quizData) =>
+    Manager.selectQuiz(gameState, io, socket, quizData),
   )
   socket.on("manager:kickPlayer", (playerId) =>
     Manager.kickPlayer(gameState, io, socket, playerId),

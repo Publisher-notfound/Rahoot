@@ -39,14 +39,7 @@ export default function Home() {
             <div className="absolute -left-[15vmin] -top-[15vmin] min-h-[75vmin] min-w-[75vmin] rounded-full bg-primary/15"></div>
             <div className="absolute -bottom-[15vmin] -right-[15vmin] min-h-[75vmin] min-w-[75vmin] rotate-45 bg-primary/15"></div>
           </div>
-          <div className="absolute top-4 right-4">
-            <a 
-              href="/admin" 
-              className="px-4 py-2 bg-white/20 rounded-full text-white hover:bg-white/30 transition-all text-sm"
-            >
-              Admin Panel
-            </a>
-          </div>
+          {/* Admin panel button hidden for production */}
           <h1 className="mb-6 text-6xl font-bold text-yellow-500 shadow-lg">ADHYAYAN</h1>
           {mode ? (
             <button
@@ -66,14 +59,7 @@ export default function Home() {
           <div className="absolute -left-[15vmin] -top-[15vmin] min-h-[75vmin] min-w-[75vmin] rounded-full bg-primary/15"></div>
           <div className="absolute -bottom-[15vmin] -right-[15vmin] min-h-[75vmin] min-w-[75vmin] rotate-45 bg-primary/15"></div>
         </div>
-        <div className="absolute top-4 right-4">
-          <a 
-            href="/admin" 
-            className="px-4 py-2 bg-white/20 rounded-full text-white hover:bg-white/30 transition-all text-sm"
-          >
-            Admin Panel
-          </a>
-        </div>
+        {/* Admin panel button hidden for production */}
         <h1 className="mb-6 mt-4 text-4xl font-bold text-yellow-500 shadow-lg">ADHYAYAN</h1>
         <Room />
       </section>
@@ -83,14 +69,7 @@ export default function Home() {
           <div className="absolute -left-[15vmin] -top-[15vmin] min-h-[75vmin] min-w-[75vmin] rounded-full bg-primary/15"></div>
           <div className="absolute -bottom-[15vmin] -right-[15vmin] min-h-[75vmin] min-w-[75vmin] rotate-45 bg-primary/15"></div>
         </div>
-        <div className="absolute top-4 right-4">
-          <a 
-            href="/admin" 
-            className="px-4 py-2 bg-white/20 rounded-full text-white hover:bg-white/30 transition-all text-sm"
-          >
-            Admin Panel
-          </a>
-        </div>
+        {/* Admin panel button hidden for production */}
         <h1 className="mb-6 mt-4 text-4xl font-bold text-yellow-500 shadow-lg">ADHYAYAN</h1>
         <Username />
       </section>
@@ -103,14 +82,7 @@ export default function Home() {
         <div className="absolute -left-[15vmin] -top-[15vmin] min-h-[75vmin] min-w-[75vmin] rounded-full bg-primary/15"></div>
         <div className="absolute -bottom-[15vmin] -right-[15vmin] min-h-[75vmin] min-w-[75vmin] rotate-45 bg-primary/15"></div>
       </div>
-      <div className="absolute top-4 right-4">
-        <a 
-          href="/admin" 
-          className="px-4 py-2 bg-white/20 rounded-full text-white hover:bg-white/30 transition-all text-sm"
-        >
-          Admin Panel
-        </a>
-      </div>
+      {/* Admin panel button hidden for production */}
       <h1 className="mb-6 text-4xl font-bold text-yellow-500 shadow-lg">ADHYAYAN</h1>
       <Username />
     </section>

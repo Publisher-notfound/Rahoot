@@ -16,15 +16,8 @@ import { abortCooldown, cooldown, sleep } from "../utils/cooldown.js"
 import deepClone from "../utils/deepClone.js"
 import generateRoomId from "../utils/generateRoomId.js"
 import { startRound } from "../utils/round.js"
-// Universal leaderboard model - simplified for deployment
-const universalLeaderboardModel = {
-  updatePlayerScore: (username, points, quizName, io) => {
-    console.log(`Universal leaderboard update: ${username} scored ${points} in ${quizName}`)
-    // In deployment, this would connect to a database or external service
-    // For now, just log and return success
-    return true
-  }
-}
+// Import the actual universal leaderboard model
+import universalLeaderboardModel from "../../src/utils/UniversalLeaderboardModel.js"
 
 const Manager = {
   createRoom: (game, io, socket, password) => {

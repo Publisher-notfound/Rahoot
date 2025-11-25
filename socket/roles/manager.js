@@ -1,9 +1,9 @@
-import { GAME_STATE_INIT } from "../../../config.mjs"
+import { GAME_STATE_INIT } from "../config.mjs"
 import { abortCooldown, cooldown, sleep } from "../utils/cooldown.js"
 import deepClone from "../utils/deepClone.js"
 import generateRoomId from "../utils/generateRoomId.js"
 import { startRound } from "../utils/round.js"
-import universalLeaderboardModel from "../../../src/utils/UniversalLeaderboardModel.js"
+import universalLeaderboardModel from "../src/utils/UniversalLeaderboardModel.js"
 import fs from 'fs'
 import path from 'path'
 

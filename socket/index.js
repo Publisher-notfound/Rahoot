@@ -1,5 +1,8 @@
 import { Server } from "socket.io"
-import { GAME_STATE_INIT, WEBSOCKET_SERVER_PORT } from "./config.mjs"
+import { GAME_STATE_INIT } from "../config.mjs"
+
+// Use Railway's PORT environment variable or fallback to 5506
+const WEBSOCKET_SERVER_PORT = process.env.PORT || 5506
 import Manager from "./roles/manager.js"
 import Player from "./roles/player.js"
 import { abortCooldown } from "./utils/cooldown.js"
@@ -25,8 +28,22 @@ const io = new Server({
   },
 })
 
+// Add basic HTTP server for health checks
+import { createServer } from 'http'
+const httpServer = createServer((req, res) => {
+  if (req.url === '/' || req.url === '/health') {
+    res.writeHead(200, { 'Content-Type': 'text/plain' })
+    res.end('ADHYAYAN Socket Server is running!')
+  } else {
+    res.writeHead(404)
+    res.end('Not found')
+  }
+})
+
+io.attach(httpServer)
+
 console.log(`Server running on port ${WEBSOCKET_SERVER_PORT}`)
-io.listen(WEBSOCKET_SERVER_PORT)
+httpServer.listen(WEBSOCKET_SERVER_PORT)
 
 io.on("connection", (socket) => {
   console.log(`A user connected ${socket.id}`)

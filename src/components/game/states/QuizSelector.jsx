@@ -34,13 +34,23 @@ export default function QuizSelector({ onNext }) {
     setSelectedQuiz(quiz)
   }
 
-  const handleConfirm = () => {
+  const handleConfirm = async () => {
     if (!selectedQuiz) return
-    socket.emit("manager:selectQuiz", {
-      genre: selectedQuiz.genre,
-      topic: selectedQuiz.topic,
-      quizName: selectedQuiz.quizName
-    })
+    
+    try {
+      // Load the full quiz data before sending to manager
+      const response = await fetch(`/api/quiz/${selectedQuiz.genre}/${selectedQuiz.topic}/${selectedQuiz.quizName}`)
+      if (!response.ok) {
+        throw new Error('Failed to load quiz data')
+      }
+      const quizData = await response.json()
+      console.log('Loaded quiz data for manager:', quizData)
+      
+      socket.emit("manager:selectQuiz", quizData)
+    } catch (error) {
+      console.error('Error loading quiz:', error)
+      // You might want to show an error message to the user here
+    }
   }
 
   // Listen for quizSelected

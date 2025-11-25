@@ -17,7 +17,19 @@ const GAME_STATE_INIT = {
 }
 
 export const startRound = async (game, io, socket) => {
+  // Safety check: ensure questions exist
+  if (!game.questions || game.questions.length === 0) {
+    console.error("No questions available to start round")
+    io.to(game.room).emit("game:errorMessage", "No quiz questions available")
+    return
+  }
+
   const question = game.questions[game.currentQuestion]
+  if (!question) {
+    console.error("Question not found at index:", game.currentQuestion)
+    io.to(game.room).emit("game:errorMessage", "Question not found")
+    return
+  }
 
   if (!game.started) return
 

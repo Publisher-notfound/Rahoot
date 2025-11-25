@@ -59,6 +59,12 @@ const Manager = {
       return
     }
 
+    // Check if quiz is selected and has questions
+    if (!game.questions || game.questions.length === 0) {
+      io.to(socket.id).emit("game:errorMessage", "Please select a quiz before starting the game")
+      return
+    }
+
     game.started = true
     io.to(game.room).emit("game:status", {
       name: "SHOW_START",

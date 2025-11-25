@@ -1,6 +1,20 @@
 import { cooldown, sleep } from "./cooldown.js"
-import { GAME_STATE_INIT } from "../../config.mjs"
 import deepClone from "./deepClone.js"
+
+// Local GAME_STATE_INIT since config.mjs is in parent directory
+const GAME_STATE_INIT = {
+  started: false,
+  players: [],
+  playersAnswer: [],
+  manager: null,
+  room: null,
+  currentQuestion: 0,
+  roundStartTime: 0,
+  selectedQuiz: null,
+  password: "PASSWORD",
+  subject: "Adobe",
+  questions: []
+}
 
 export const startRound = async (game, io, socket) => {
   const question = game.questions[game.currentQuestion]

@@ -67,14 +67,14 @@ io.on("connection", (socket) => {
 
   socket.on("player:createSolo", (quizInfo) => {
     const { genre, topic, quizName } = quizInfo
-    
+
     // Reset any existing game state before creating new solo room
     if (gameState.room || gameState.started) {
       console.log("Resetting existing game state for new solo room")
       gameState = deepClone(GAME_STATE_INIT)
       abortCooldown()
     }
-    
+
     // For solo mode, quiz data comes from frontend
     let soloRoom = generateRoomId()
     gameState.room = soloRoom
@@ -115,7 +115,7 @@ io.on("connection", (socket) => {
 
   socket.on("disconnect", () => {
     console.log(`user disconnected ${socket.id}`)
-    
+
     // Reset game if manager disconnects
     if (gameState.manager === socket.id) {
       console.log("Reset game - manager disconnected")
@@ -130,7 +130,7 @@ io.on("connection", (socket) => {
 
     if (player) {
       gameState.players = gameState.players.filter((p) => p.id !== socket.id)
-      
+
       // For solo mode (no manager), reset game when solo player disconnects
       if (gameState.manager === null && gameState.players.length === 0) {
         console.log("Reset game - solo player disconnected")
@@ -139,7 +139,7 @@ io.on("connection", (socket) => {
         abortCooldown()
         return
       }
-      
+
       // For multiplayer mode, notify manager
       if (gameState.manager) {
         socket.to(gameState.manager).emit("manager:removePlayer", player.id)

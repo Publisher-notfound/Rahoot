@@ -1,13 +1,25 @@
 import convertTimeToPoint from "../utils/convertTimeToPoint.js"
 import { abortCooldown } from "../utils/cooldown.js"
-import { inviteCodeValidator, usernameValidator } from "../validator.js"
+
+// Simple validation functions to replace yup dependency
+const validateUsername = (username) => {
+  if (!username) return "Username is required"
+  if (username.length < 4) return "Username cannot be less than 4 characters"
+  if (username.length > 20) return "Username cannot exceed 20 characters"
+  return null
+}
+
+const validateInviteCode = (code) => {
+  if (!code) return "Invite code is required"
+  if (code.length !== 6) return "Invalid invite code"
+  return null
+}
 
 const Player = {
   checkRoom: async (game, io, socket, roomId) => {
-    try {
-      await inviteCodeValidator.validate(roomId)
-    } catch (error) {
-      socket.emit("game:errorMessage", error.errors[0])
+    const validationError = validateInviteCode(roomId)
+    if (validationError) {
+      socket.emit("game:errorMessage", validationError)
       return
     }
 
@@ -20,10 +32,9 @@ const Player = {
   },
 
   join: async (game, io, socket, player) => {
-    try {
-      await usernameValidator.validate(player.username)
-    } catch (error) {
-      socket.emit("game:errorMessage", error.errors[0])
+    const validationError = validateUsername(player.username)
+    if (validationError) {
+      socket.emit("game:errorMessage", validationError)
       return
     }
 

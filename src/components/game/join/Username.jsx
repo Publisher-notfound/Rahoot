@@ -39,7 +39,7 @@ export default function Username() {
       .catch(err => console.error('Failed to load quizzes:', err))
   }, [])
 
-  const handleJoin = () => {
+  const handleJoin = async () => {
     if (!player.room) {
       // Create room for solo mode
       console.log('Creating solo room with:', { genre: player.class, topic: player.subject, quizName: player.chapter })
@@ -47,7 +47,21 @@ export default function Username() {
         console.error('Missing required quiz info:', { class: player.class, subject: player.subject, chapter: player.chapter })
         return
       }
-      socket.emit("player:createSolo", { genre: player.class, topic: player.subject, quizName: player.chapter })
+      
+      try {
+        // Load the full quiz data before creating solo room
+        const response = await fetch(`/api/quiz/${player.class}/${player.subject}/${player.chapter}`)
+        if (!response.ok) {
+          throw new Error('Failed to load quiz data')
+        }
+        const quizData = await response.json()
+        console.log('Loaded quiz data:', quizData)
+        
+        socket.emit("player:createSolo", quizData)
+      } catch (error) {
+        console.error('Error loading quiz:', error)
+        // You might want to show an error message to the user here
+      }
     } else {
       socket.emit("player:join", { username: username, room: player.room })
     }

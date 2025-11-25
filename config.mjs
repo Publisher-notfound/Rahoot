@@ -1,4 +1,4 @@
-export const WEBSOCKET_PUBLIC_URL = "http://localhost:5506/"
+export const WEBSOCKET_PUBLIC_URL = "https://railway.com/project/a28fbee0-77e5-4bf7-b577-a71484b7e20e"
 export const WEBSOCKET_SERVER_PORT = 5506
 
 // Legacy QUIZZ_CONFIG for backward compatibility (will be removed)

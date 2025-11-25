@@ -1,8 +1,15 @@
 import { createContext, useContext } from "react"
 import { io } from "socket.io-client"
-import { WEBSOCKET_PUBLIC_URL } from "../../config.mjs"
 
-export const socket = io(WEBSOCKET_PUBLIC_URL, {
+// Get WebSocket URL directly from environment variable, fallback to localhost
+const getWebSocketURL = () => {
+  const url = process.env.NEXT_PUBLIC_WEBSOCKET_URL || "http://localhost:5506/"
+  console.log("🔍 WebSocket URL being used:", url)
+  console.log("🔍 Environment variable NEXT_PUBLIC_WEBSOCKET_URL:", process.env.NEXT_PUBLIC_WEBSOCKET_URL)
+  return url
+}
+
+export const socket = io(getWebSocketURL(), {
   transports: ["websocket"],
 })
 

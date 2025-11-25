@@ -130,7 +130,10 @@ const Manager = {
   showLoaderboard: (game, io, socket) => {
     console.log("showLoaderboard called - Manager:", game.manager, "Current Question:", game.currentQuestion, "Total Questions:", game.questions?.length)
 
-    if (!game.questions[game.currentQuestion + 1]) {
+    // Check if this is the final question (no more questions after current)
+    const isLastQuestion = !game.questions[game.currentQuestion + 1]
+    
+    if (isLastQuestion) {
       console.log("Quiz finished - checking mode. Manager is null?", game.manager === null)
 
       if (game.manager === null) {
@@ -201,13 +204,15 @@ const Manager = {
       return
     }
 
+    // Show intermediate leaderboard (not the final one)
     console.log("Showing intermediate leaderboard")
-    socket.emit("game:status", {
+    io.to(game.room).emit("game:status", {
       name: "SHOW_LEADERBOARD",
       data: {
         leaderboard: game.players
           .sort((a, b) => b.points - a.points)
           .slice(0, 5),
+        isIntermediate: true, // Flag to indicate this is not the final leaderboard
       },
     })
   },

@@ -11,6 +11,26 @@ export default function Manager() {
   const { socket } = useSocketContext()
 
   const [nextText, setNextText] = useState("Start")
+
+  // Function to get appropriate button text based on current state
+  const getButtonText = () => {
+    switch (state.status.name) {
+      case "SHOW_ROOM":
+        return "Start Game"
+      case "SELECT_ANSWER":
+        return "Skip Question"
+      case "SHOW_RESPONSES":
+        const currentQ = state.question?.current || 1
+        const totalQ = state.question?.total || 0
+        return currentQ < totalQ ? "Next Question" : "Show Final Results"
+      case "SHOW_LEADERBOARD":
+        const currentQuestion = state.question?.current || 1
+        const totalQuestions = state.question?.total || 0
+        return currentQuestion < totalQuestions ? "Next Question" : "Finish"
+      default:
+        return "Next"
+    }
+  }
   const [state, setState] = useState({
     ...GAME_STATES,
     status: {
@@ -56,23 +76,40 @@ export default function Manager() {
   }
 
   const handleSkip = () => {
-    setNextText("Skip")
-
     switch (state.status.name) {
       case "SHOW_ROOM":
+        setNextText("Skip")
         socket.emit("manager:startGame")
         break
 
       case "SELECT_ANSWER":
+        setNextText("Skip")
         socket.emit("manager:abortQuiz")
         break
 
       case "SHOW_RESPONSES":
-        socket.emit("manager:showLeaderboard")
+        // Check if there are more questions
+        const currentQ = state.question?.current || 1
+        const totalQ = state.question?.total || 0
+        
+        if (currentQ < totalQ) {
+          setNextText("Next Question")
+          socket.emit("manager:nextQuestion")
+        } else {
+          setNextText("Show Final Results")
+          socket.emit("manager:showLeaderboard")
+        }
         break
 
       case "SHOW_LEADERBOARD":
-        socket.emit("manager:nextQuestion")
+        // This should only show for intermediate leaderboards
+        const currentQuestion = state.question?.current || 1
+        const totalQuestions = state.question?.total || 0
+        
+        if (currentQuestion < totalQuestions) {
+          setNextText("Next Question")
+          socket.emit("manager:nextQuestion")
+        }
         break
     }
   }
@@ -85,7 +122,7 @@ export default function Manager() {
         </div>
       ) : (
         <>
-          <GameWrapper textNext={nextText} onNext={handleSkip} manager>
+          <GameWrapper textNext={getButtonText()} onNext={handleSkip} manager>
             {GAME_STATE_COMPONENTS_MANAGER[state.status.name] &&
               createElement(GAME_STATE_COMPONENTS_MANAGER[state.status.name], {
                 data: state.status.data,

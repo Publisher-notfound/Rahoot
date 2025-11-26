@@ -1,0 +1,121 @@
+{
+  "genre": "entertainment",
+  "topic": "music",
+  "quizName": "pop_hits_2020s",
+  "difficulty": 2,
+  "pointsMultiplier": 1.0,
+  "questions": [
+    {
+      "question": "Which song by The Weeknd became a massive hit in 2020?",
+      "answers": [
+        "Starboy",
+        "Blinding Lights",
+        "Can't Feel My Face",
+        "The Hills"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500"
+    },
+    {
+      "question": "Who released the album 'Folklore' in 2020?",
+      "answers": [
+        "Ariana Grande",
+        "Billie Eilish",
+        "Taylor Swift",
+        "Dua Lipa"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=500"
+    },
+    {
+      "question": "Which artist had a hit with 'Watermelon Sugar'?",
+      "answers": [
+        "Ed Sheeran",
+        "Harry Styles",
+        "Shawn Mendes",
+        "Justin Bieber"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500"
+    },
+    {
+      "question": "What was Olivia Rodrigo's breakout hit single?",
+      "answers": [
+        "Good 4 U",
+        "Deja Vu",
+        "Drivers License",
+        "Brutal"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500"
+    },
+    {
+      "question": "Which song by Dua Lipa was a major dance hit in 2020?",
+      "answers": [
+        "New Rules",
+        "Don't Start Now",
+        "Levitating",
+        "Physical"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=500"
+    },
+    {
+      "question": "Who collaborated with Ariana Grande on 'Rain on Me'?",
+      "answers": [
+        "Lady Gaga",
+        "Selena Gomez",
+        "Dua Lipa",
+        "Billie Eilish"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500"
+    },
+    {
+      "question": "Which Bad Bunny song became a global phenomenon?",
+      "answers": [
+        "Dakiti",
+        "Yo Perreo Sola",
+        "Safaera",
+        "La Canción"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500"
+    },
+    {
+      "question": "What was Post Malone's biggest hit from his album 'Hollywood's Bleeding'?",
+      "answers": [
+        "Circles",
+        "Sunflower",
+        "Wow",
+        "Better Now"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=500"
+    }
+  ]
+}

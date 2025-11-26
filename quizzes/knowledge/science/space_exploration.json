@@ -15,18 +15,12 @@
       ],
       "solution": 1,
       "cooldown": 5,
-      "time": 12,
+      "time": 10,
       "difficulty": 1,
-      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=500",
-      "category": "Planets",
-      "learningResources": {
-        "studyTip": "Mars appears red due to iron oxide (rust) on its surface",
-        "reference": "NASA's Mars exploration missions have revealed detailed information about the planet's composition",
-        "relatedTopics": ["Solar System", "Planetary Science", "Mars Missions"]
-      }
+      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=500"
     },
     {
-      "question": "Who was the first human to walk on the Moon?",
+      "question": "Who was the first person to walk on the Moon?",
       "answers": [
         "Buzz Aldrin",
         "Neil Armstrong",
@@ -35,118 +29,12 @@
       ],
       "solution": 1,
       "cooldown": 5,
-      "time": 15,
-      "difficulty": 2,
-      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=500",
-      "category": "Space History",
-      "learningResources": {
-        "studyTip": "Remember the famous quote: 'That's one small step for man, one giant leap for mankind'",
-        "reference": "Apollo 11 mission landed on the Moon on July 20, 1969",
-        "relatedTopics": ["Apollo Program", "Moon Landing", "Space Race"]
-      }
-    },
-    {
-      "question": "What is the name of NASA's most famous space telescope?",
-      "answers": [
-        "Kepler",
-        "Spitzer",
-        "Hubble",
-        "Chandra"
-      ],
-      "solution": 2,
-      "cooldown": 5,
-      "time": 15,
-      "difficulty": 2,
-      "image": "https://images.unsplash.com/photo-1446776877081-d282a0f896e2?w=500",
-      "category": "Space Technology",
-      "learningResources": {
-        "studyTip": "The Hubble Space Telescope has been operating since 1990 and has captured stunning images of deep space",
-        "reference": "Named after astronomer Edwin Hubble, it orbits Earth at about 547 kilometers above the surface",
-        "relatedTopics": ["Space Telescopes", "Astronomy", "Deep Space Imaging"]
-      }
-    },
-    {
-      "question": "Which planet has the most moons in our solar system?",
-      "answers": [
-        "Jupiter",
-        "Saturn",
-        "Uranus",
-        "Neptune"
-      ],
-      "solution": 1,
-      "cooldown": 5,
-      "time": 18,
-      "difficulty": 3,
-      "image": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=500",
-      "category": "Planets",
-      "learningResources": {
-        "studyTip": "Saturn has over 80 confirmed moons, with Titan being the largest",
-        "reference": "Saturn's moon count continues to grow as new discoveries are made through advanced telescopes",
-        "relatedTopics": ["Planetary Moons", "Saturn System", "Outer Planets"]
-      }
-    },
-    {
-      "question": "What does ISS stand for?",
-      "answers": [
-        "International Space Station",
-        "Interstellar Space System",
-        "International Satellite Service",
-        "Integrated Space Structure"
-      ],
-      "solution": 0,
-      "cooldown": 5,
       "time": 12,
-      "difficulty": 1,
-      "image": "https://images.unsplash.com/photo-1446776877081-d282a0f896e2?w=500",
-      "category": "Space Technology",
-      "learningResources": {
-        "studyTip": "The ISS is a collaborative project between multiple space agencies including NASA, Roscosmos, ESA, JAXA, and CSA",
-        "reference": "The ISS orbits Earth approximately every 90 minutes at an altitude of about 400 kilometers",
-        "relatedTopics": ["Space Stations", "International Cooperation", "Orbital Mechanics"]
-      }
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=500"
     },
     {
-      "question": "Which company became the first private company to send astronauts to the ISS?",
-      "answers": [
-        "Blue Origin",
-        "Virgin Galactic",
-        "SpaceX",
-        "Boeing"
-      ],
-      "solution": 2,
-      "cooldown": 5,
-      "time": 15,
-      "difficulty": 3,
-      "image": "https://images.unsplash.com/photo-1517976487492-5750f3195933?w=500",
-      "category": "Commercial Space",
-      "learningResources": {
-        "studyTip": "SpaceX's Crew Dragon capsule successfully transported NASA astronauts in 2020",
-        "reference": "This marked the beginning of commercial crew transportation to the ISS",
-        "relatedTopics": ["Commercial Spaceflight", "SpaceX", "Crew Dragon"]
-      }
-    },
-    {
-      "question": "What is the closest star to Earth (other than the Sun)?",
-      "answers": [
-        "Alpha Centauri",
-        "Proxima Centauri",
-        "Sirius",
-        "Vega"
-      ],
-      "solution": 1,
-      "cooldown": 5,
-      "time": 18,
-      "difficulty": 4,
-      "image": "https://images.unsplash.com/photo-1446776877081-d282a0f896e2?w=500",
-      "category": "Stars",
-      "learningResources": {
-        "studyTip": "Proxima Centauri is about 4.24 light-years away from Earth",
-        "reference": "It's a red dwarf star and part of the Alpha Centauri star system",
-        "relatedTopics": ["Stellar Astronomy", "Exoplanets", "Interstellar Distance"]
-      }
-    },
-    {
-      "question": "Which rover is currently exploring Mars as of 2024?",
+      "question": "What is the name of NASA's Mars rover that landed in 2021?",
       "answers": [
         "Curiosity",
         "Opportunity",
@@ -156,14 +44,78 @@
       "solution": 2,
       "cooldown": 5,
       "time": 15,
-      "difficulty": 2,
-      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=500",
-      "category": "Mars Missions",
-      "learningResources": {
-        "studyTip": "Perseverance landed on Mars in February 2021 and is searching for signs of ancient life",
-        "reference": "The rover also carries the Ingenuity helicopter, which achieved the first powered flight on another planet",
-        "relatedTopics": ["Mars Exploration", "Astrobiology", "Planetary Rovers"]
-      }
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=500"
+    },
+    {
+      "question": "Which is the largest planet in our solar system?",
+      "answers": [
+        "Saturn",
+        "Jupiter",
+        "Neptune",
+        "Uranus"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 1,
+      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=500"
+    },
+    {
+      "question": "What is the name of SpaceX's reusable rocket?",
+      "answers": [
+        "Dragon",
+        "Falcon 9",
+        "Starship",
+        "Crew Dragon"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=500"
+    },
+    {
+      "question": "How long does it take for light from the Sun to reach Earth?",
+      "answers": [
+        "8 minutes",
+        "4 minutes",
+        "12 minutes",
+        "1 hour"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=500"
+    },
+    {
+      "question": "Which space telescope was launched in 2021 as Hubble's successor?",
+      "answers": [
+        "Kepler",
+        "Spitzer",
+        "James Webb",
+        "Chandra"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=500"
+    },
+    {
+      "question": "What is the closest star to our solar system?",
+      "answers": [
+        "Sirius",
+        "Proxima Centauri",
+        "Alpha Centauri",
+        "Betelgeuse"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 18,
+      "difficulty": 4,
+      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=500"
     }
   ]
 }

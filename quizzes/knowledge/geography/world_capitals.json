@@ -1,0 +1,121 @@
+{
+  "genre": "knowledge",
+  "topic": "geography",
+  "quizName": "world_capitals",
+  "difficulty": 3,
+  "pointsMultiplier": 1.0,
+  "questions": [
+    {
+      "question": "What is the capital of Australia?",
+      "answers": [
+        "Sydney",
+        "Melbourne",
+        "Canberra",
+        "Perth"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500"
+    },
+    {
+      "question": "Which city is the capital of Japan?",
+      "answers": [
+        "Osaka",
+        "Tokyo",
+        "Kyoto",
+        "Hiroshima"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 1,
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500"
+    },
+    {
+      "question": "What is the capital of Brazil?",
+      "answers": [
+        "São Paulo",
+        "Rio de Janeiro",
+        "Brasília",
+        "Salvador"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500"
+    },
+    {
+      "question": "Which is the capital of Canada?",
+      "answers": [
+        "Toronto",
+        "Vancouver",
+        "Montreal",
+        "Ottawa"
+      ],
+      "solution": 3,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500"
+    },
+    {
+      "question": "What is the capital of South Africa?",
+      "answers": [
+        "Johannesburg",
+        "Cape Town",
+        "Pretoria",
+        "Durban"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 18,
+      "difficulty": 4,
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500"
+    },
+    {
+      "question": "Which city is the capital of Russia?",
+      "answers": [
+        "St. Petersburg",
+        "Moscow",
+        "Novosibirsk",
+        "Kazan"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500"
+    },
+    {
+      "question": "What is the capital of Egypt?",
+      "answers": [
+        "Alexandria",
+        "Cairo",
+        "Luxor",
+        "Aswan"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500"
+    },
+    {
+      "question": "Which is the capital of New Zealand?",
+      "answers": [
+        "Auckland",
+        "Christchurch",
+        "Wellington",
+        "Hamilton"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500"
+    }
+  ]
+}

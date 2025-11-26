@@ -1,0 +1,121 @@
+{
+  "genre": "entertainment",
+  "topic": "tv_shows",
+  "quizName": "sitcom_classics",
+  "difficulty": 2,
+  "pointsMultiplier": 1.0,
+  "questions": [
+    {
+      "question": "In 'Friends', what is the name of Ross's pet monkey?",
+      "answers": [
+        "Marcel",
+        "Charlie",
+        "Banana",
+        "George"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=500"
+    },
+    {
+      "question": "What is the name of the coffee shop in 'Friends'?",
+      "answers": [
+        "Central Perk",
+        "Coffee Central",
+        "The Grind",
+        "Bean There"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=500"
+    },
+    {
+      "question": "In 'The Office', what is Jim's favorite prank target?",
+      "answers": [
+        "Michael",
+        "Dwight",
+        "Kevin",
+        "Stanley"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=500"
+    },
+    {
+      "question": "What is Barney's catchphrase in 'How I Met Your Mother'?",
+      "answers": [
+        "Awesome!",
+        "Legendary!",
+        "Suit up!",
+        "Challenge accepted!"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=500"
+    },
+    {
+      "question": "In 'Seinfeld', what is Kramer's first name?",
+      "answers": [
+        "Kenny",
+        "Cosmo",
+        "Carl",
+        "Kevin"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=500"
+    },
+    {
+      "question": "What is the name of the bar in 'Cheers'?",
+      "answers": [
+        "Sam's Place",
+        "Cheers",
+        "The Bull & Finch",
+        "Boston Bar"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=500"
+    },
+    {
+      "question": "In 'The Big Bang Theory', what is Sheldon's favorite spot?",
+      "answers": [
+        "His desk",
+        "His spot on the couch",
+        "The kitchen",
+        "His bedroom"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=500"
+    },
+    {
+      "question": "What is the name of the company in 'The Office'?",
+      "answers": [
+        "Dunder Mifflin",
+        "Scranton Paper",
+        "Paper Plus",
+        "Office Depot"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=500"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "genre": "physics",
+  "topic": "basic_physics",
+  "quizName": "basic_physics",
+  "difficulty": 3,
+  "pointsMultiplier": 1.0,
+  "questions": [
+    {
+      "question": "What is the speed of light in vacuum?",
+      "answers": [
+        "300,000 km/s",
+        "299,792,458 m/s",
+        "150,000 km/s",
+        "500,000 km/s"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=500"
+    },
+    {
+      "question": "What is the unit of force in the SI system?",
+      "answers": [
+        "Joule",
+        "Newton",
+        "Watt",
+        "Pascal"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=500"
+    },
+    {
+      "question": "What is Newton's first law of motion also known as?",
+      "answers": [
+        "Law of Acceleration",
+        "Law of Inertia",
+        "Law of Action-Reaction",
+        "Law of Gravity"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=500"
+    },
+    {
+      "question": "What is the acceleration due to gravity on Earth?",
+      "answers": [
+        "9.8 m/s²",
+        "10 m/s²",
+        "8.9 m/s²",
+        "11 m/s²"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=500"
+    },
+    {
+      "question": "What type of energy does a moving object possess?",
+      "answers": [
+        "Potential Energy",
+        "Kinetic Energy",
+        "Thermal Energy",
+        "Chemical Energy"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=500"
+    },
+    {
+      "question": "What is the formula for calculating work done?",
+      "answers": [
+        "W = F × d",
+        "W = m × a",
+        "W = P × t",
+        "W = v × t"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=500"
+    },
+    {
+      "question": "What happens to the wavelength of light when it enters a denser medium?",
+      "answers": [
+        "Increases",
+        "Decreases",
+        "Remains same",
+        "Becomes zero"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 18,
+      "difficulty": 4,
+      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=500"
+    },
+    {
+      "question": "What is the SI unit of electric current?",
+      "answers": [
+        "Volt",
+        "Ampere",
+        "Ohm",
+        "Coulomb"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=500"
+    }
+  ]
+}

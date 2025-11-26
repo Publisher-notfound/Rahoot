@@ -1,0 +1,121 @@
+{
+  "genre": "fun_trivia",
+  "topic": "life_hacks",
+  "quizName": "productivity_tips",
+  "difficulty": 2,
+  "pointsMultiplier": 1.0,
+  "questions": [
+    {
+      "question": "What is the Pomodoro Technique?",
+      "answers": [
+        "A cooking method",
+        "A time management technique",
+        "A study app",
+        "A meditation practice"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
+    },
+    {
+      "question": "How long is a typical Pomodoro work session?",
+      "answers": [
+        "15 minutes",
+        "25 minutes",
+        "30 minutes",
+        "45 minutes"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
+    },
+    {
+      "question": "What does the '2-minute rule' suggest?",
+      "answers": [
+        "Take a 2-minute break every hour",
+        "If a task takes less than 2 minutes, do it now",
+        "Meditate for 2 minutes daily",
+        "Exercise for 2 minutes"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
+    },
+    {
+      "question": "What is 'batch processing' in productivity?",
+      "answers": [
+        "Cooking in large quantities",
+        "Grouping similar tasks together",
+        "Processing data in batches",
+        "Working in teams"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
+    },
+    {
+      "question": "What is the best time to tackle your most important task?",
+      "answers": [
+        "Evening",
+        "Morning",
+        "Afternoon",
+        "Night"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
+    },
+    {
+      "question": "What does 'eating the frog' mean in productivity?",
+      "answers": [
+        "Having a healthy breakfast",
+        "Doing the hardest task first",
+        "Taking breaks",
+        "Avoiding distractions"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
+    },
+    {
+      "question": "How many items should be on your daily to-do list ideally?",
+      "answers": [
+        "3-5 items",
+        "10-15 items",
+        "20+ items",
+        "1-2 items"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
+    },
+    {
+      "question": "What is the 80/20 rule also known as?",
+      "answers": [
+        "Parkinson's Law",
+        "Pareto Principle",
+        "Murphy's Law",
+        "Peter Principle"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
+    }
+  ]
+}

@@ -5,7 +5,7 @@ function loadLeaderboard() {
   try {
     const dataDir = path.join(process.cwd(), 'data')
     const leaderboardFile = path.join(dataDir, 'universal-leaderboard.json')
-    
+
     if (fs.existsSync(leaderboardFile)) {
       const data = fs.readFileSync(leaderboardFile, 'utf8')
       return JSON.parse(data)
@@ -53,7 +53,7 @@ export default async function handler(req, res) {
     try {
       const dataDir = path.join(process.cwd(), 'data')
       const leaderboardFile = path.join(dataDir, 'universal-leaderboard.json')
-      
+
       const newLeaderboard = {
         eventDay: new Date().toISOString().split('T')[0],
         totalPlayers: 0,
@@ -61,13 +61,13 @@ export default async function handler(req, res) {
         lastUpdated: new Date().toISOString(),
         entries: []
       }
-      
+
       if (!fs.existsSync(dataDir)) {
         fs.mkdirSync(dataDir, { recursive: true })
       }
-      
+
       fs.writeFileSync(leaderboardFile, JSON.stringify(newLeaderboard, null, 2))
-      
+
       res.status(200).json({
         success: true,
         message: 'Leaderboard reset for new event',

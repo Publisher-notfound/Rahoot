@@ -1,0 +1,121 @@
+{
+  "genre": "entertainment",
+  "topic": "music",
+  "quizName": "rock_legends",
+  "difficulty": 3,
+  "pointsMultiplier": 1.0,
+  "questions": [
+    {
+      "question": "Which band released the album 'Dark Side of the Moon'?",
+      "answers": [
+        "Led Zeppelin",
+        "Pink Floyd",
+        "The Beatles",
+        "Queen"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500"
+    },
+    {
+      "question": "Who was the lead guitarist of Queen?",
+      "answers": [
+        "Freddie Mercury",
+        "John Deacon",
+        "Roger Taylor",
+        "Brian May"
+      ],
+      "solution": 3,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=500"
+    },
+    {
+      "question": "Which song is considered Led Zeppelin's signature track?",
+      "answers": [
+        "Whole Lotta Love",
+        "Stairway to Heaven",
+        "Black Dog",
+        "Kashmir"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500"
+    },
+    {
+      "question": "What was The Beatles' last studio album?",
+      "answers": [
+        "Abbey Road",
+        "Let It Be",
+        "Sgt. Pepper's",
+        "White Album"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 18,
+      "difficulty": 4,
+      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500"
+    },
+    {
+      "question": "Which guitarist is known as 'Slowhand'?",
+      "answers": [
+        "Jimmy Page",
+        "Eric Clapton",
+        "Jimi Hendrix",
+        "Keith Richards"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=500"
+    },
+    {
+      "question": "What was AC/DC's breakthrough album?",
+      "answers": [
+        "Highway to Hell",
+        "Back in Black",
+        "High Voltage",
+        "For Those About to Rock"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500"
+    },
+    {
+      "question": "Which band performed 'Hotel California'?",
+      "answers": [
+        "Fleetwood Mac",
+        "The Eagles",
+        "Lynyrd Skynyrd",
+        "The Doors"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500"
+    },
+    {
+      "question": "Who was the original drummer for The Beatles?",
+      "answers": [
+        "Ringo Starr",
+        "Pete Best",
+        "Stuart Sutcliffe",
+        "George Martin"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 18,
+      "difficulty": 4,
+      "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=500"
+    }
+  ]
+}

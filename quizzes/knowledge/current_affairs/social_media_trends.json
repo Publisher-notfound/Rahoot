@@ -1,0 +1,121 @@
+{
+  "genre": "knowledge",
+  "topic": "current_affairs",
+  "quizName": "social_media_trends",
+  "difficulty": 2,
+  "pointsMultiplier": 1.0,
+  "questions": [
+    {
+      "question": "Which platform is known for short-form vertical videos?",
+      "answers": [
+        "Instagram",
+        "TikTok",
+        "YouTube",
+        "Twitter"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 1,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
+    },
+    {
+      "question": "What does 'going viral' mean on social media?",
+      "answers": [
+        "Getting sick",
+        "Spreading rapidly",
+        "Being deleted",
+        "Getting banned"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
+    },
+    {
+      "question": "Which feature allows users to share temporary content?",
+      "answers": [
+        "Posts",
+        "Stories",
+        "Comments",
+        "Messages"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
+    },
+    {
+      "question": "What is the maximum character limit for a Twitter/X post?",
+      "answers": [
+        "140",
+        "280",
+        "500",
+        "1000"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
+    },
+    {
+      "question": "Which platform introduced the 'Reels' feature?",
+      "answers": [
+        "TikTok",
+        "Instagram",
+        "YouTube",
+        "Snapchat"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
+    },
+    {
+      "question": "What does 'DM' stand for in social media?",
+      "answers": [
+        "Direct Message",
+        "Daily Message",
+        "Delete Message",
+        "Draft Message"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 1,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
+    },
+    {
+      "question": "Which platform is primarily used for professional networking?",
+      "answers": [
+        "Facebook",
+        "Instagram",
+        "LinkedIn",
+        "TikTok"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 1,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
+    },
+    {
+      "question": "What is the term for fake or misleading information spread online?",
+      "answers": [
+        "Spam",
+        "Misinformation",
+        "Clickbait",
+        "Trolling"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
+    }
+  ]
+}

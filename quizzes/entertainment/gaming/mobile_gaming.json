@@ -1,0 +1,121 @@
+{
+  "genre": "entertainment",
+  "topic": "gaming",
+  "quizName": "mobile_gaming",
+  "difficulty": 2,
+  "pointsMultiplier": 1.0,
+  "questions": [
+    {
+      "question": "Which game popularized the battle royale genre on mobile?",
+      "answers": [
+        "Call of Duty Mobile",
+        "PUBG Mobile",
+        "Free Fire",
+        "Fortnite Mobile"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=500"
+    },
+    {
+      "question": "What type of game is 'Among Us'?",
+      "answers": [
+        "Racing",
+        "Social Deduction",
+        "Puzzle",
+        "Fighting"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=500"
+    },
+    {
+      "question": "Which company developed 'Clash of Clans'?",
+      "answers": [
+        "King",
+        "Supercell",
+        "Rovio",
+        "Niantic"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=500"
+    },
+    {
+      "question": "What is the main objective in 'Pokémon GO'?",
+      "answers": [
+        "Build cities",
+        "Catch Pokémon",
+        "Race cars",
+        "Solve puzzles"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 1,
+      "image": "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=500"
+    },
+    {
+      "question": "Which game features 'Imposters' and 'Crewmates'?",
+      "answers": [
+        "Fall Guys",
+        "Among Us",
+        "Roblox",
+        "Minecraft"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 1,
+      "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=500"
+    },
+    {
+      "question": "What genre is 'Candy Crush Saga'?",
+      "answers": [
+        "Action",
+        "Match-3 Puzzle",
+        "Strategy",
+        "RPG"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=500"
+    },
+    {
+      "question": "Which mobile game allows you to build and explore infinite worlds?",
+      "answers": [
+        "Terraria",
+        "Minecraft",
+        "Roblox",
+        "SimCity"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=500"
+    },
+    {
+      "question": "What is the maximum number of players in a PUBG Mobile match?",
+      "answers": [
+        "50",
+        "75",
+        "100",
+        "120"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=500"
+    }
+  ]
+}

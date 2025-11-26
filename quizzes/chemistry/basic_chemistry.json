@@ -1,0 +1,121 @@
+{
+  "genre": "chemistry",
+  "topic": "basic_chemistry",
+  "quizName": "basic_chemistry",
+  "difficulty": 3,
+  "pointsMultiplier": 1.0,
+  "questions": [
+    {
+      "question": "What is the chemical symbol for gold?",
+      "answers": [
+        "Go",
+        "Au",
+        "Ag",
+        "Gd"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=500"
+    },
+    {
+      "question": "What is the most abundant gas in Earth's atmosphere?",
+      "answers": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon Dioxide",
+        "Argon"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=500"
+    },
+    {
+      "question": "What is the pH of pure water?",
+      "answers": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=500"
+    },
+    {
+      "question": "What is the chemical formula for water?",
+      "answers": [
+        "H2O",
+        "HO2",
+        "H3O",
+        "H2O2"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 1,
+      "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=500"
+    },
+    {
+      "question": "What is the atomic number of carbon?",
+      "answers": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=500"
+    },
+    {
+      "question": "What type of bond is formed when electrons are shared?",
+      "answers": [
+        "Ionic bond",
+        "Covalent bond",
+        "Metallic bond",
+        "Hydrogen bond"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=500"
+    },
+    {
+      "question": "What is the chemical symbol for sodium?",
+      "answers": [
+        "So",
+        "Na",
+        "Sd",
+        "S"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=500"
+    },
+    {
+      "question": "What gas is produced when metals react with acids?",
+      "answers": [
+        "Oxygen",
+        "Hydrogen",
+        "Carbon dioxide",
+        "Nitrogen"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=500"
+    }
+  ]
+}

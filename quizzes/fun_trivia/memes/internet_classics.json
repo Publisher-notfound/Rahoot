@@ -3,119 +3,119 @@
   "topic": "memes",
   "quizName": "internet_classics",
   "difficulty": 2,
-  "pointsMultiplier": 1,
+  "pointsMultiplier": 1.0,
   "questions": [
     {
-      "question": "Which 1987 song is famously used for 'Rickrolling'?",
+      "question": "What does 'LOL' stand for?",
       "answers": [
-        "\"Take On Me\" by A-ha",
-        "\"Never Gonna Give You Up\" by Rick Astley",
-        "\"Africa\" by Toto",
-        "\"Don't Stop Believin'\" by Journey"
-      ],
-      "solution": 1,
-      "cooldown": 5,
-      "time": 15,
-      "difficulty": 2,
-      "image": "https://images.unsplash.com/photo-1567017438138-03b60dec1f58?w=500&auto=format"
-    },
-    {
-      "question": "What phrase is most associated with the 'Doge' meme?",
-      "answers": [
-        "\"I can has cheezburger?\"",
-        "\"Much wow, such grammar\"",
-        "\"This is fine\"",
-        "\"Hello darkness, my old friend\""
-      ],
-      "solution": 1,
-      "cooldown": 5,
-      "time": 12,
-      "difficulty": 2,
-      "image": "https://images.unsplash.com/photo-1517423568366-8b83523034fd?w=500&auto=format"
-    },
-    {
-      "question": "The 'Distracted Boyfriend' meme features a man looking at another woman while his girlfriend looks at him in...",
-      "answers": [
-        "Confusion",
-        "Amusement",
-        "Disgust",
-        "Agreement"
-      ],
-      "solution": 2,
-      "cooldown": 5,
-      "time": 12,
-      "difficulty": 1,
-      "image": "https://images.unsplash.com/photo-1542360288-19c2dc82c5f1?w=500&auto=format"
-    },
-    {
-      "question": "The 2011 song 'Friday' was a viral hit for which artist?",
-      "answers": [
-        "Justin Bieber",
-        "Katy Perry",
-        "Rebecca Black",
-        "Carly Rae Jepsen"
-      ],
-      "solution": 2,
-      "cooldown": 5,
-      "time": 15,
-      "difficulty": 2,
-      "image": null
-    },
-    {
-      "question": "What animal is 'Grumpy Cat' (real name Tardar Sauce)?",
-      "answers": [
-        "A dog",
-        "A cat",
-        "A rabbit",
-        "A hamster"
+        "Lots of Love",
+        "Laugh Out Loud",
+        "Life of Luxury",
+        "Lord of Light"
       ],
       "solution": 1,
       "cooldown": 5,
       "time": 10,
       "difficulty": 1,
-      "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=500&auto=format"
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
     },
     {
-      "question": "The 'Success Kid' meme features a baby on a beach doing what?",
+      "question": "Which animal is featured in the 'Doge' meme?",
       "answers": [
-        "Crying",
-        "Clenching a fist full of sand",
-        "Building a sandcastle",
-        "Sleeping"
+        "Cat",
+        "Dog",
+        "Hamster",
+        "Bird"
       ],
       "solution": 1,
       "cooldown": 5,
-      "time": 15,
-      "difficulty": 2,
-      "image": null
+      "time": 10,
+      "difficulty": 1,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
     },
     {
-      "question": "What flavor is the 'Nyan Cat' pop-tart body?",
+      "question": "What phrase is associated with the 'This is Fine' meme?",
       "answers": [
-        "Strawberry",
-        "Chocolate",
-        "Blueberry",
-        "Rainbow"
+        "Everything is awesome",
+        "This is fine",
+        "No worries",
+        "All good"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
+    },
+    {
+      "question": "Which video became the first to reach 1 billion views on YouTube?",
+      "answers": [
+        "Gangnam Style",
+        "Baby Shark",
+        "Despacito",
+        "Charlie Bit My Finger"
       ],
       "solution": 0,
       "cooldown": 5,
-      "time": 18,
+      "time": 15,
       "difficulty": 3,
-      "image": null
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
     },
     {
-      "question": "What was the 'Harlem Shake'?",
+      "question": "What is the name of the crying cat meme?",
       "answers": [
-        "A dance craze from the 1980s",
-        "A viral video trend from 2013",
-        "A type of milkshake",
-        "A social media challenge to help charities"
+        "Sad Cat",
+        "Crying Cat",
+        "Grumpy Cat",
+        "Keyboard Cat"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
+    },
+    {
+      "question": "Which meme features a man pointing at a butterfly?",
+      "answers": [
+        "Distracted Boyfriend",
+        "Is This a Pigeon?",
+        "Drake Pointing",
+        "Expanding Brain"
       ],
       "solution": 1,
       "cooldown": 5,
       "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
+    },
+    {
+      "question": "What does 'YOLO' mean?",
+      "answers": [
+        "You Only Live Once",
+        "Your Own Life Online",
+        "Young Or Lonely Online",
+        "Yes Obviously Love Others"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 12,
       "difficulty": 2,
-      "image": "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?w=500&auto=format"
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
+    },
+    {
+      "question": "Which platform popularized the 'Ice Bucket Challenge'?",
+      "answers": [
+        "Twitter",
+        "Facebook",
+        "Instagram",
+        "TikTok"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
     }
   ]
 }

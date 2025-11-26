@@ -1,0 +1,121 @@
+{
+  "genre": "entertainment",
+  "topic": "music",
+  "quizName": "k_pop_mania",
+  "difficulty": 2,
+  "pointsMultiplier": 1.0,
+  "questions": [
+    {
+      "question": "How many members are in BTS?",
+      "answers": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 1,
+      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500"
+    },
+    {
+      "question": "Which BLACKPINK song was their first to hit #1 on Billboard Hot 100?",
+      "answers": [
+        "DDU-DU DDU-DU",
+        "Kill This Love",
+        "How You Like That",
+        "Ice Cream"
+      ],
+      "solution": 3,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=500"
+    },
+    {
+      "question": "What does 'Gangnam Style' refer to?",
+      "answers": [
+        "A dance move",
+        "A district in Seoul",
+        "A fashion style",
+        "A music genre"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500"
+    },
+    {
+      "question": "Which company manages BTS?",
+      "answers": [
+        "SM Entertainment",
+        "YG Entertainment",
+        "Big Hit Entertainment",
+        "JYP Entertainment"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500"
+    },
+    {
+      "question": "What is the name of BTS's fandom?",
+      "answers": [
+        "ONCE",
+        "ARMY",
+        "BLINK",
+        "EXO-L"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 1,
+      "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=500"
+    },
+    {
+      "question": "Which TWICE song became viral on TikTok?",
+      "answers": [
+        "TT",
+        "Cheer Up",
+        "What Is Love?",
+        "The Feels"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500"
+    },
+    {
+      "question": "Who is known as the 'King of K-pop'?",
+      "answers": [
+        "G-Dragon",
+        "Taeyang",
+        "PSY",
+        "Rain"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500"
+    },
+    {
+      "question": "Which NewJeans song topped global charts in 2022?",
+      "answers": [
+        "Attention",
+        "Hype Boy",
+        "Cookie",
+        "Hurt"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=500"
+    }
+  ]
+}

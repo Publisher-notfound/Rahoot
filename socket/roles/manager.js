@@ -16,8 +16,6 @@ import { abortCooldown, cooldown, sleep } from "../utils/cooldown.js"
 import deepClone from "../utils/deepClone.js"
 import generateRoomId from "../utils/generateRoomId.js"
 import { startRound } from "../utils/round.js"
-// Import the actual universal leaderboard model
-import universalLeaderboardModel from "../../src/utils/UniversalLeaderboardModel.js"
 
 const Manager = {
   createRoom: (game, io, socket, password) => {
@@ -151,8 +149,8 @@ const Manager = {
           // Update universal leaderboard
           const quizName = `${game.selectedQuiz?.quizName || "Unknown Quiz"}`
           console.log("Updating universal leaderboard - Solo:", player.username, player.points, quizName)
-          const updateResult = universalLeaderboardModel.updatePlayerScore(player.username, player.points, quizName, io)
-          console.log("Universal leaderboard update result:", updateResult ? "SUCCESS" : "FAILED")
+          // Leaderboard update handled by frontend API
+          console.log("Universal leaderboard update: delegated to frontend")
 
           socket.emit("game:status", {
             name: "SHOW_PERFORMANCE_REPORT",
@@ -182,15 +180,8 @@ const Manager = {
         // Update universal leaderboard for all multiplayer participants
         const quizName = `${game.selectedQuiz?.quizName || "Unknown Quiz"}`
         console.log("Updating universal leaderboard - Multiplayer players:", game.players.map(p => `${p.username}:${p.points}`))
-        let updateCount = 0
-        game.players.forEach(player => {
-          if (player.username && player.points > 0) {
-            console.log("Updating player:", player.username, player.points, quizName)
-            const updateResult = universalLeaderboardModel.updatePlayerScore(player.username, player.points, quizName, io)
-            if (updateResult) updateCount++
-          }
-        })
-        console.log(`Universal leaderboard updated for ${updateCount}/${game.players.length} multiplayer players`)
+        // Leaderboard update handled by frontend API
+        console.log(`Universal leaderboard update: delegated to frontend for ${game.players.length} multiplayer players`)
 
         io.to(game.room).emit("game:status", {
           name: "FINISH",

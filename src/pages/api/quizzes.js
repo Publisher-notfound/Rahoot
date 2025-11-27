@@ -9,7 +9,8 @@ function getAvailableQuizzes() {
 
   const genres = fs.readdirSync(quizzesDir, { withFileTypes: true })
     .filter(dirent => dirent.isDirectory())
-    .map(dirent => dirent.name);
+    .map(dirent => dirent.name)
+    .filter(genre => genre !== 'test'); // Hide test genre from public display
 
   genres.forEach(genre => {
     quizzes[genre] = {};

@@ -6,12 +6,12 @@
   "pointsMultiplier": 1.0,
   "questions": [
     {
-      "question": "Which song by The Weeknd became a massive hit in 2020?",
+      "question": "Which artist released the album 'After Hours' in 2020?",
       "answers": [
-        "Starboy",
-        "Blinding Lights",
-        "Can't Feel My Face",
-        "The Hills"
+        "Drake",
+        "The Weeknd",
+        "Post Malone",
+        "Travis Scott"
       ],
       "solution": 1,
       "cooldown": 5,
@@ -20,26 +20,68 @@
       "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500"
     },
     {
-      "question": "Who released the album 'Folklore' in 2020?",
+      "question": "What was Billie Eilish's hit song from the James Bond movie?",
+      "answers": [
+        "Bad Guy",
+        "No Time to Die",
+        "Everything I Wanted",
+        "Lovely"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=500"
+    },
+    {
+      "question": "Which song by Doja Cat became a TikTok sensation?",
+      "answers": [
+        "Say So",
+        "Kiss Me More",
+        "Woman",
+        "Streets"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500"
+    },
+    {
+      "question": "Who featured on Justin Bieber's 'Peaches'?",
       "answers": [
         "Ariana Grande",
-        "Billie Eilish",
-        "Taylor Swift",
-        "Dua Lipa"
+        "Daniel Caesar & Giveon",
+        "The Weeknd",
+        "Drake"
       ],
-      "solution": 2,
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500"
+    },
+    {
+      "question": "Which Lil Nas X song topped charts in 2021?",
+      "answers": [
+        "Old Town Road",
+        "Montero (Call Me By Your Name)",
+        "Industry Baby",
+        "Panini"
+      ],
+      "solution": 1,
       "cooldown": 5,
       "time": 12,
       "difficulty": 2,
       "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=500"
     },
     {
-      "question": "Which artist had a hit with 'Watermelon Sugar'?",
+      "question": "What was Megan Thee Stallion's breakout hit?",
       "answers": [
-        "Ed Sheeran",
-        "Harry Styles",
-        "Shawn Mendes",
-        "Justin Bieber"
+        "Hot Girl Summer",
+        "Savage",
+        "WAP",
+        "Body"
       ],
       "solution": 1,
       "cooldown": 5,
@@ -48,26 +90,26 @@
       "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500"
     },
     {
-      "question": "What was Olivia Rodrigo's breakout hit single?",
+      "question": "Which Glass Animals song became popular on TikTok?",
       "answers": [
-        "Good 4 U",
-        "Deja Vu",
-        "Drivers License",
-        "Brutal"
+        "Gooey",
+        "Heat Waves",
+        "Black Mambo",
+        "Pork Soda"
       ],
-      "solution": 2,
+      "solution": 1,
       "cooldown": 5,
-      "time": 12,
-      "difficulty": 2,
+      "time": 15,
+      "difficulty": 3,
       "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500"
     },
     {
-      "question": "Which song by Dua Lipa was a major dance hit in 2020?",
+      "question": "What was Lizzo's empowering anthem from 2022?",
       "answers": [
-        "New Rules",
-        "Don't Start Now",
-        "Levitating",
-        "Physical"
+        "Good as Hell",
+        "Truth Hurts",
+        "About Damn Time",
+        "Juice"
       ],
       "solution": 2,
       "cooldown": 5,
@@ -76,26 +118,12 @@
       "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=500"
     },
     {
-      "question": "Who collaborated with Ariana Grande on 'Rain on Me'?",
+      "question": "Which Olivia Rodrigo song won Song of the Year at the 2022 Grammys?",
       "answers": [
-        "Lady Gaga",
-        "Selena Gomez",
-        "Dua Lipa",
-        "Billie Eilish"
-      ],
-      "solution": 0,
-      "cooldown": 5,
-      "time": 15,
-      "difficulty": 3,
-      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500"
-    },
-    {
-      "question": "Which Bad Bunny song became a global phenomenon?",
-      "answers": [
-        "Dakiti",
-        "Yo Perreo Sola",
-        "Safaera",
-        "La Canción"
+        "Drivers License",
+        "Sour",
+        "Deja Vu",
+        "Good 4 U"
       ],
       "solution": 0,
       "cooldown": 5,
@@ -104,18 +132,18 @@
       "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500"
     },
     {
-      "question": "What was Post Malone's biggest hit from his album 'Hollywood's Bleeding'?",
+      "question": "What was Harry Styles' first solo album after One Direction?",
       "answers": [
-        "Circles",
-        "Sunflower",
-        "Wow",
-        "Better Now"
+        "Fine Line",
+        "Harry Styles",
+        "Harry's House",
+        "As It Was"
       ],
-      "solution": 0,
+      "solution": 1,
       "cooldown": 5,
-      "time": 15,
-      "difficulty": 3,
-      "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=500"
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500"
     }
   ]
 }

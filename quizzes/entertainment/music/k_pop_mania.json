@@ -6,40 +6,40 @@
   "pointsMultiplier": 1.0,
   "questions": [
     {
-      "question": "How many members are in BTS?",
+      "question": "Which BLACKPINK member is known for her solo career?",
       "answers": [
-        "6",
-        "7",
-        "8",
-        "9"
+        "Jennie",
+        "Lisa",
+        "Rosé",
+        "Jisoo"
       ],
-      "solution": 1,
+      "solution": 0,
       "cooldown": 5,
-      "time": 10,
-      "difficulty": 1,
+      "time": 12,
+      "difficulty": 2,
       "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500"
     },
     {
-      "question": "Which BLACKPINK song was their first to hit #1 on Billboard Hot 100?",
+      "question": "What does 'Oppa' mean in Korean?",
       "answers": [
-        "DDU-DU DDU-DU",
-        "Kill This Love",
-        "How You Like That",
-        "Ice Cream"
+        "Friend",
+        "Older brother/male",
+        "Cute",
+        "Love"
       ],
-      "solution": 3,
+      "solution": 1,
       "cooldown": 5,
-      "time": 15,
-      "difficulty": 3,
+      "time": 12,
+      "difficulty": 2,
       "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=500"
     },
     {
-      "question": "What does 'Gangnam Style' refer to?",
+      "question": "Which BTS member is the leader?",
       "answers": [
-        "A dance move",
-        "A district in Seoul",
-        "A fashion style",
-        "A music genre"
+        "Jin",
+        "RM",
+        "Suga",
+        "J-Hope"
       ],
       "solution": 1,
       "cooldown": 5,
@@ -48,74 +48,102 @@
       "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500"
     },
     {
-      "question": "Which company manages BTS?",
+      "question": "Which group is known as 'The Nation's Girl Group'?",
       "answers": [
-        "SM Entertainment",
-        "YG Entertainment",
-        "Big Hit Entertainment",
-        "JYP Entertainment"
+        "TWICE",
+        "Girls' Generation",
+        "Red Velvet",
+        "ITZY"
       ],
-      "solution": 2,
+      "solution": 1,
       "cooldown": 5,
       "time": 15,
       "difficulty": 3,
       "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500"
     },
     {
-      "question": "What is the name of BTS's fandom?",
+      "question": "What is the name of SEVENTEEN's fandom?",
       "answers": [
-        "ONCE",
-        "ARMY",
-        "BLINK",
-        "EXO-L"
+        "Carat",
+        "Once",
+        "Reveluv",
+        "Midzy"
       ],
-      "solution": 1,
+      "solution": 0,
       "cooldown": 5,
-      "time": 10,
-      "difficulty": 1,
+      "time": 15,
+      "difficulty": 3,
       "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=500"
     },
     {
-      "question": "Which TWICE song became viral on TikTok?",
+      "question": "Which company is known as the 'Big 3' along with SM and YG?",
       "answers": [
-        "TT",
-        "Cheer Up",
-        "What Is Love?",
-        "The Feels"
+        "Big Hit",
+        "JYP",
+        "Cube",
+        "Pledis"
       ],
-      "solution": 0,
+      "solution": 1,
       "cooldown": 5,
       "time": 15,
       "difficulty": 3,
       "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500"
     },
     {
-      "question": "Who is known as the 'King of K-pop'?",
+      "question": "Which (G)I-DLE song became internationally popular?",
       "answers": [
-        "G-Dragon",
-        "Taeyang",
-        "PSY",
-        "Rain"
+        "LATATA",
+        "Oh My God",
+        "HWAA",
+        "Tomboy"
       ],
-      "solution": 0,
+      "solution": 3,
       "cooldown": 5,
       "time": 15,
       "difficulty": 3,
       "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500"
     },
     {
-      "question": "Which NewJeans song topped global charts in 2022?",
+      "question": "What does 'Hallyu' refer to?",
       "answers": [
-        "Attention",
-        "Hype Boy",
-        "Cookie",
-        "Hurt"
+        "Korean food",
+        "Korean Wave",
+        "Korean language",
+        "Korean drama"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=500"
+    },
+    {
+      "question": "Which NCT member is known for his acting in 'The Ghost Doctor'?",
+      "answers": [
+        "Taeyong",
+        "Doyoung",
+        "Jaemin",
+        "Mark"
       ],
       "solution": 1,
       "cooldown": 5,
       "time": 15,
       "difficulty": 3,
-      "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=500"
+      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500"
+    },
+    {
+      "question": "What is the name of TXT's fandom?",
+      "answers": [
+        "MOA",
+        "Weverse",
+        "Midzy",
+        "Once"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500"
     }
   ]
 }

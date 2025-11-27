@@ -6,26 +6,26 @@
   "pointsMultiplier": 1.0,
   "questions": [
     {
-      "question": "In 'Stranger Things', what is Eleven's favorite food?",
+      "question": "In 'Wednesday', what school does Wednesday attend?",
       "answers": [
-        "Pizza",
-        "Eggo Waffles",
-        "Ice Cream",
-        "Hamburgers"
+        "Nevermore Academy",
+        "Blackwood Academy",
+        "Raven Hill School",
+        "Gothic Academy"
       ],
-      "solution": 1,
+      "solution": 0,
       "cooldown": 5,
       "time": 12,
       "difficulty": 2,
       "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=500"
     },
     {
-      "question": "What is the name of the chess prodigy in 'The Queen's Gambit'?",
+      "question": "What is the main character's name in 'Emily in Paris'?",
       "answers": [
-        "Beth Harmon",
-        "Anna Taylor",
-        "Emma Stone",
-        "Sarah Connor"
+        "Emily Cooper",
+        "Emily Johnson",
+        "Emily Parker",
+        "Emily Davis"
       ],
       "solution": 0,
       "cooldown": 5,
@@ -34,87 +34,87 @@
       "image": "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=500"
     },
     {
-      "question": "Which country is 'Money Heist' (La Casa de Papel) from?",
+      "question": "In 'Ozark', what business do the Byrdes run as a front?",
       "answers": [
-        "Mexico",
-        "Argentina",
-        "Spain",
-        "Colombia"
-      ],
-      "solution": 2,
-      "cooldown": 5,
-      "time": 12,
-      "difficulty": 2,
-      "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=500"
-    },
-    {
-      "question": "In 'Squid Game', what is the first game played?",
-      "answers": [
-        "Tug of War",
-        "Red Light, Green Light",
-        "Marbles",
-        "Honeycomb"
-      ],
-      "solution": 1,
-      "cooldown": 5,
-      "time": 12,
-      "difficulty": 2,
-      "image": "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=500"
-    },
-    {
-      "question": "What is the main character's name in 'Wednesday'?",
-      "answers": [
-        "Wednesday Adams",
-        "Wednesday Addams",
-        "Wednesday Anderson",
-        "Wednesday Allen"
-      ],
-      "solution": 1,
-      "cooldown": 5,
-      "time": 12,
-      "difficulty": 2,
-      "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=500"
-    },
-    {
-      "question": "In 'The Witcher', what is Geralt's profession?",
-      "answers": [
-        "Knight",
-        "Wizard",
-        "Monster Hunter",
-        "Bard"
-      ],
-      "solution": 2,
-      "cooldown": 5,
-      "time": 12,
-      "difficulty": 2,
-      "image": "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=500"
-    },
-    {
-      "question": "Which Netflix series features a group of kids in the 1980s?",
-      "answers": [
-        "Dark",
-        "Stranger Things",
-        "The Umbrella Academy",
-        "Locke & Key"
-      ],
-      "solution": 1,
-      "cooldown": 5,
-      "time": 10,
-      "difficulty": 1,
-      "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=500"
-    },
-    {
-      "question": "What is the setting of 'Bridgerton'?",
-      "answers": [
-        "Victorian England",
-        "Regency England",
-        "Medieval England",
-        "Modern England"
+        "Restaurant",
+        "Casino",
+        "Hotel",
+        "Car dealership"
       ],
       "solution": 1,
       "cooldown": 5,
       "time": 15,
       "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=500"
+    },
+    {
+      "question": "What is the name of the vampire in 'The Vampire Diaries'?",
+      "answers": [
+        "Stefan Salvatore",
+        "Damon Salvatore",
+        "Both Stefan and Damon",
+        "Klaus Mikaelson"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=500"
+    },
+    {
+      "question": "In 'Dark', what is the name of the town?",
+      "answers": [
+        "Winden",
+        "Berlin",
+        "Munich",
+        "Hamburg"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=500"
+    },
+    {
+      "question": "What is the profession of the main character in 'You'?",
+      "answers": [
+        "Teacher",
+        "Bookstore manager",
+        "Writer",
+        "Librarian"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=500"
+    },
+    {
+      "question": "In 'Orange Is the New Black', what is Piper's crime?",
+      "answers": [
+        "Theft",
+        "Drug trafficking",
+        "Fraud",
+        "Murder"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=500"
+    },
+    {
+      "question": "What is the setting of 'The Crown'?",
+      "answers": [
+        "Modern Britain",
+        "Victorian England",
+        "20th century British monarchy",
+        "Medieval England"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
       "image": "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=500"
     }
   ]

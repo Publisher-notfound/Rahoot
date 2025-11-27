@@ -1,0 +1,121 @@
+{
+  "genre": "physics",
+  "topic": "basic_physics",
+  "quizName": "basic_physics",
+  "difficulty": 3,
+  "pointsMultiplier": 1.0,
+  "questions": [
+    {
+      "question": "What is the unit of energy in the SI system?",
+      "answers": [
+        "Newton",
+        "Joule",
+        "Watt",
+        "Pascal"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=500"
+    },
+    {
+      "question": "What is the formula for calculating velocity?",
+      "answers": [
+        "v = d/t",
+        "v = m × a",
+        "v = F × d",
+        "v = P × t"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=500"
+    },
+    {
+      "question": "What is Newton's third law of motion?",
+      "answers": [
+        "Objects at rest stay at rest",
+        "F = ma",
+        "For every action, there's an equal and opposite reaction",
+        "Energy cannot be created or destroyed"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 18,
+      "difficulty": 4,
+      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=500"
+    },
+    {
+      "question": "What is the frequency of visible light approximately?",
+      "answers": [
+        "10¹² Hz",
+        "10¹⁴ Hz",
+        "10¹⁶ Hz",
+        "10¹⁸ Hz"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 18,
+      "difficulty": 4,
+      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=500"
+    },
+    {
+      "question": "What type of energy is stored in a stretched spring?",
+      "answers": [
+        "Kinetic Energy",
+        "Potential Energy",
+        "Thermal Energy",
+        "Nuclear Energy"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=500"
+    },
+    {
+      "question": "What is the SI unit of power?",
+      "answers": [
+        "Joule",
+        "Watt",
+        "Newton",
+        "Pascal"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=500"
+    },
+    {
+      "question": "What is the relationship between frequency and wavelength?",
+      "answers": [
+        "Directly proportional",
+        "Inversely proportional",
+        "No relationship",
+        "Exponentially related"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=500"
+    },
+    {
+      "question": "What is the SI unit of pressure?",
+      "answers": [
+        "Newton",
+        "Pascal",
+        "Joule",
+        "Watt"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=500"
+    }
+  ]
+}

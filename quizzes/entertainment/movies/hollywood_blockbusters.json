@@ -116,6 +116,34 @@
       "time": 15,
       "difficulty": 2,
       "image": null
+    },
+    {
+      "question": "What is the name of the AI system in 'The Matrix' trilogy?",
+      "answers": [
+        "HAL 9000",
+        "JARVIS",
+        "The Matrix",
+        "Skynet"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=500&auto=format"
+    },
+    {
+      "question": "Who directed the 2024 film 'Challengers'?",
+      "answers": [
+        "Luca Guadagnino",
+        "Wes Anderson",
+        "Greta Gerwig",
+        "Martin Scorsese"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1489599735734-79b4fc8c4c8a?w=500&auto=format"
     }
   ]
 }

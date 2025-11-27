@@ -6,12 +6,12 @@
   "pointsMultiplier": 1.0,
   "questions": [
     {
-      "question": "Which game popularized the battle royale genre on mobile?",
+      "question": "Which mobile game features building and defending villages?",
       "answers": [
-        "Call of Duty Mobile",
-        "PUBG Mobile",
-        "Free Fire",
-        "Fortnite Mobile"
+        "Clash Royale",
+        "Clash of Clans",
+        "Boom Beach",
+        "Hay Day"
       ],
       "solution": 1,
       "cooldown": 5,
@@ -20,12 +20,12 @@
       "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=500"
     },
     {
-      "question": "What type of game is 'Among Us'?",
+      "question": "What company created 'Angry Birds'?",
       "answers": [
-        "Racing",
-        "Social Deduction",
-        "Puzzle",
-        "Fighting"
+        "Supercell",
+        "Rovio",
+        "King",
+        "Gameloft"
       ],
       "solution": 1,
       "cooldown": 5,
@@ -34,12 +34,12 @@
       "image": "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=500"
     },
     {
-      "question": "Which company developed 'Clash of Clans'?",
+      "question": "Which game popularized the 'match-3' puzzle genre on mobile?",
       "answers": [
-        "King",
-        "Supercell",
-        "Rovio",
-        "Niantic"
+        "Bejeweled",
+        "Candy Crush Saga",
+        "Tetris",
+        "Puzzle & Dragons"
       ],
       "solution": 1,
       "cooldown": 5,
@@ -48,54 +48,26 @@
       "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=500"
     },
     {
-      "question": "What is the main objective in 'Pokémon GO'?",
+      "question": "What is the goal in 'Temple Run'?",
       "answers": [
-        "Build cities",
-        "Catch Pokémon",
-        "Race cars",
-        "Solve puzzles"
+        "Collect coins",
+        "Escape from monkeys",
+        "Reach the temple",
+        "All of the above"
       ],
-      "solution": 1,
-      "cooldown": 5,
-      "time": 10,
-      "difficulty": 1,
-      "image": "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=500"
-    },
-    {
-      "question": "Which game features 'Imposters' and 'Crewmates'?",
-      "answers": [
-        "Fall Guys",
-        "Among Us",
-        "Roblox",
-        "Minecraft"
-      ],
-      "solution": 1,
-      "cooldown": 5,
-      "time": 10,
-      "difficulty": 1,
-      "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=500"
-    },
-    {
-      "question": "What genre is 'Candy Crush Saga'?",
-      "answers": [
-        "Action",
-        "Match-3 Puzzle",
-        "Strategy",
-        "RPG"
-      ],
-      "solution": 1,
+      "solution": 3,
       "cooldown": 5,
       "time": 12,
       "difficulty": 2,
       "image": "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=500"
     },
     {
-      "question": "Which mobile game allows you to build and explore infinite worlds?",
+      "question": "Which game allows players to create their own games?",
       "answers": [
-        "Terraria",
         "Minecraft",
         "Roblox",
-        "SimCity"
+        "Fortnite",
+        "LittleBigPlanet"
       ],
       "solution": 1,
       "cooldown": 5,
@@ -104,17 +76,45 @@
       "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=500"
     },
     {
-      "question": "What is the maximum number of players in a PUBG Mobile match?",
+      "question": "What type of game is 'Subway Surfers'?",
       "answers": [
-        "50",
-        "75",
-        "100",
-        "120"
+        "Racing",
+        "Endless runner",
+        "Puzzle",
+        "Strategy"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=500"
+    },
+    {
+      "question": "Which game features cards and real-time strategy?",
+      "answers": [
+        "Clash of Clans",
+        "Clash Royale",
+        "Hearthstone",
+        "Plants vs Zombies"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=500"
+    },
+    {
+      "question": "What is the main currency in most mobile games?",
+      "answers": [
+        "Coins",
+        "Gems",
+        "Both coins and gems",
+        "Real money only"
       ],
       "solution": 2,
       "cooldown": 5,
-      "time": 15,
-      "difficulty": 3,
+      "time": 12,
+      "difficulty": 2,
       "image": "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=500"
     }
   ]

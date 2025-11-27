@@ -6,12 +6,12 @@
   "pointsMultiplier": 1.0,
   "questions": [
     {
-      "question": "What is the Pomodoro Technique?",
+      "question": "What is the 'Getting Things Done' (GTD) method?",
       "answers": [
-        "A cooking method",
-        "A time management technique",
-        "A study app",
-        "A meditation practice"
+        "A cooking technique",
+        "A productivity system",
+        "A fitness routine",
+        "A study method"
       ],
       "solution": 1,
       "cooldown": 5,
@@ -20,67 +20,11 @@
       "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
     },
     {
-      "question": "How long is a typical Pomodoro work session?",
+      "question": "What does 'time blocking' involve?",
       "answers": [
-        "15 minutes",
-        "25 minutes",
-        "30 minutes",
-        "45 minutes"
-      ],
-      "solution": 1,
-      "cooldown": 5,
-      "time": 12,
-      "difficulty": 2,
-      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
-    },
-    {
-      "question": "What does the '2-minute rule' suggest?",
-      "answers": [
-        "Take a 2-minute break every hour",
-        "If a task takes less than 2 minutes, do it now",
-        "Meditate for 2 minutes daily",
-        "Exercise for 2 minutes"
-      ],
-      "solution": 1,
-      "cooldown": 5,
-      "time": 15,
-      "difficulty": 3,
-      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
-    },
-    {
-      "question": "What is 'batch processing' in productivity?",
-      "answers": [
-        "Cooking in large quantities",
-        "Grouping similar tasks together",
-        "Processing data in batches",
-        "Working in teams"
-      ],
-      "solution": 1,
-      "cooldown": 5,
-      "time": 15,
-      "difficulty": 3,
-      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
-    },
-    {
-      "question": "What is the best time to tackle your most important task?",
-      "answers": [
-        "Evening",
-        "Morning",
-        "Afternoon",
-        "Night"
-      ],
-      "solution": 1,
-      "cooldown": 5,
-      "time": 12,
-      "difficulty": 2,
-      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
-    },
-    {
-      "question": "What does 'eating the frog' mean in productivity?",
-      "answers": [
-        "Having a healthy breakfast",
-        "Doing the hardest task first",
-        "Taking breaks",
+        "Blocking social media",
+        "Scheduling specific time slots for tasks",
+        "Working without breaks",
         "Avoiding distractions"
       ],
       "solution": 1,
@@ -90,12 +34,40 @@
       "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
     },
     {
-      "question": "How many items should be on your daily to-do list ideally?",
+      "question": "What is the 'Eisenhower Matrix' used for?",
       "answers": [
-        "3-5 items",
-        "10-15 items",
-        "20+ items",
-        "1-2 items"
+        "Math calculations",
+        "Task prioritization",
+        "Time tracking",
+        "Goal setting"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
+    },
+    {
+      "question": "What does 'deep work' refer to?",
+      "answers": [
+        "Physical labor",
+        "Focused, distraction-free work",
+        "Working late hours",
+        "Team collaboration"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
+    },
+    {
+      "question": "What is the ideal length for a power nap?",
+      "answers": [
+        "10-20 minutes",
+        "30-45 minutes",
+        "1 hour",
+        "2 hours"
       ],
       "solution": 0,
       "cooldown": 5,
@@ -104,17 +76,73 @@
       "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
     },
     {
-      "question": "What is the 80/20 rule also known as?",
+      "question": "What does 'inbox zero' mean?",
       "answers": [
-        "Parkinson's Law",
-        "Pareto Principle",
-        "Murphy's Law",
-        "Peter Principle"
+        "Having no emails",
+        "Keeping your email inbox empty",
+        "Deleting all emails",
+        "Not checking emails"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
+    },
+    {
+      "question": "What is 'context switching' in productivity?",
+      "answers": [
+        "Changing locations",
+        "Switching between different tasks",
+        "Using different devices",
+        "Working with different people"
       ],
       "solution": 1,
       "cooldown": 5,
       "time": 15,
       "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
+    },
+    {
+      "question": "What is the 'SMART' criteria for goals?",
+      "answers": [
+        "Simple, Manageable, Achievable, Realistic, Timely",
+        "Specific, Measurable, Achievable, Relevant, Time-bound",
+        "Strategic, Meaningful, Actionable, Reasonable, Trackable",
+        "Structured, Motivating, Attainable, Results-oriented, Targeted"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 20,
+      "difficulty": 4,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
+    },
+    {
+      "question": "What is the 'Pareto Principle' also known as?",
+      "answers": [
+        "80/20 rule",
+        "90/10 rule",
+        "70/30 rule",
+        "60/40 rule"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
+    },
+    {
+      "question": "What does 'Pomodoro Technique' use?",
+      "answers": [
+        "A kitchen timer",
+        "25-minute work intervals",
+        "Music playlists",
+        "Color coding"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
       "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
     }
   ]

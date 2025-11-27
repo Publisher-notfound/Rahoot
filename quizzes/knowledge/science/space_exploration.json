@@ -6,12 +6,12 @@
   "pointsMultiplier": 1.0,
   "questions": [
     {
-      "question": "Which planet is known as the 'Red Planet'?",
+      "question": "What is the name of our galaxy?",
       "answers": [
-        "Venus",
-        "Mars",
-        "Jupiter",
-        "Saturn"
+        "Andromeda",
+        "Milky Way",
+        "Whirlpool",
+        "Sombrero"
       ],
       "solution": 1,
       "cooldown": 5,
@@ -20,12 +20,68 @@
       "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=500"
     },
     {
-      "question": "Who was the first person to walk on the Moon?",
+      "question": "Which planet has the most moons?",
       "answers": [
-        "Buzz Aldrin",
-        "Neil Armstrong",
-        "John Glenn",
-        "Alan Shepard"
+        "Jupiter",
+        "Saturn",
+        "Uranus",
+        "Neptune"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=500"
+    },
+    {
+      "question": "What was the first artificial satellite launched into space?",
+      "answers": [
+        "Explorer 1",
+        "Sputnik 1",
+        "Vanguard 1",
+        "Luna 1"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=500"
+    },
+    {
+      "question": "Which planet is closest to the Sun?",
+      "answers": [
+        "Venus",
+        "Mercury",
+        "Earth",
+        "Mars"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 10,
+      "difficulty": 1,
+      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=500"
+    },
+    {
+      "question": "What is the International Space Station's orbital period?",
+      "answers": [
+        "90 minutes",
+        "2 hours",
+        "24 hours",
+        "1 week"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 18,
+      "difficulty": 4,
+      "image": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=500"
+    },
+    {
+      "question": "Which mission first landed humans on the Moon?",
+      "answers": [
+        "Apollo 10",
+        "Apollo 11",
+        "Apollo 12",
+        "Gemini 7"
       ],
       "solution": 1,
       "cooldown": 5,
@@ -34,87 +90,31 @@
       "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=500"
     },
     {
-      "question": "What is the name of NASA's Mars rover that landed in 2021?",
+      "question": "What is the hottest planet in our solar system?",
       "answers": [
-        "Curiosity",
-        "Opportunity",
-        "Perseverance",
-        "Spirit"
-      ],
-      "solution": 2,
-      "cooldown": 5,
-      "time": 15,
-      "difficulty": 3,
-      "image": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=500"
-    },
-    {
-      "question": "Which is the largest planet in our solar system?",
-      "answers": [
-        "Saturn",
-        "Jupiter",
-        "Neptune",
-        "Uranus"
+        "Mercury",
+        "Venus",
+        "Mars",
+        "Jupiter"
       ],
       "solution": 1,
       "cooldown": 5,
-      "time": 10,
-      "difficulty": 1,
-      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=500"
-    },
-    {
-      "question": "What is the name of SpaceX's reusable rocket?",
-      "answers": [
-        "Dragon",
-        "Falcon 9",
-        "Starship",
-        "Crew Dragon"
-      ],
-      "solution": 1,
-      "cooldown": 5,
-      "time": 15,
-      "difficulty": 3,
+      "time": 12,
+      "difficulty": 2,
       "image": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=500"
     },
     {
-      "question": "How long does it take for light from the Sun to reach Earth?",
+      "question": "Which space agency launched the Voyager missions?",
       "answers": [
-        "8 minutes",
-        "4 minutes",
-        "12 minutes",
-        "1 hour"
-      ],
-      "solution": 0,
-      "cooldown": 5,
-      "time": 15,
-      "difficulty": 3,
-      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=500"
-    },
-    {
-      "question": "Which space telescope was launched in 2021 as Hubble's successor?",
-      "answers": [
-        "Kepler",
-        "Spitzer",
-        "James Webb",
-        "Chandra"
-      ],
-      "solution": 2,
-      "cooldown": 5,
-      "time": 15,
-      "difficulty": 3,
-      "image": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=500"
-    },
-    {
-      "question": "What is the closest star to our solar system?",
-      "answers": [
-        "Sirius",
-        "Proxima Centauri",
-        "Alpha Centauri",
-        "Betelgeuse"
+        "ESA",
+        "NASA",
+        "Roscosmos",
+        "JAXA"
       ],
       "solution": 1,
       "cooldown": 5,
-      "time": 18,
-      "difficulty": 4,
+      "time": 12,
+      "difficulty": 2,
       "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=500"
     }
   ]

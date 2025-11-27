@@ -217,7 +217,7 @@ export default function QuizImporter({ onClose, onSuccess }) {
           <div className="bg-gray-50 p-4 rounded-lg">
             <h4 className="font-semibold mb-2">Required Format:</h4>
             <ul className="text-sm text-gray-600 space-y-1">
-              <li>• <code>genre</code>: entertainment, knowledge, fun_trivia, test</li>
+              <li>• <code>genre</code>: entertainment, knowledge, fun_trivia, mathematics, physics, chemistry, biology</li>
               <li>• <code>topic</code>: movies, music, history, science, etc.</li>
               <li>• <code>quizName</code>: unique name for this quiz</li>
               <li>• <code>questions</code>: array of question objects</li>

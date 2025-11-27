@@ -74,6 +74,76 @@
       "time": 15,
       "difficulty": 3,
       "image": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=500"
+    },
+    {
+      "question": "Who directed the iconic film 'Dil Chahta Hai'?",
+      "answers": [
+        "Karan Johar",
+        "Yash Chopra",
+        "Farhan Akhtar",
+        "Rajkumar Hirani"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1489599735734-79b4fc8c4c8a?w=500"
+    },
+    {
+      "question": "What is the name of the famous dialogue from 'Zindagi Na Milegi Dobara'?",
+      "answers": [
+        "\"Seize the day\"",
+        "\"YOLO\"",
+        "\"Kal Ho Naa Ho\"",
+        "\"Kuch Kuch Hota Hai\""
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": null
+    },
+    {
+      "question": "Which actress played the role of Geet in 'Jab We Met'?",
+      "answers": [
+        "Deepika Padukone",
+        "Alia Bhatt",
+        "Katrina Kaif",
+        "Priyanka Chopra"
+      ],
+      "solution": 2,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=500"
+    },
+    {
+      "question": "What is the title of the movie where Akshay Kumar plays a boxer?",
+      "answers": [
+        "Patiala House",
+        "Azhar",
+        "Airlift",
+        "The Zoya Factor"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": null
+    },
+    {
+      "question": "Who composed the music for 'Raazi'?",
+      "answers": [
+        "A.R. Rahman",
+        "Shankar-Ehsaan-Loy",
+        "Vishal-Shekhar",
+        "Pritam"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": null
     }
   ]
 }

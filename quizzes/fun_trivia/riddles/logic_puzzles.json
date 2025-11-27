@@ -6,12 +6,12 @@
   "pointsMultiplier": 1.0,
   "questions": [
     {
-      "question": "What gets wetter the more it dries?",
+      "question": "What has hands but cannot clap?",
       "answers": [
-        "A sponge",
-        "A towel",
-        "A mop",
-        "A cloth"
+        "A statue",
+        "A clock",
+        "A mannequin",
+        "A robot"
       ],
       "solution": 1,
       "cooldown": 5,
@@ -20,54 +20,12 @@
       "image": "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=500"
     },
     {
-      "question": "What has keys but no locks, space but no room?",
+      "question": "What goes up but never comes down?",
       "answers": [
-        "A piano",
-        "A keyboard",
-        "A map",
-        "A book"
-      ],
-      "solution": 1,
-      "cooldown": 5,
-      "time": 18,
-      "difficulty": 4,
-      "image": "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=500"
-    },
-    {
-      "question": "What comes once in a minute, twice in a moment, but never in a thousand years?",
-      "answers": [
-        "The letter M",
-        "Time",
-        "A second",
-        "The letter T"
-      ],
-      "solution": 0,
-      "cooldown": 5,
-      "time": 20,
-      "difficulty": 4,
-      "image": "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=500"
-    },
-    {
-      "question": "I am not alive, but I grow. I don't have lungs, but I need air. What am I?",
-      "answers": [
-        "A plant",
-        "Fire",
         "A balloon",
-        "A crystal"
-      ],
-      "solution": 1,
-      "cooldown": 5,
-      "time": 18,
-      "difficulty": 4,
-      "image": "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=500"
-    },
-    {
-      "question": "What has a head and a tail but no body?",
-      "answers": [
-        "A snake",
-        "A coin",
-        "A comet",
-        "A nail"
+        "Your age",
+        "A rocket",
+        "Smoke"
       ],
       "solution": 1,
       "cooldown": 5,
@@ -76,45 +34,87 @@
       "image": "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=500"
     },
     {
-      "question": "The more you take, the more you leave behind. What am I?",
+      "question": "What has one eye but cannot see?",
       "answers": [
-        "Footsteps",
-        "Memories",
-        "Time",
-        "Breath"
-      ],
-      "solution": 0,
-      "cooldown": 5,
-      "time": 18,
-      "difficulty": 4,
-      "image": "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=500"
-    },
-    {
-      "question": "What can travel around the world while staying in a corner?",
-      "answers": [
-        "A stamp",
-        "A map",
-        "A postcard",
-        "A letter"
-      ],
-      "solution": 0,
-      "cooldown": 5,
-      "time": 18,
-      "difficulty": 4,
-      "image": "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=500"
-    },
-    {
-      "question": "What breaks but never falls, and what falls but never breaks?",
-      "answers": [
-        "Glass and water",
-        "Day and night",
-        "Heart and tears",
-        "Dawn and dusk"
+        "A cyclops",
+        "A needle",
+        "A camera",
+        "A telescope"
       ],
       "solution": 1,
       "cooldown": 5,
-      "time": 20,
-      "difficulty": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=500"
+    },
+    {
+      "question": "What runs but never walks, has a mouth but never talks?",
+      "answers": [
+        "A person",
+        "A river",
+        "A machine",
+        "An animal"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 18,
+      "difficulty": 4,
+      "image": "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=500"
+    },
+    {
+      "question": "What has teeth but cannot bite?",
+      "answers": [
+        "A saw",
+        "A comb",
+        "A gear",
+        "All of the above"
+      ],
+      "solution": 3,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=500"
+    },
+    {
+      "question": "What gets sharper the more you use it?",
+      "answers": [
+        "A knife",
+        "Your brain",
+        "A pencil",
+        "A sword"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 18,
+      "difficulty": 4,
+      "image": "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=500"
+    },
+    {
+      "question": "What has a neck but no head?",
+      "answers": [
+        "A giraffe",
+        "A bottle",
+        "A shirt",
+        "A guitar"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=500"
+    },
+    {
+      "question": "What belongs to you but others use it more than you do?",
+      "answers": [
+        "Your car",
+        "Your name",
+        "Your phone",
+        "Your house"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 18,
+      "difficulty": 4,
       "image": "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=500"
     }
   ]

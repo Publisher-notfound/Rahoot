@@ -121,7 +121,7 @@ export default function Admin() {
             <p>To import a quiz, provide JSON with this structure:</p>
             <pre className="bg-black/20 p-3 rounded text-sm overflow-x-auto">
 {`{
-  "genre": "entertainment",     // entertainment, knowledge, fun_trivia, test
+  "genre": "entertainment",     // entertainment, knowledge, fun_trivia, mathematics, physics, chemistry, biology
   "topic": "movies",           // movies, music, history, science, etc.
   "quizName": "marvel_heroes", // unique quiz identifier
   "difficulty": 3,             // 1-5 scale (optional)

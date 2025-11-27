@@ -6,68 +6,12 @@
   "pointsMultiplier": 1.0,
   "questions": [
     {
-      "question": "What does 'LOL' stand for?",
+      "question": "What does 'ROFL' stand for?",
       "answers": [
-        "Lots of Love",
-        "Laugh Out Loud",
-        "Life of Luxury",
-        "Lord of Light"
-      ],
-      "solution": 1,
-      "cooldown": 5,
-      "time": 10,
-      "difficulty": 1,
-      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
-    },
-    {
-      "question": "Which animal is featured in the 'Doge' meme?",
-      "answers": [
-        "Cat",
-        "Dog",
-        "Hamster",
-        "Bird"
-      ],
-      "solution": 1,
-      "cooldown": 5,
-      "time": 10,
-      "difficulty": 1,
-      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
-    },
-    {
-      "question": "What phrase is associated with the 'This is Fine' meme?",
-      "answers": [
-        "Everything is awesome",
-        "This is fine",
-        "No worries",
-        "All good"
-      ],
-      "solution": 1,
-      "cooldown": 5,
-      "time": 12,
-      "difficulty": 2,
-      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
-    },
-    {
-      "question": "Which video became the first to reach 1 billion views on YouTube?",
-      "answers": [
-        "Gangnam Style",
-        "Baby Shark",
-        "Despacito",
-        "Charlie Bit My Finger"
-      ],
-      "solution": 0,
-      "cooldown": 5,
-      "time": 15,
-      "difficulty": 3,
-      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
-    },
-    {
-      "question": "What is the name of the crying cat meme?",
-      "answers": [
-        "Sad Cat",
-        "Crying Cat",
-        "Grumpy Cat",
-        "Keyboard Cat"
+        "Rolling On Floor Laughing",
+        "Really Old Funny Laugh",
+        "Right On For Life",
+        "Reach Out For Love"
       ],
       "solution": 0,
       "cooldown": 5,
@@ -76,45 +20,101 @@
       "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
     },
     {
-      "question": "Which meme features a man pointing at a butterfly?",
+      "question": "Which meme features a woman yelling at a cat?",
       "answers": [
         "Distracted Boyfriend",
-        "Is This a Pigeon?",
-        "Drake Pointing",
-        "Expanding Brain"
+        "Woman Yelling at Cat",
+        "Surprised Pikachu",
+        "Drake Pointing"
       ],
       "solution": 1,
-      "cooldown": 5,
-      "time": 15,
-      "difficulty": 3,
-      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
-    },
-    {
-      "question": "What does 'YOLO' mean?",
-      "answers": [
-        "You Only Live Once",
-        "Your Own Life Online",
-        "Young Or Lonely Online",
-        "Yes Obviously Love Others"
-      ],
-      "solution": 0,
       "cooldown": 5,
       "time": 12,
       "difficulty": 2,
       "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
     },
     {
-      "question": "Which platform popularized the 'Ice Bucket Challenge'?",
+      "question": "What was the original name of the 'Rickroll' song?",
       "answers": [
-        "Twitter",
+        "Never Gonna Give You Up",
+        "Together Forever",
+        "Whenever You Need Somebody",
+        "She's the One"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
+    },
+    {
+      "question": "Which social media platform made 'hashtags' popular?",
+      "answers": [
         "Facebook",
+        "Twitter",
         "Instagram",
-        "TikTok"
+        "MySpace"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
+    },
+    {
+      "question": "What does 'SMH' mean?",
+      "answers": [
+        "So Much Hate",
+        "Shaking My Head",
+        "Send Me Help",
+        "Super Mad Here"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
+    },
+    {
+      "question": "Which meme format shows increasing levels of intelligence?",
+      "answers": [
+        "Drake Pointing",
+        "Expanding Brain",
+        "Distracted Boyfriend",
+        "Two Buttons"
       ],
       "solution": 1,
       "cooldown": 5,
       "time": 15,
       "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
+    },
+    {
+      "question": "What does 'TL;DR' stand for?",
+      "answers": [
+        "Too Long; Didn't Read",
+        "The Last; Don't Remember",
+        "Time Limit; Don't Rush",
+        "Top Level; Direct Response"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
+    },
+    {
+      "question": "Which platform is known for 'going viral' first?",
+      "answers": [
+        "YouTube",
+        "Facebook",
+        "Twitter",
+        "MySpace"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
       "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
     }
   ]

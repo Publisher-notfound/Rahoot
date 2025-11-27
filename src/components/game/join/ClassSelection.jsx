@@ -8,9 +8,8 @@ export default function ClassSelection({ onNext, onBack }) {
 
   const classes = [
     { id: "entertainment", name: "Entertainment", desc: "Movies, Music, TV, Gaming & Pop Culture" },
-    { id: "knowledge", name: "Knowledge", desc: "History, Science, Geography, Current Affairs" },
+    { id: "knowledge", name: "Knowledge", desc: "History, Science, Geography, Current Affairs, Math, Physics, Chemistry" },
     { id: "fun_trivia", name: "Fun & Trivia", desc: "Riddles, Memes, Puzzles, Internet Challenges" },
-    { id: "test", name: "Test", desc: "Developer mode (quick quiz)" },
   ]
 
   const handleSelect = (cls) => {

@@ -6,12 +6,12 @@
   "pointsMultiplier": 1.0,
   "questions": [
     {
-      "question": "What is the chemical symbol for gold?",
+      "question": "What is the chemical symbol for silver?",
       "answers": [
-        "Go",
-        "Au",
+        "Si",
         "Ag",
-        "Gd"
+        "Al",
+        "Ar"
       ],
       "solution": 1,
       "cooldown": 5,
@@ -20,54 +20,54 @@
       "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=500"
     },
     {
-      "question": "What is the most abundant gas in Earth's atmosphere?",
+      "question": "What is the chemical formula for table salt?",
       "answers": [
-        "Oxygen",
-        "Nitrogen",
-        "Carbon Dioxide",
-        "Argon"
-      ],
-      "solution": 1,
-      "cooldown": 5,
-      "time": 12,
-      "difficulty": 2,
-      "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=500"
-    },
-    {
-      "question": "What is the pH of pure water?",
-      "answers": [
-        "6",
-        "7",
-        "8",
-        "9"
-      ],
-      "solution": 1,
-      "cooldown": 5,
-      "time": 12,
-      "difficulty": 2,
-      "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=500"
-    },
-    {
-      "question": "What is the chemical formula for water?",
-      "answers": [
-        "H2O",
-        "HO2",
-        "H3O",
-        "H2O2"
+        "NaCl",
+        "KCl",
+        "CaCl2",
+        "MgCl2"
       ],
       "solution": 0,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=500"
+    },
+    {
+      "question": "What is the pH of lemon juice approximately?",
+      "answers": [
+        "2",
+        "7",
+        "9",
+        "12"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=500"
+    },
+    {
+      "question": "What is the chemical formula for carbon dioxide?",
+      "answers": [
+        "CO",
+        "CO2",
+        "C2O",
+        "C2O2"
+      ],
+      "solution": 1,
       "cooldown": 5,
       "time": 10,
       "difficulty": 1,
       "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=500"
     },
     {
-      "question": "What is the atomic number of carbon?",
+      "question": "What is the atomic number of oxygen?",
       "answers": [
-        "5",
         "6",
-        "7",
-        "8"
+        "8",
+        "10",
+        "12"
       ],
       "solution": 1,
       "cooldown": 5,
@@ -76,26 +76,26 @@
       "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=500"
     },
     {
-      "question": "What type of bond is formed when electrons are shared?",
+      "question": "What type of bond is formed when electrons are transferred?",
       "answers": [
         "Ionic bond",
         "Covalent bond",
         "Metallic bond",
         "Hydrogen bond"
       ],
-      "solution": 1,
+      "solution": 0,
       "cooldown": 5,
       "time": 15,
       "difficulty": 3,
       "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=500"
     },
     {
-      "question": "What is the chemical symbol for sodium?",
+      "question": "What is the chemical symbol for iron?",
       "answers": [
-        "So",
-        "Na",
-        "Sd",
-        "S"
+        "Ir",
+        "Fe",
+        "In",
+        "I"
       ],
       "solution": 1,
       "cooldown": 5,
@@ -104,17 +104,17 @@
       "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=500"
     },
     {
-      "question": "What gas is produced when metals react with acids?",
+      "question": "What is the most reactive metal?",
       "answers": [
-        "Oxygen",
-        "Hydrogen",
-        "Carbon dioxide",
-        "Nitrogen"
+        "Sodium",
+        "Francium",
+        "Potassium",
+        "Lithium"
       ],
       "solution": 1,
       "cooldown": 5,
-      "time": 15,
-      "difficulty": 3,
+      "time": 18,
+      "difficulty": 4,
       "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=500"
     }
   ]

@@ -6,26 +6,12 @@
   "pointsMultiplier": 1.0,
   "questions": [
     {
-      "question": "In 'Friends', what is the name of Ross's pet monkey?",
+      "question": "In 'Friends', what is Phoebe's most famous song?",
       "answers": [
-        "Marcel",
-        "Charlie",
-        "Banana",
-        "George"
-      ],
-      "solution": 0,
-      "cooldown": 5,
-      "time": 15,
-      "difficulty": 3,
-      "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=500"
-    },
-    {
-      "question": "What is the name of the coffee shop in 'Friends'?",
-      "answers": [
-        "Central Perk",
-        "Coffee Central",
-        "The Grind",
-        "Bean There"
+        "Smelly Cat",
+        "Two of Them Kissed Last Night",
+        "Sticky Shoes",
+        "Pervert Parade"
       ],
       "solution": 0,
       "cooldown": 5,
@@ -34,12 +20,54 @@
       "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=500"
     },
     {
-      "question": "In 'The Office', what is Jim's favorite prank target?",
+      "question": "What is the name of Ted's architecture firm in 'How I Met Your Mother'?",
       "answers": [
-        "Michael",
-        "Dwight",
-        "Kevin",
-        "Stanley"
+        "Goliath National Bank",
+        "Mosbius Designs",
+        "Barney & Associates",
+        "Marshall & Lily Inc"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=500"
+    },
+    {
+      "question": "In 'The Office', what is Michael Scott's favorite restaurant?",
+      "answers": [
+        "Applebee's",
+        "Chili's",
+        "TGI Friday's",
+        "Olive Garden"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=500"
+    },
+    {
+      "question": "What is Joey's famous pickup line in 'Friends'?",
+      "answers": [
+        "How you doin'?",
+        "What's up?",
+        "Hey there",
+        "Nice to meet you"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=500"
+    },
+    {
+      "question": "In 'Parks and Recreation', what is Leslie's favorite food?",
+      "answers": [
+        "Burgers",
+        "Waffles",
+        "Pizza",
+        "Ice cream"
       ],
       "solution": 1,
       "cooldown": 5,
@@ -48,73 +76,45 @@
       "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=500"
     },
     {
-      "question": "What is Barney's catchphrase in 'How I Met Your Mother'?",
+      "question": "What is Sheldon's favorite number in 'The Big Bang Theory'?",
       "answers": [
-        "Awesome!",
-        "Legendary!",
-        "Suit up!",
-        "Challenge accepted!"
+        "42",
+        "73",
+        "88",
+        "101"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=500"
+    },
+    {
+      "question": "In 'Brooklyn Nine-Nine', what is Jake's favorite movie?",
+      "answers": [
+        "Die Hard",
+        "Speed",
+        "Con Air",
+        "Face/Off"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=500"
+    },
+    {
+      "question": "What is the name of the documentary crew in 'The Office'?",
+      "answers": [
+        "PBS",
+        "BBC",
+        "Never mentioned",
+        "Dunder Mifflin Productions"
       ],
       "solution": 2,
       "cooldown": 5,
-      "time": 12,
-      "difficulty": 2,
-      "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=500"
-    },
-    {
-      "question": "In 'Seinfeld', what is Kramer's first name?",
-      "answers": [
-        "Kenny",
-        "Cosmo",
-        "Carl",
-        "Kevin"
-      ],
-      "solution": 1,
-      "cooldown": 5,
-      "time": 15,
-      "difficulty": 3,
-      "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=500"
-    },
-    {
-      "question": "What is the name of the bar in 'Cheers'?",
-      "answers": [
-        "Sam's Place",
-        "Cheers",
-        "The Bull & Finch",
-        "Boston Bar"
-      ],
-      "solution": 1,
-      "cooldown": 5,
-      "time": 12,
-      "difficulty": 2,
-      "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=500"
-    },
-    {
-      "question": "In 'The Big Bang Theory', what is Sheldon's favorite spot?",
-      "answers": [
-        "His desk",
-        "His spot on the couch",
-        "The kitchen",
-        "His bedroom"
-      ],
-      "solution": 1,
-      "cooldown": 5,
-      "time": 12,
-      "difficulty": 2,
-      "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=500"
-    },
-    {
-      "question": "What is the name of the company in 'The Office'?",
-      "answers": [
-        "Dunder Mifflin",
-        "Scranton Paper",
-        "Paper Plus",
-        "Office Depot"
-      ],
-      "solution": 0,
-      "cooldown": 5,
-      "time": 12,
-      "difficulty": 2,
+      "time": 18,
+      "difficulty": 4,
       "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=500"
     }
   ]

@@ -6,96 +6,12 @@
   "pointsMultiplier": 1.0,
   "questions": [
     {
-      "question": "Which band released the album 'Dark Side of the Moon'?",
+      "question": "Which band recorded 'Bohemian Rhapsody'?",
       "answers": [
-        "Led Zeppelin",
-        "Pink Floyd",
         "The Beatles",
-        "Queen"
-      ],
-      "solution": 1,
-      "cooldown": 5,
-      "time": 15,
-      "difficulty": 3,
-      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500"
-    },
-    {
-      "question": "Who was the lead guitarist of Queen?",
-      "answers": [
-        "Freddie Mercury",
-        "John Deacon",
-        "Roger Taylor",
-        "Brian May"
-      ],
-      "solution": 3,
-      "cooldown": 5,
-      "time": 15,
-      "difficulty": 3,
-      "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=500"
-    },
-    {
-      "question": "Which song is considered Led Zeppelin's signature track?",
-      "answers": [
-        "Whole Lotta Love",
-        "Stairway to Heaven",
-        "Black Dog",
-        "Kashmir"
-      ],
-      "solution": 1,
-      "cooldown": 5,
-      "time": 15,
-      "difficulty": 2,
-      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500"
-    },
-    {
-      "question": "What was The Beatles' last studio album?",
-      "answers": [
-        "Abbey Road",
-        "Let It Be",
-        "Sgt. Pepper's",
-        "White Album"
-      ],
-      "solution": 0,
-      "cooldown": 5,
-      "time": 18,
-      "difficulty": 4,
-      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500"
-    },
-    {
-      "question": "Which guitarist is known as 'Slowhand'?",
-      "answers": [
-        "Jimmy Page",
-        "Eric Clapton",
-        "Jimi Hendrix",
-        "Keith Richards"
-      ],
-      "solution": 1,
-      "cooldown": 5,
-      "time": 15,
-      "difficulty": 3,
-      "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=500"
-    },
-    {
-      "question": "What was AC/DC's breakthrough album?",
-      "answers": [
-        "Highway to Hell",
-        "Back in Black",
-        "High Voltage",
-        "For Those About to Rock"
-      ],
-      "solution": 1,
-      "cooldown": 5,
-      "time": 15,
-      "difficulty": 3,
-      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500"
-    },
-    {
-      "question": "Which band performed 'Hotel California'?",
-      "answers": [
-        "Fleetwood Mac",
-        "The Eagles",
-        "Lynyrd Skynyrd",
-        "The Doors"
+        "Queen",
+        "Led Zeppelin",
+        "The Rolling Stones"
       ],
       "solution": 1,
       "cooldown": 5,
@@ -104,18 +20,130 @@
       "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500"
     },
     {
-      "question": "Who was the original drummer for The Beatles?",
+      "question": "What was Jimi Hendrix's most famous guitar?",
       "answers": [
-        "Ringo Starr",
-        "Pete Best",
-        "Stuart Sutcliffe",
-        "George Martin"
+        "Gibson Les Paul",
+        "Fender Stratocaster",
+        "Fender Telecaster",
+        "Gibson SG"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=500"
+    },
+    {
+      "question": "Which album is considered The Rolling Stones' masterpiece?",
+      "answers": [
+        "Sticky Fingers",
+        "Exile on Main St.",
+        "Let It Bleed",
+        "Beggars Banquet"
       ],
       "solution": 1,
       "cooldown": 5,
       "time": 18,
       "difficulty": 4,
+      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500"
+    },
+    {
+      "question": "Who was the lead singer of Nirvana?",
+      "answers": [
+        "Eddie Vedder",
+        "Kurt Cobain",
+        "Chris Cornell",
+        "Layne Staley"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500"
+    },
+    {
+      "question": "Which band performed 'Sweet Child O' Mine'?",
+      "answers": [
+        "Metallica",
+        "Guns N' Roses",
+        "Aerosmith",
+        "Van Halen"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
       "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=500"
+    },
+    {
+      "question": "What was David Bowie's alter ego?",
+      "answers": [
+        "The Thin White Duke",
+        "Ziggy Stardust",
+        "Aladdin Sane",
+        "Major Tom"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500"
+    },
+    {
+      "question": "Which drummer was known as 'Bonzo'?",
+      "answers": [
+        "Keith Moon",
+        "John Bonham",
+        "Neil Peart",
+        "Ginger Baker"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500"
+    },
+    {
+      "question": "What was The Doors' biggest hit?",
+      "answers": [
+        "Break On Through",
+        "Light My Fire",
+        "Riders on the Storm",
+        "People Are Strange"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=500"
+    },
+    {
+      "question": "Which band released the album 'Dark Side of the Moon'?",
+      "answers": [
+        "The Who",
+        "Pink Floyd",
+        "Genesis",
+        "Yes"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500"
+    },
+    {
+      "question": "Who was the lead guitarist for Led Zeppelin?",
+      "answers": [
+        "Eric Clapton",
+        "Jimmy Page",
+        "Carlos Santana",
+        "Jeff Beck"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500"
     }
   ]
 }

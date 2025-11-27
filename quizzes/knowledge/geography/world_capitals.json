@@ -6,82 +6,12 @@
   "pointsMultiplier": 1.0,
   "questions": [
     {
-      "question": "What is the capital of Australia?",
+      "question": "What is the capital of Thailand?",
       "answers": [
-        "Sydney",
-        "Melbourne",
-        "Canberra",
-        "Perth"
-      ],
-      "solution": 2,
-      "cooldown": 5,
-      "time": 15,
-      "difficulty": 3,
-      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500"
-    },
-    {
-      "question": "Which city is the capital of Japan?",
-      "answers": [
-        "Osaka",
-        "Tokyo",
-        "Kyoto",
-        "Hiroshima"
-      ],
-      "solution": 1,
-      "cooldown": 5,
-      "time": 10,
-      "difficulty": 1,
-      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500"
-    },
-    {
-      "question": "What is the capital of Brazil?",
-      "answers": [
-        "São Paulo",
-        "Rio de Janeiro",
-        "Brasília",
-        "Salvador"
-      ],
-      "solution": 2,
-      "cooldown": 5,
-      "time": 15,
-      "difficulty": 3,
-      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500"
-    },
-    {
-      "question": "Which is the capital of Canada?",
-      "answers": [
-        "Toronto",
-        "Vancouver",
-        "Montreal",
-        "Ottawa"
-      ],
-      "solution": 3,
-      "cooldown": 5,
-      "time": 15,
-      "difficulty": 3,
-      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500"
-    },
-    {
-      "question": "What is the capital of South Africa?",
-      "answers": [
-        "Johannesburg",
-        "Cape Town",
-        "Pretoria",
-        "Durban"
-      ],
-      "solution": 2,
-      "cooldown": 5,
-      "time": 18,
-      "difficulty": 4,
-      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500"
-    },
-    {
-      "question": "Which city is the capital of Russia?",
-      "answers": [
-        "St. Petersburg",
-        "Moscow",
-        "Novosibirsk",
-        "Kazan"
+        "Phuket",
+        "Bangkok",
+        "Chiang Mai",
+        "Pattaya"
       ],
       "solution": 1,
       "cooldown": 5,
@@ -90,12 +20,12 @@
       "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500"
     },
     {
-      "question": "What is the capital of Egypt?",
+      "question": "Which city is the capital of Argentina?",
       "answers": [
-        "Alexandria",
-        "Cairo",
-        "Luxor",
-        "Aswan"
+        "Córdoba",
+        "Buenos Aires",
+        "Rosario",
+        "Mendoza"
       ],
       "solution": 1,
       "cooldown": 5,
@@ -104,14 +34,84 @@
       "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500"
     },
     {
-      "question": "Which is the capital of New Zealand?",
+      "question": "What is the capital of Norway?",
       "answers": [
-        "Auckland",
-        "Christchurch",
-        "Wellington",
-        "Hamilton"
+        "Bergen",
+        "Oslo",
+        "Trondheim",
+        "Stavanger"
       ],
-      "solution": 2,
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500"
+    },
+    {
+      "question": "Which is the capital of Turkey?",
+      "answers": [
+        "Istanbul",
+        "Ankara",
+        "Izmir",
+        "Antalya"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500"
+    },
+    {
+      "question": "What is the capital of Kenya?",
+      "answers": [
+        "Mombasa",
+        "Nairobi",
+        "Kisumu",
+        "Nakuru"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500"
+    },
+    {
+      "question": "Which city is the capital of Chile?",
+      "answers": [
+        "Valparaíso",
+        "Santiago",
+        "Concepción",
+        "Antofagasta"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500"
+    },
+    {
+      "question": "What is the capital of Vietnam?",
+      "answers": [
+        "Ho Chi Minh City",
+        "Hanoi",
+        "Da Nang",
+        "Hue"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500"
+    },
+    {
+      "question": "Which is the capital of Switzerland?",
+      "answers": [
+        "Zurich",
+        "Bern",
+        "Geneva",
+        "Basel"
+      ],
+      "solution": 1,
       "cooldown": 5,
       "time": 15,
       "difficulty": 3,

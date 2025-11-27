@@ -6,26 +6,26 @@
   "pointsMultiplier": 1.0,
   "questions": [
     {
-      "question": "Which platform is known for short-form vertical videos?",
+      "question": "Which platform was originally called 'Musical.ly'?",
       "answers": [
         "Instagram",
         "TikTok",
-        "YouTube",
-        "Twitter"
+        "Snapchat",
+        "Vine"
       ],
       "solution": 1,
       "cooldown": 5,
-      "time": 10,
-      "difficulty": 1,
+      "time": 15,
+      "difficulty": 3,
       "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
     },
     {
-      "question": "What does 'going viral' mean on social media?",
+      "question": "What does 'sliding into DMs' mean?",
       "answers": [
-        "Getting sick",
-        "Spreading rapidly",
-        "Being deleted",
-        "Getting banned"
+        "Deleting messages",
+        "Sending private messages",
+        "Sharing stories",
+        "Posting publicly"
       ],
       "solution": 1,
       "cooldown": 5,
@@ -34,26 +34,26 @@
       "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
     },
     {
-      "question": "Which feature allows users to share temporary content?",
+      "question": "Which feature disappears after 24 hours?",
       "answers": [
         "Posts",
         "Stories",
         "Comments",
-        "Messages"
+        "Likes"
       ],
       "solution": 1,
       "cooldown": 5,
-      "time": 12,
-      "difficulty": 2,
+      "time": 10,
+      "difficulty": 1,
       "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
     },
     {
-      "question": "What is the maximum character limit for a Twitter/X post?",
+      "question": "What does 'FYP' stand for on TikTok?",
       "answers": [
-        "140",
-        "280",
-        "500",
-        "1000"
+        "For Your Profile",
+        "For Your Page",
+        "Find Your People",
+        "Follow Your Passion"
       ],
       "solution": 1,
       "cooldown": 5,
@@ -62,59 +62,59 @@
       "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
     },
     {
-      "question": "Which platform introduced the 'Reels' feature?",
+      "question": "Which platform introduced 'Threads'?",
       "answers": [
+        "Twitter",
+        "Meta/Instagram",
         "TikTok",
-        "Instagram",
-        "YouTube",
         "Snapchat"
       ],
       "solution": 1,
       "cooldown": 5,
+      "time": 15,
+      "difficulty": 3,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
+    },
+    {
+      "question": "What does 'RT' mean on Twitter/X?",
+      "answers": [
+        "Real Time",
+        "Retweet",
+        "Reply To",
+        "Random Tweet"
+      ],
+      "solution": 1,
+      "cooldown": 5,
       "time": 12,
       "difficulty": 2,
       "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
     },
     {
-      "question": "What does 'DM' stand for in social media?",
+      "question": "Which platform is known for 'BeReal' notifications?",
       "answers": [
-        "Direct Message",
-        "Daily Message",
-        "Delete Message",
-        "Draft Message"
-      ],
-      "solution": 0,
-      "cooldown": 5,
-      "time": 10,
-      "difficulty": 1,
-      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
-    },
-    {
-      "question": "Which platform is primarily used for professional networking?",
-      "answers": [
-        "Facebook",
         "Instagram",
-        "LinkedIn",
+        "BeReal",
+        "Snapchat",
         "TikTok"
-      ],
-      "solution": 2,
-      "cooldown": 5,
-      "time": 10,
-      "difficulty": 1,
-      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
-    },
-    {
-      "question": "What is the term for fake or misleading information spread online?",
-      "answers": [
-        "Spam",
-        "Misinformation",
-        "Clickbait",
-        "Trolling"
       ],
       "solution": 1,
       "cooldown": 5,
-      "time": 15,
-      "difficulty": 3,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
+    },
+    {
+      "question": "What is 'shadowbanning' on social media?",
+      "answers": [
+        "Deleting accounts",
+        "Limiting content visibility",
+        "Blocking users",
+        "Removing followers"
+      ],
+      "solution": 1,
+      "cooldown": 5,
+      "time": 18,
+      "difficulty": 4,
       "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500"
     }
   ]

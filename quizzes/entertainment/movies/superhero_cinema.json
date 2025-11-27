@@ -130,6 +130,20 @@
       "time": 15,
       "difficulty": 3,
       "image": null
+    },
+    {
+      "question": "What is the name of Batman's butler?",
+      "answers": [
+        "Alfred Pennyworth",
+        "Lucius Fox",
+        "James Gordon",
+        "Harvey Bullock"
+      ],
+      "solution": 0,
+      "cooldown": 5,
+      "time": 12,
+      "difficulty": 2,
+      "image": "https://images.unsplash.com/photo-1509347528160-2f5a1a5e5e5e?w=500&auto=format"
     }
   ]
 }

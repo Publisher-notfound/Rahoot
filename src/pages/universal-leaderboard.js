@@ -30,9 +30,28 @@ export default function UniversalLeaderboard() {
       }
       usedNames.add(fullName)
 
-      const gamesPlayed = Math.floor(Math.random() * 6) + 2
-      const averageScore = Math.floor(Math.random() * 150) + 150
-      const totalPoints = averageScore * gamesPlayed + Math.floor(Math.random() * 200)
+      // Generate higher scores for top players
+      let baseScore;
+      if (i === 0) {
+        // 1st place: 8000-9000 points
+        baseScore = 8000 + Math.floor(Math.random() * 1000)
+      } else if (i === 1) {
+        // 2nd place: 7000-8000 points
+        baseScore = 7000 + Math.floor(Math.random() * 1000)
+      } else if (i < 5) {
+        // Top 5: 6000-7000 points
+        baseScore = 6000 + Math.floor(Math.random() * 1000)
+      } else if (i < 10) {
+        // Top 10: 5000-6000 points
+        baseScore = 5000 + Math.floor(Math.random() * 1000)
+      } else {
+        // Others: 3000-5000 points
+        baseScore = 3000 + Math.floor(Math.random() * 2000)
+      }
+
+      const gamesPlayed = Math.floor(Math.random() * 10) + 8 // 8-17 games
+      const averageScore = Math.floor(baseScore / gamesPlayed)
+      const totalPoints = baseScore
 
       mockEntries.push({
         name: fullName,
